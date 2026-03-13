@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Game - now-gg.com</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Special styles for the Play Page */
+        .play-container {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+            height: 85vh;
+        }
+
+        .game-screen {
+            flex: 3; /* Large screen */
+            background: #000;
+            border-radius: 15px;
+            border: none;
+        }
+
+        .ad-sidebar {
+            flex: 1; /* Small sidebar */
+            background: #1c1f2e;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <a href="index.html" class="logo-text" style="text-decoration:none;">← Back to Home</a>
+    </header>
+
+    <div class="play-container">
+        <iframe id="gameFrame" class="game-screen" src=""></iframe>
+
+        <div class="ad-sidebar">
+            <h3>Advertisements</h3>
+            <div style="background:#2d2f3e; height:200px; margin-bottom:20px; border-radius:10px;">Ad Unit 1</div>
+            <div style="background:#2d2f3e; height:200px; border-radius:10px;">Ad Unit 2</div>
+        </div>
+    </div>
+
+    <script>
+        // This script gets the game link from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const gameUrl = urlParams.get('url');
+        if (gameUrl) {
+            document.getElementById('gameFrame').src = gameUrl;
+        }
+    </script>
+</body>
+</html>

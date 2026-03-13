@@ -1,0 +1,473 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@600;800&display=swap');
+
+/* Header Section*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #080a0f;
+    background-image: radial-gradient(at 100% 0%, rgba(236,72,153,0.3) 0px, transparent 55%), radial-gradient(at 0% 50%, rgba(59,130,246,0.3) 0px, transparent 55%), radial-gradient(at 50% 100%, rgba(139,92,246,0.2) 0px, transparent 50%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 0 40px;
+    background-color: #0b0d13;
+    border-bottom: 1px solid #1c1f2e;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-left-group {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo-wrapper {
+    margin-right: 30px;
+}
+
+.logo-text {
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    color: #ffffff;
+}
+
+    .logo-text span {
+        color: #ec4899;
+        font-family: 'Montserrat',sans-serif;
+        font-weight: 800;
+    }
+
+.search-container {
+    width: 100%;
+    max-width: 380px;
+    height: 38px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#gameSearch {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px 0 40px;
+    border-radius: 8px;
+    border: 1px solid #3b82f6;
+    background-color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(59,130,246,0.2);
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 12px;
+    color: #3b82f6;
+    pointer-events: none;
+}
+
+
+
+/* HOT GAMES SECTION */
+
+.hot-section {
+    padding: 20px 20px;
+}
+
+.hot-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hot-games {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.section-title {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 195px;
+    max-width: 80px;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+/* game card */
+
+.game-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.game-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #1c1f2e;
+    transition: all 0.3s ease;
+}
+
+    .game-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.game-card:hover .game-image {
+    transform: scale(1.08);
+    border-color: #ec4899;
+    box-shadow: 0 0 15px rgba(236,72,153,0.5);
+}
+
+.hot-divider {
+    width: 1px;
+    height: 40px;
+    background: #3b3f55;
+    opacity: 0.6;
+}
+
+
+
+/* TOP GAMES SECTION */
+
+.top-section {
+    padding: 0px;
+}
+
+.top-title {
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.top-games-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 180px);
+    gap: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.top-game-card {
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    
+}
+
+    .top-game-card img {
+        width: 180px;
+        height: 100px;
+        object-fit: cover;
+        border: 2px solid #1c1f2e;
+        transition: 0.3s;
+    }
+
+    .top-game-card:hover img {
+        transform: translateY(-4px);
+        border-color: #ec4899;
+        box-shadow: 0 0 15px rgba(236,72,153,0.5);
+    }
+
+   
+
+.top-game-title {
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:600;
+    transition: color 0.3s ease;
+}
+
+.top-divider {
+    width: 85%;
+    height: 1px;
+    background: #3b3f55;
+    margin: 15px 0 25px 200px;
+    opacity: 0.6;
+}
+
+
+
+/* POPULAR GAMES SECTION */
+
+.popular-section {
+    margin-top: 20px;
+}
+
+.popular-title {
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+}
+
+.popular-games {
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+}
+
+.popular-game-card {
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .popular-game-card img {
+        width: 180px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #1c1f2e;
+        transition: 0.25s;
+    }
+
+    .popular-game-card:hover img {
+        border-color: #ec4899;
+        transform: scale(1.08);
+        box-shadow: 0 0 15px rgba(236,72,153,0.5);
+    }
+
+.popular-game-title {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.popular-divider {
+    width: 85%;
+    height: 1px;
+    background: #3b3f55;
+    margin: 15px 0 25px 200px;
+    opacity: 0.6;
+}
+
+
+
+/* MORE GAMES SECTION */
+
+.more-section {
+    margin-top: 35px;
+}
+
+.more-title {
+    margin-left: 200px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size:22px;
+}
+
+.more-header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 260px;
+    margin-right: 200px;
+}
+
+.more-games-grid {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.more-game-card {
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .more-game-card img {
+        width: 180px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #1c1f2e;
+        transition: 0.3s;
+    }
+
+    .more-game-card:hover img {
+        border-color: #ec4899;
+        transform: scale(1.08);
+        box-shadow: 0 0 15px rgba(236,72,153,0.5);
+    }
+
+.more-game-title {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.more-divider {
+    width: 85%;
+    height: 1px;
+    background: #3b3f55;
+    margin: 12px 0 20px 200px;
+}
+
+/* more button */
+
+.more-btn {
+    background: transparent;
+    color: #ec4899;
+    border: 2px solid #ec4899;
+    padding: 15px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .more-btn:hover {
+        border-width: 3px;
+        transform: translateY(-2px) scale(1.05);
+    }
+
+
+
+/*FOOTER SECTION*/
+
+/* FOOTER SECTION - Matches the screenshot background exactly */
+.site-footer {
+    background-color: #0b0e14; /* The base dark color */
+    color: #ffffff;
+    padding: 80px 20px 40px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    overflow: hidden;
+    /* Creating the glow effect in the corners */
+    background-image: radial-gradient(circle at 0% 100%, rgba(139, 92, 246, 0.15) 0%, transparent 40%), /* Purple/Pink glow left */
+    radial-gradient(circle at 100% 100%, rgba(20, 184, 166, 0.15) 0%, transparent 40%); /* Teal/Blue glow right */
+    /* Top border to separate from the page content */
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+    /* Optional: Add a very subtle top glow line to match the screenshot's top edge */
+    .site-footer::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.3), transparent);
+    }
+
+
+/* Footer specific logo adjustments */
+.footer-column.logo-col {
+    min-width: 200px; /* Gives the logo a bit more room */
+}
+
+.footer-column .logo-text {
+    margin: 0;
+    font-size: 28px; /* Slightly smaller than header if you prefer */
+    cursor: default;
+}
+
+    /* Optional: Make sure the footer logo's span matches your brand pink */
+    .footer-column .logo-text span {
+        color: #ec4899;
+    }
+
+
+.site-footer {
+    background-color: #0b0e14; /* Deep dark background */
+    color: #ffffff;
+    padding: 60px 20px 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    margin-bottom: 30px;
+    min-width: 150px;
+}
+
+    .footer-column h3 {
+        color: #636e72; /* Muted uppercase headings */
+        font-size: 0.75rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+    .footer-column ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+    .footer-column a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.3s;
+    }
+
+        .footer-column a:hover {
+            color: deeppink; /* Accent color on hover */
+        }
+
+.spacer {
+    margin-top: 30px;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    border-top: 1px solid #2d3436;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #b2bec3;
+}
+
+.bottom-links a {
+    margin: 0 10px;
+    color: #b2bec3;
+    text-decoration: none;
+}
