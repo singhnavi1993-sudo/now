@@ -1,202 +1,128 @@
 [
   {
+    "slug": "the-strongest-battlegrounds",
     "title": "The Strongest Battlegrounds",
-    "image": "./Image/the-strongest-battlegrounds.jpg",
-    "link": "https://now.gg/apps/mini-games-rb/19913/the-strongest-battle.html"
+    "image": "/Image/the-strongest-battlegrounds.jpg",
+    "link": "https://now.gg/apps/mini-games-rb/19913/the-strongest-battle.html",
+    "isPaid": true
   },
   {
+    "slug": "wsup-ai",
     "title": "wsup.ai-Chat with AI Characters",
-    "image": "./Image/wsup.jpg",
-    "link": "https://wsup.ai/"
+    "image": "/Image/wsup.jpg",
+    "link": "https://wsup.ai/",
+    "isPaid": true
   },
   {
+    "slug": "anime-rangers-x",
     "title": "Update 65 Anime Rangers X",
-    "image": "./Image/update65.jpg",
-    "link": "https://now.gg/apps/mini-games-rb/19910/update-65-anime-rang.html"
+    "image": "/Image/update65.jpg",
+    "link": "https://now.gg/apps/mini-games-rb/19910/update-65-anime-rang.html",
+    "isPaid": true
   },
   {
+    "slug": "upd-fish-it",
     "title": "UPD Fish It",
-    "image": "./Image/UPD.jpg",
-    "link": "https://now.gg/apps/mini-games-rb/19907/upd-fish-it.html"
+    "image": "/Image/UPD.jpg",
+    "link": "https://now.gg/apps/mini-games-rb/19907/upd-fish-it.html",
+    "isPaid": true
   },
   {
+    "slug": "rivals",
     "title": "Rivals",
-    "image": "./Image/Rivals.jpg",
-    "link": "https://now.gg/apps/mini-games-rb/19911/rivals.html"
+    "image": "/Image/Rivals.jpg",
+    "link": "https://now.gg/apps/mini-games-rb/19911/rivals.html",
+    "isPaid": true
   },
   {
+    "slug": "evade",
     "title": "EVADE",
-    "image": "./Image/evade.jpg",
-    "link": "https://now.gg/apps/mini-games-rb/19914/evad.html"
+    "image": "/Image/evade.jpg",
+    "link": "https://now.gg/apps/mini-games-rb/19914/evad.html",
+    "isPaid": true
   },
   {
+    "slug": "grow-a-garden",
     "title": "Grow A Garden",
-    "image": "./Image/growagarden.jpg",
-    "link": "https://now.gg/apps/mini-games-rb/19903/Grow-a-Garden.html"
+    "image": "/Image/growagarden.jpg",
+    "link": "https://now.gg/apps/mini-games-rb/19903/Grow-a-Garden.html",
+    "isPaid": true
   },
   {
+    "slug": "slasher-forsaken",
     "title": "Slasher Forsaken",
-    "image": "./Image/slasher-forsaken.png",
-    "link": "https://now.gg/apps/mini-games-rb/19909/slasher-forsaken.html"
+    "image": "/Image/slasher-forsaken.png",
+    "link": "https://now.gg/apps/mini-games-rb/19909/slasher-forsaken.html",
+    "isPaid": true
   },
   {
+    "slug": "talkie-creative-ai",
     "title": "Talkie:Creative AI Community",
-    "image": "./Image/Talkie.png",
-    "link": "https://now.gg/apps/subsup123/5772/talkie-creative-ai-community.html"
+    "image": "/Image/Talkie.png",
+    "link": "https://www.talkie-ai.com/",
+    "isPaid": true
   },
   {
+    "slug": "fnaf",
     "title": "Five Nights at Freddy's",
-    "image": "./Image/Five Nights at Freddy.png",
-    "link": "https://now.gg/apps/scott-cawthon/51750/five-nights-at-freddy-s.html"
+    "image": "/Image/Five Nights at Freddy.png",
+    "link": "https://fnafgame.io/",
+    "isPaid": false
   },
   {
+    "slug": "gacha-life",
     "title": "Gacha Life",
-    "image": "./Image/Gatcha Life.jpg",
-    "link": "https://now.gg/apps/lunime/5767/gacha-life.html"
+    "image": "/Image/Gatcha Life.jpg",
+    "link": "https://now.gg/apps/lunime/5767/gacha-life.html",
+    "isPaid": true
   },
   {
+    "slug": "bloxd-io",
     "title": "bloxd.io",
-    "image": "./Image/bloxd.jpg",
-    "link": "https://now.gg/apps/bloxd/51240/bloxd-io.html"
+    "image": "/Image/bloxd.jpg",
+    "link": "https://bloxd.io/",
+    "isPaid": false
   },
   {
+    "slug": "deadshot",
     "title": "Deadshot",
-    "image": "./Image/deadshot.jpg",
-    "link": "https://now.gg/apps/goaliesave25/51613/deadshot.html"
+    "image": "/Image/deadshot.jpg",
+    "link": "https://deadshot.io/",
+    "isPaid": false
   },
   {
+    "slug": "snow-rider-3d",
     "title": "Snow Rider 3D",
-    "image": "./Image/SnowRider3D.jpg",
-    "link": "https://now.gg/apps/new-gamer/51067/snow-rider-3d.html"
+    "image": "/Image/SnowRider3D.jpg",
+    "link": "https://snowrider3d.com/",
+    "isPaid": false
   },
   {
+    "slug": "free-fire",
     "title": "Free Fire",
-    "image": "./Image/FreeFire.jpeg",
-    "link": "https://now.gg/apps/garena-international-i/7467/free-fire-the-chaos.html"
+    "image": "/Image/FreeFire.jpeg",
+    "link": "https://now.gg/apps/garena-international-i/7467/free-fire-the-chaos.html",
+    "isPaid": true
   },
   {
+    "slug": "slow-roads",
     "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
+    "image": "/Image/Slowroads.jpg",
+    "link": "https://slowroads.io/",
+    "isPaid": false
   },
   {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
+    "slug": "linky-ai",
     "title": "Linky: Chat with Characters AI",
-    "image": "./Image/Linky Ai.jpg",
-    "link": "https://now.gg/apps/skywork-ai-pte-ltd/8851/linky-chat-with-characters-ai.html"
+    "image": "/Image/Linky Ai.jpg",
+    "link": "https://www.linke.ai/",
+    "isPaid": true
   },
   {
-    "title": "Free Fire",
-    "image": "./Image/FreeFire.jpeg",
-    "link": "play.html?url=https://now.gg/apps/garena-international-i/7467/free-fire-the-chaos.html"
-  },
-  {
+    "slug": "roblox",
     "title": "Roblox",
-    "image": "./Image/Roblox.jpg",
-    "link": "https://now.gg/games/roblox-mini-games.html"
-  },
-  {
-    "title": "Talkie:Creative AI Community",
-    "image": "./Image/Talkie.png",
-    "link": "https://now.gg/apps/subsup123/5772/talkie-creative-ai-community.html"
-  },
-  {
-    "title": "Five Nights at Freddy's",
-    "image": "./Image/Five Nights at Freddy.png",
-    "link": "https://now.gg/apps/scott-cawthon/51750/five-nights-at-freddy-s.html"
-  },
-  {
-    "title": "Gacha Life",
-    "image": "./Image/Gatcha Life.jpg",
-    "link": "https://now.gg/apps/lunime/5767/gacha-life.html"
-  },
-  {
-    "title": "bloxd.io",
-    "image": "./Image/bloxd.jpg",
-    "link": "https://now.gg/apps/bloxd/51240/bloxd-io.html"
-  },
-  {
-    "title": "Deadshot",
-    "image": "./Image/deadshot.jpg",
-    "link": "https://now.gg/apps/goaliesave25/51613/deadshot.html"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Snow Rider 3D",
-    "image": "./Image/SnowRider3D.jpg",
-    "link": "https://now.gg/apps/new-gamer/51067/snow-rider-3d.html"
-  },
-  {
-    "title": "Free Fire",
-    "image": "./Image/FreeFire.jpeg",
-    "link": "https://now.gg/apps/garena-international-i/7467/free-fire-the-chaos.html"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
-  },
-  {
-    "title": "Slow Roads",
-    "image": "./Image/Slowroads.jpg",
-    "link": "play.html?url=https://slowroads.io/"
+    "image": "/Image/Roblox.jpg",
+    "link": "https://www.roblox.com/",
+    "isPaid": true
   }
 ]
