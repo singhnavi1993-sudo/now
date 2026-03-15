@@ -1,4 +1,4 @@
-﻿const container = document.getElementById("gamesContainer");
+const container = document.getElementById("gamesContainer");
 const topContainer = document.getElementById("topGamesContainer");
 const popularContainer = document.getElementById("popularGamesContainer");
 const moreContainer = document.getElementById("moreGamesContainer");
