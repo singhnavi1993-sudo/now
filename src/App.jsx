@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { gamesData, categories, browseCategories } from './gamesData';
 import GameCard from './GameCard';
 import './App.css';
@@ -109,6 +109,42 @@ function App() {
   const hasMoreHidden = moreVisibleCount < morePool.length;
 
   const searchActive = searchTerm.trim().length > 0;
+
+  useEffect(() => {
+    document.title = 'Play Online Games for Free | now-gg.com';
+
+    const setMeta = (name, content, isProperty = false) => {
+      const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`;
+      let tag = document.querySelector(selector);
+      if (!tag) {
+        tag = document.createElement('meta');
+        if (isProperty) tag.setAttribute('property', name);
+        else tag.setAttribute('name', name);
+        document.head.appendChild(tag);
+      }
+      tag.setAttribute('content', content);
+    };
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', 'https://now-gg.com/');
+
+    setMeta(
+      'description',
+      'Play online games instantly on now-gg.com. Explore top games, popular picks, categories, and browser play without downloads.'
+    );
+    setMeta('og:title', 'Play Online Games for Free | now-gg.com', true);
+    setMeta(
+      'og:description',
+      'Play online games instantly on now-gg.com. Browse top games and start playing in your browser.',
+      true
+    );
+    setMeta('og:url', 'https://now-gg.com/', true);
+  }, []);
 
   return (
     <div className="site">

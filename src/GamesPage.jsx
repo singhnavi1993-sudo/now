@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+﻿import React, { useEffect, useMemo, useState } from 'react';
 import { browseCategories, gamesData } from './gamesData';
 import GameCard from './GameCard';
 import './App.css';
@@ -64,6 +64,42 @@ export default function GamesPage() {
     if (!q) return popularGames;
     return popularGames.filter((g) => g.title.toLowerCase().includes(q));
   }, [popularGames, search]);
+
+  useEffect(() => {
+    document.title = 'Games - Play Online in Browser | now-gg.com';
+
+    const setMeta = (name, content, isProperty = false) => {
+      const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`;
+      let tag = document.querySelector(selector);
+      if (!tag) {
+        tag = document.createElement('meta');
+        if (isProperty) tag.setAttribute('property', name);
+        else tag.setAttribute('name', name);
+        document.head.appendChild(tag);
+      }
+      tag.setAttribute('content', content);
+    };
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', 'https://now-gg.com/games/');
+
+    setMeta(
+      'description',
+      'Browse and play popular online games instantly on now-gg.com/games/. No downloads, no installation, direct browser gameplay.'
+    );
+    setMeta('og:title', 'Games - Play Online in Browser | now-gg.com', true);
+    setMeta(
+      'og:description',
+      'Browse and play popular online games instantly on now-gg.com/games/.',
+      true
+    );
+    setMeta('og:url', 'https://now-gg.com/games/', true);
+  }, []);
 
   const playerSrc = selectedGame.embedUrl || selectedGame.playUrl || selectedGame.link;
 
@@ -194,7 +230,7 @@ export default function GamesPage() {
           <div className="category-grid category-grid--games-page">
             {browseCategories.map((name) => (
               <a key={name} href="https://now-gg.com/" target="_blank" rel="noreferrer" className="category-chip">
-                <span className="category-chip__icon">{CATEGORY_ICONS[name] || '�'}</span>
+                <span className="category-chip__icon">{CATEGORY_ICONS[name] || '•'}</span>
                 <span className="category-chip__label">{name}</span>
               </a>
             ))}
@@ -235,5 +271,7 @@ export default function GamesPage() {
     </div>
   );
 }
+
+
 
 
