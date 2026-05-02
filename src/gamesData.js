@@ -10,7 +10,6 @@ export const browseCategories = [
   'Puzzle Games',
   'Arcade Games',
   'Sports Games',
-  'Casino Games',
   'Racing Games',
   'Card Games',
   'Educational Games',

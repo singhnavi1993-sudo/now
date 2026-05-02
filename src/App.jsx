@@ -4,7 +4,10 @@ import GameCard from './GameCard';
 import './App.css';
 
 function normalize(s) {
-  return s.toLowerCase().trim();
+  if (Array.isArray(s)) {
+    return s.join(' ').toLowerCase().trim();
+  }
+  return String(s || '').toLowerCase().trim();
 }
 
 function ChevronRight() {
@@ -73,7 +76,6 @@ const CATEGORY_ICONS = {
   'Puzzle Games': '🧩',
   'Arcade Games': '◕',
   'Sports Games': '⚾',
-  'Casino Games': '🎯',
   'Racing Games': '◉',
   'Card Games': '🂱',
   'Educational Games': '✎',

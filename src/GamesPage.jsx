@@ -28,7 +28,6 @@ const CATEGORY_ICONS = {
   'Puzzle Games': 'PZ',
   'Arcade Games': 'AR',
   'Sports Games': 'SP',
-  'Casino Games': 'CS',
   'Racing Games': 'RC',
   'Card Games': 'CD',
   'Educational Games': 'ED',
