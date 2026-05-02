@@ -1,5 +1,5 @@
 ﻿import React, { useEffect, useMemo, useState } from 'react';
-import { browseCategories, gamesData } from './gamesData';
+import { browseCategories, categoryPath, categorySlug, gamePath, gameSlug, gamesData } from './gamesData';
 import GameCard from './GameCard';
 import './App.css';
 import './GamesPage.css';
@@ -18,7 +18,7 @@ function NowLogo() {
 }
 
 const CATEGORY_ICONS = {
-  'Browser Games': 'BG',
+  'Free Browser Games': 'BG',
   'Casual Games': 'CG',
   'Strategy Games': 'SG',
   'Simulation Games': 'SM',
@@ -45,19 +45,32 @@ function shuffle(source) {
 }
 
 export default function GamesPage() {
-  const params = new URLSearchParams(window.location.search);
-  const gameIdParam = Number(params.get('game'));
+  const path = window.location.pathname.toLowerCase();
+  const gamePathMatch = path.match(/^\/games\/([a-z0-9-]+)\.html\/?$/);
+  const categoryPathMatch = path.match(/^\/games\/category\/([a-z0-9-]+)\.html\/?$/);
 
   const [search, setSearch] = useState('');
   const [moreVisible, setMoreVisible] = useState(16);
-  const [isPlaying, setIsPlaying] = useState(false);
-  const initialGame = gamesData.find((g) => g.id === gameIdParam) || gamesData[0];
-  const [selectedGame, setSelectedGame] = useState(initialGame);
+
+  const pathGameSlug = gamePathMatch?.[1] || '';
+  const pathCategorySlug = categoryPathMatch?.[1] || '';
+  const selectedCategory = browseCategories.find((name) => categorySlug(name) === pathCategorySlug) || null;
+  const isCategoryPage = Boolean(selectedCategory);
+
+  const selectedGame = gamesData.find((g) => gameSlug(g) === pathGameSlug) || gamesData[0];
   const hotRailGames = gamesData.slice(0, 10);
-  const popularGames = gamesData.slice(0, 20);
+
+  const baseGames = selectedCategory
+    ? gamesData.filter((g) =>
+        g.category.some((c) => categorySlug(`${c} Games`) === pathCategorySlug || categorySlug(c) === pathCategorySlug)
+      )
+    : gamesData;
+
+  const categoryGames = baseGames.length > 0 ? baseGames : gamesData;
+  const popularGames = categoryGames.slice(0, 20);
   const randomSix = useMemo(() => shuffle(gamesData).slice(0, 6), []);
-  const moreGames = gamesData.slice(0, moreVisible);
-  const hasMore = moreVisible < gamesData.length;
+  const moreGames = categoryGames.slice(0, moreVisible);
+  const hasMore = moreVisible < categoryGames.length;
 
   const filteredPopular = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -86,20 +99,23 @@ export default function GamesPage() {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://now-gg.com/games/');
+
+    if (pathGameSlug) {
+      canonical.setAttribute('href', `https://now-gg.com/games/${pathGameSlug}.html`);
+    } else if (pathCategorySlug) {
+      canonical.setAttribute('href', `https://now-gg.com/games/category/${pathCategorySlug}.html`);
+    } else {
+      canonical.setAttribute('href', 'https://now-gg.com/games/');
+    }
 
     setMeta(
       'description',
       'Browse and play popular online games instantly on now-gg.com/games/. No downloads, no installation, direct browser gameplay.'
     );
     setMeta('og:title', 'Games - Play Online in Browser | now-gg.com', true);
-    setMeta(
-      'og:description',
-      'Browse and play popular online games instantly on now-gg.com/games/.',
-      true
-    );
-    setMeta('og:url', 'https://now-gg.com/games/', true);
-  }, []);
+    setMeta('og:description', 'Browse and play popular online games instantly on now-gg.com/games/.', true);
+    setMeta('og:url', canonical.getAttribute('href') || 'https://now-gg.com/games/', true);
+  }, [pathCategorySlug, pathGameSlug]);
 
   const playerSrc = selectedGame.embedUrl || selectedGame.playUrl || selectedGame.link;
 
@@ -111,7 +127,7 @@ export default function GamesPage() {
             <NowLogo />
             <span className="games-logo__wordmark">
               <span>now</span>
-              <strong>.gg</strong>
+              <strong>-gg</strong>
             </span>
           </a>
           <input
@@ -125,128 +141,104 @@ export default function GamesPage() {
       </header>
 
       <main>
-        <section className="hero">
-          <aside className="hot-rail" aria-label="Hot games">
-            {hotRailGames.map((g) => (
-              <button
-                key={`rail-${g.id}`}
-                type="button"
-                className="hot-rail__item"
-                onClick={() => {
-                  setSelectedGame(g);
-                  setIsPlaying(true);
-                }}
-              >
-                <img src={g.thumbnail} alt={g.title} />
-              </button>
-            ))}
-          </aside>
-
-          <div className={`hero-stage ${isPlaying ? 'hero-stage--playing' : ''}`}>
-            <iframe
-              className="hero-stage__iframe"
-              src={playerSrc}
-              title={`${selectedGame.title} game`}
-              allow="autoplay; fullscreen; gamepad"
-            />
-            <div className="hero-stage__overlay" />
-            <article className="hero-card">
-              <img src={selectedGame.thumbnail} alt={selectedGame.title} />
-              <h1>{selectedGame.title}</h1>
-              <p>Play instantly in your browser. Add your game links and users will be redirected directly.</p>
-              <button type="button" className="hero-card__cta" onClick={() => setIsPlaying(true)}>
-                Play in browser
-              </button>
-            </article>
-          </div>
-        </section>
-
-        <section className="games-section">
-          <h2>Popular Games</h2>
-          <div className="games-grid games-grid--popular">
-            {filteredPopular.map((g) => (
-              <button
-                key={`popular-${g.id}`}
-                type="button"
-                className="card-link"
-                onClick={() => {
-                  setSelectedGame(g);
-                  setIsPlaying(true);
-                }}
-              >
-                <GameCard game={g} variant="topSquare" hoverRated />
-              </button>
-            ))}
-          </div>
-
-          <div className="games-grid games-grid--six">
-            {randomSix.map((g) => (
-              <button
-                key={`random-${g.id}`}
-                type="button"
-                className="card-link"
-                onClick={() => {
-                  setSelectedGame(g);
-                  setIsPlaying(true);
-                }}
-              >
-                <article className="wide-tile">
-                  <img src={g.thumbnail} alt={g.title} />
-                  <h3>{g.title}</h3>
-                </article>
-              </button>
-            ))}
-          </div>
-        </section>
-
-        <section className="games-section">
-          <h2>More Games</h2>
-          <div className="games-grid games-grid--more">
-            {moreGames.map((g) => (
-              <button
-                key={`more-${g.id}`}
-                type="button"
-                className="card-link"
-                onClick={() => {
-                  setSelectedGame(g);
-                  setIsPlaying(true);
-                }}
-              >
-                <GameCard game={g} variant="topSquare" hoverRated />
-              </button>
-            ))}
-          </div>
-          {hasMore ? (
-            <div className="more-actions">
-              <button type="button" onClick={() => setMoreVisible((v) => v + 16)}>
-                Show More
-              </button>
+        {isCategoryPage ? (
+          <section className="games-section">
+            <h2>{selectedCategory}</h2>
+            <div className="games-grid games-grid--more">
+              {categoryGames.map((g) => (
+                <a key={`category-${g.id}`} className="card-link" href={gamePath(g)}>
+                  <GameCard game={g} variant="topSquare" hoverRated />
+                </a>
+              ))}
             </div>
-          ) : null}
-        </section>
+          </section>
+        ) : (
+          <>
+            <section className="hero">
+              <aside className="hot-rail" aria-label="Hot games">
+                {hotRailGames.map((g) => (
+                  <a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item">
+                    <img src={g.thumbnail} alt={g.title} />
+                  </a>
+                ))}
+              </aside>
 
-        <section className="games-section">
-          <h2>Explore by Categories</h2>
-          <div className="category-grid category-grid--games-page">
-            {browseCategories.map((name) => (
-              <a key={name} href="https://now-gg.com/" target="_blank" rel="noreferrer" className="category-chip">
-                <span className="category-chip__icon">{CATEGORY_ICONS[name] || '•'}</span>
-                <span className="category-chip__label">{name}</span>
-              </a>
-            ))}
-          </div>
-        </section>
+              <div className="hero-stage hero-stage--playing">
+                <iframe
+                  className="hero-stage__iframe"
+                  src={playerSrc}
+                  title={`${selectedGame.title} game`}
+                  allow="autoplay; fullscreen; gamepad"
+                />
+              </div>
+            </section>
+
+            <section className="games-section">
+              <h2>Popular Games</h2>
+              <div className="games-grid games-grid--popular">
+                {filteredPopular.map((g) => (
+                  <a key={`popular-${g.id}`} className="card-link" href={gamePath(g)}>
+                    <GameCard game={g} variant="topSquare" hoverRated />
+                  </a>
+                ))}
+              </div>
+
+              <div className="games-grid games-grid--six">
+                {randomSix.map((g) => (
+                  <a key={`random-${g.id}`} className="card-link" href={gamePath(g)}>
+                    <article className="wide-tile">
+                      <img src={g.thumbnail} alt={g.title} />
+                      <h3>{g.title}</h3>
+                    </article>
+                  </a>
+                ))}
+              </div>
+            </section>
+
+            <section className="games-section">
+              <h2>More Games</h2>
+              <div className="games-grid games-grid--more">
+                {moreGames.map((g) => (
+                  <a key={`more-${g.id}`} className="card-link" href={gamePath(g)}>
+                    <GameCard game={g} variant="topSquare" hoverRated />
+                  </a>
+                ))}
+              </div>
+              {hasMore ? (
+                <div className="more-actions">
+                  <button type="button" onClick={() => setMoreVisible((v) => v + 16)}>
+                    Show More
+                  </button>
+                </div>
+              ) : null}
+            </section>
+
+            <section className="games-section">
+              <h2>Explore by Categories</h2>
+              <div className="category-grid category-grid--games-page">
+                {browseCategories.map((name) => (
+                  <a key={name} href={categoryPath(name)} className="category-chip">
+                    <span className="category-chip__icon">{CATEGORY_ICONS[name] || '•'}</span>
+                    <span className="category-chip__label">{name}</span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          </>
+        )}
       </main>
 
       <footer className="games-footer">
-        <div className="games-footer__crumbs">Home &gt; Games &gt; Casual Games &gt; {selectedGame.title}</div>
+        <div className="games-footer__crumbs">
+          {isCategoryPage ? `Home > Games > ${selectedCategory}` : `Home > Games > Casual Games > ${selectedGame.title}`}
+        </div>
         <div className="games-footer__grid">
           <div>
             <a className="games-logo" href="/">
               <NowLogo />
               <span className="games-logo__wordmark">
                 <span>now</span>
-                <strong>.gg</strong>
+                <strong>-gg</strong>
               </span>
             </a>
           </div>
@@ -271,7 +263,3 @@ export default function GamesPage() {
     </div>
   );
 }
-
-
-
-

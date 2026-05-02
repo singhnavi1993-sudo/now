@@ -1,6 +1,6 @@
 /** Browse labels aligned with now.gg “Explore by Categories” */
 export const browseCategories = [
-  'Browser Games',
+  'Free Browser Games',
   'Casual Games',
   'Strategy Games',
   'Simulation Games',
@@ -43,13 +43,13 @@ export const gamesData = [
         title: 'Shell Shockers',
         category: ['Trending', 'Action'],
         slug: 'shell-shockers',
-        thumbnail: 'https://shellshock.io/favicon.ico',
+        thumbnail: 'https://imgs.crazygames.com/shellshockersio_16x9/20260203211252/shellshockersio_16x9-cover?metadata=none&quality=60&height=6999',
         link: 'https://shellshock.io',
         rating: 4.6
     },
     {
         id: 3,
-        title: 'Slither.io',
+        title: 'Slither',
         category: ['Trending', 'Casual'],
         slug: 'slither',
         thumbnail: 'https://slither.io/s/favicon.png',
@@ -99,17 +99,17 @@ export const gamesData = [
         title: 'ZombsRoyale',
         category: ['Action', 'Strategy'],
         slug: 'zombsroyale',
-        thumbnail: 'https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fassets-opt%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fcdn.now.gg%252Fapps-content%252Fcom.nowgg.h5.pub565.app51507%252Ficon%252Fsolitaire-solitaire.png%26w%3D256%26q%3D80&w=1440&q=70',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/68/ZombsRoyale.io_Cover_Art.jpg/250px-ZombsRoyale.io_Cover_Art.jpg',
         link: 'https://zombsroyale.io',
         rating: 4.43
     },
     {
         id: 9,
-        title: 'Combat Online',
+        title: 'Drift Boss',
         category: ['Action'],
-        slug: 'combat-online',
-        thumbnail: 'https://picsum.photos/300/400?random=7',
-        link: 'https://www.crazygames.com/game/combat-online',
+        slug: 'drift-boss',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJEaT1608eW4Vle-z6stx-2HiIG_CDAs7w8A&s',
+        link: 'https://driftboss.io/',
         rating: 4.3
     },
 
@@ -119,17 +119,17 @@ export const gamesData = [
         title: 'Chess',
         category: ['Strategy', 'Puzzle'],
         slug: 'chess',
-        thumbnail: 'https://www.chess.com/bundles/web/images/favicon.7b5a3f00.ico',
-        link: 'https://www.chess.com/play',
+        thumbnail: 'https://assets-configurator.chess.com/image/configurator/puzzles_1765899040725.webp',
+        link: 'https://www.democraticchess.com/main?gad_source=1&gad_campaignid=23735402155&gbraid=0AAAABB4FfoRPLqNDklcPXHFEGK0YHaGWh&gclid=CjwKCAjwwdbPBhBgEiwAxBRA4cMvEz3x3qVX687jbXWR75QrHSOIeP13iUP-a4L5qLR5PEgrI2dkPRoCwxYQAvD_BwE',
         rating: 4.9
     },
     {
         id: 11,
-        title: 'Bloons Tower Defense',
+        title: 'Ludo King',
         category: ['Strategy', 'Casual'],
-        slug: 'bloons',
-        thumbnail: 'https://picsum.photos/300/400?random=9',
-        link: 'https://www.crazygames.com/game/bloons-tower-defense',
+        slug: 'ludo-king',
+        thumbnail: 'https://ludoking.com/assets/images/ludoking-img.webp',
+        link: 'https://ludoking.com/',
         rating: 4.6
     },
 
@@ -139,7 +139,7 @@ export const gamesData = [
         title: 'Sudoku',
         category: ['Puzzle', 'Casual'],
         slug: 'sudoku',
-        thumbnail: 'https://sudoku.com/favicon.ico',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1VhkUvVh1iVPW02lZgHEeePMsYKATJBepTF0zIDsozqCN1qaesPalozE&s',
         link: 'https://sudoku.com',
         rating: 4.4
     },
@@ -148,7 +148,7 @@ export const gamesData = [
         title: 'Tetris',
         category: ['Puzzle', 'Arcade'],
         slug: 'tetris',
-        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Tetris_logo.svg',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2B5enMOHdbS7md5j-8UcZ7FRNxn99mq8L1ivV3mJOzybchX2rjVGGU8fj-OQA_Ymc3enDMtDngXRbYcWmm2fmCQ_SSEy5MlLT38uniqh2Eg&s=10',
         link: 'https://tetris.com/play-tetris',
         rating: 4.7
     },
@@ -188,7 +188,7 @@ export const gamesData = [
         title: 'Slow Roads',
         category: ['Simulation', 'Casual'],
         slug: 'slow-roads',
-        thumbnail: 'https://slowroads.io/icon.png',
+        thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY7gV7a_PRQrzo9UNvkjkQKtO47deTsKlZ0rZOKQ2Yean-xS66IObGGgdECGF6B8W--Yi7E8kYkyTbxR8OjF-Ux-LXgjnSaW5y1xaR6TvGbQ&s=10',
         link: 'https://slowroads.io',
         rating: 4.6
     },
@@ -252,3 +252,30 @@ export const gamesData = [
         link: 'https://hole-io.com',
         rating: 4.2
     }];
+
+export function toSlug(value) {
+  return String(value || '')
+    .toLowerCase()
+    .trim()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+export function gameSlug(game) {
+  const preferred = toSlug(game?.slug);
+  if (preferred) return preferred;
+  return toSlug(game?.title);
+}
+
+export function gamePath(game) {
+  return `/games/${gameSlug(game)}.html`;
+}
+
+export function categorySlug(name) {
+  return toSlug(name);
+}
+
+export function categoryPath(name) {
+  return `/games/category/${categorySlug(name)}.html`;
+}

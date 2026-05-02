@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { gamesData, categories, browseCategories } from './gamesData';
+import { gamesData, categories, browseCategories, categoryPath, gamePath } from './gamesData';
 import GameCard from './GameCard';
 import './App.css';
 
@@ -63,7 +63,7 @@ const VIDEO_QUOTES = [
 const BLOG_TITLES = [];
 
 const CATEGORY_ICONS = {
-  'Browser Games': '◔',
+  'Free Browser Games': '◔',
   'Casual Games': '♟',
   'Strategy Games': '♞',
   'Simulation Games': '⚖',
@@ -226,7 +226,7 @@ function App() {
                   <a
                     key={game.id}
                     className="top-game-link"
-                    href={`/games?game=${encodeURIComponent(game.id)}`}
+                    href={gamePath(game)}
                   >
                     <GameCard game={game} variant="topSquare" featured={i === 0} hoverRated />
                   </a>
@@ -242,7 +242,9 @@ function App() {
               </div>
               <div className="grid-top-games">
                 {popularGames.map((game) => (
-                  <GameCard key={game.id} game={game} variant="topSquare" hoverRated />
+                  <a key={`popular-${game.id}`} className="top-game-link" href={gamePath(game)}>
+                    <GameCard game={game} variant="topSquare" hoverRated />
+                  </a>
                 ))}
               </div>
             </section>
@@ -255,7 +257,9 @@ function App() {
               </div>
               <div className="grid-top-games">
                 {moreGames.map((game) => (
-                  <GameCard key={game.id} game={game} variant="topSquare" hoverRated />
+                  <a key={`more-${game.id}`} className="top-game-link" href={gamePath(game)}>
+                    <GameCard game={game} variant="topSquare" hoverRated />
+                  </a>
                 ))}
               </div>
               {hasMoreHidden ? (
@@ -310,7 +314,7 @@ function App() {
               </div>
               <div className="category-grid">
                 {browseCategories.map((name) => (
-                  <a key={name} className="category-chip" href="https://now-gg.com/" target="_blank" rel="noreferrer">
+                  <a key={name} className="category-chip" href={categoryPath(name)}>
                     <span className="category-chip__icon" aria-hidden>
                       {CATEGORY_ICONS[name] || '•'}
                     </span>
