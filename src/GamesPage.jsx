@@ -43,6 +43,11 @@ function shuffle(source) {
   return arr;
 }
 
+function normalize(value) {
+  if (Array.isArray(value)) return value.join(' ').toLowerCase().trim();
+  return String(value || '').toLowerCase().trim();
+}
+
 export default function GamesPage() {
   const path = window.location.pathname.toLowerCase();
   const gamePathMatch = path.match(/^\/games\/([a-z0-9-]+)\.html\/?$/);
@@ -76,6 +81,17 @@ export default function GamesPage() {
     if (!q) return popularGames;
     return popularGames.filter((g) => g.title.toLowerCase().includes(q));
   }, [popularGames, search]);
+  const searchResults = useMemo(() => {
+    const q = normalize(search);
+    if (!q) return [];
+    return gamesData.filter(
+      (g) =>
+        normalize(g.title).includes(q) ||
+        normalize(g.category).includes(q) ||
+        normalize(g.slug).includes(q)
+    );
+  }, [search]);
+  const searchActive = search.trim().length > 0;
 
   useEffect(() => {
     document.title = 'Games - Play Online in Browser | now-gg.com';
@@ -140,7 +156,18 @@ export default function GamesPage() {
       </header>
 
       <main>
-        {isCategoryPage ? (
+        {searchActive ? (
+          <section className="games-section">
+            <h2>Search Results</h2>
+            <div className="games-grid games-grid--more">
+              {searchResults.map((g) => (
+                <a key={`search-${g.id}`} className="card-link" href={gamePath(g)}>
+                  <GameCard game={g} variant="topSquare" hoverRated />
+                </a>
+              ))}
+            </div>
+          </section>
+        ) : isCategoryPage ? (
           <section className="games-section">
             <h2>{selectedCategory}</h2>
             <div className="games-grid games-grid--more">
