@@ -34,7 +34,7 @@ export const gamesData = [
         category: ['Trending', 'Action'],
         slug: 'FNAF',
         thumbnail: 'https://fnaffree.io/cache/data/image/game/fnaf-free/fnaf-free-m200x200.webp',
-        link: 'https://fnaffree.io/',
+        link: 'https://fngames.io/fnaf.embed',
         rating: 4.44
     },
     {
@@ -108,7 +108,7 @@ export const gamesData = [
         category: ['Action'],
         slug: 'drift-boss',
         thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJEaT1608eW4Vle-z6stx-2HiIG_CDAs7w8A&s',
-        link: 'https://driftboss.io/',
+        link: 'https://driftboss.io/drift-boss.embed',
         rating: 4.3
     },
 
