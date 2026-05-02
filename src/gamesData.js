@@ -179,17 +179,7 @@ export const gamesData = [
     link: 'https://slowroads.io',
     rating: 4.6,
   },
-  {
-    id: 23,
-    title: 'Hole.io',
-    category: ['Arcade', 'Casual'],
-    slug: 'hole',
-      thumbnail: 'https://m.media-amazon.com/images/I/81QTJgqpy9L.png',
-      embedUrl: 'https://www.crazygames.com/embed/hole-io',
-      link: 'https://www.crazygames.com/game/hole-io',
-    rating: 4.2,
-  },
-
+  
   {
     id: 24,
     title: 'Basket Random',
@@ -200,16 +190,7 @@ export const gamesData = [
     link: 'https://www.crazygames.com/game/basket-random',
     rating: 4.4,
   },
-  {
-    id: 25,
-    title: 'Space Waves',
-    category: ['Arcade', 'Action'],
-    slug: 'space-waves',
-      thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlvpINlHVXkHS4cpT7NznJUU6LA6B1WsDhkw&s',
-    embedUrl: 'https://www.crazygames.com/embed/space-waves',
-    link: 'https://www.crazygames.com/game/space-waves',
-    rating: 4.5,
-  },
+  
   {
     id: 27,
     title: 'Smash Karts',
@@ -220,15 +201,7 @@ export const gamesData = [
     link: 'https://www.crazygames.com/game/smash-karts',
     rating: 4.6,
   },
-  {
-    id: 28,
-    title: 'Stickman Clash',
-    category: ['Action', 'Casual'],
-    slug: 'stickman-clash',
-      thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9PzOLNFpE-f_wH23Yr2D5OAcHVJYRb311Eg&s',
-      link: 'https://www.crazygames.com/embed/stickman-clash',
-    rating: 4.2,
-  },
+  
   {
     id: 29,
     title: 'Words of Wonders',
