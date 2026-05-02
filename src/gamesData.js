@@ -31,7 +31,7 @@ export const gamesData = [
     category: ['Trending', 'Action'],
     slug: 'fnaf',
     thumbnail: 'https://fnaffree.io/cache/data/image/game/fnaf-free/fnaf-free-m200x200.webp',
-    link: 'https://fnaffree.io/',
+    link: 'https://fivenightsatfreddys3.com/five-nights-at-freddys.embed',
     rating: 4.44,
   },
     {
