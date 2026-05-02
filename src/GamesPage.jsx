@@ -48,6 +48,25 @@ function normalize(value) {
   return String(value || '').toLowerCase().trim();
 }
 
+function fallbackThumb(title = 'game') {
+  return `https://picsum.photos/seed/${encodeURIComponent(title)}/320/320`;
+}
+
+function onThumbError(event, title) {
+  if (event.currentTarget.dataset.fallbackApplied === '1') return;
+  event.currentTarget.dataset.fallbackApplied = '1';
+  event.currentTarget.src = fallbackThumb(title);
+}
+
+function getPlayableSrc(game) {
+  if (game?.embedUrl) return game.embedUrl;
+  const link = String(game?.link || '');
+  if (link.includes('crazygames.com/game/')) {
+    return link.replace('/game/', '/embed/');
+  }
+  return link;
+}
+
 export default function GamesPage() {
   const path = window.location.pathname.toLowerCase();
   const gamePathMatch = path.match(/^\/games\/([a-z0-9-]+)\.html\/?$/);
@@ -132,7 +151,7 @@ export default function GamesPage() {
     setMeta('og:url', canonical.getAttribute('href') || 'https://now-gg.com/games/', true);
   }, [pathCategorySlug, pathGameSlug]);
 
-  const playerSrc = selectedGame.embedUrl || selectedGame.playUrl || selectedGame.link;
+  const playerSrc = getPlayableSrc(selectedGame) || selectedGame.playUrl || selectedGame.link;
 
   return (
     <div className="games-page">
@@ -184,7 +203,7 @@ export default function GamesPage() {
               <aside className="hot-rail" aria-label="Hot games">
                 {hotRailGames.map((g) => (
                   <a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item">
-                    <img src={g.thumbnail} alt={g.title} />
+                    <img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} />
                   </a>
                 ))}
               </aside>
@@ -196,6 +215,26 @@ export default function GamesPage() {
                   title={`${selectedGame.title} game`}
                   allow="autoplay; fullscreen; gamepad"
                 />
+                <a
+                  href={selectedGame.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    position: 'absolute',
+                    right: '12px',
+                    bottom: '12px',
+                    zIndex: 4,
+                    background: 'rgba(0,0,0,0.65)',
+                    color: '#fff',
+                    padding: '8px 12px',
+                    borderRadius: '10px',
+                    textDecoration: 'none',
+                    fontSize: '12px',
+                    fontWeight: 600,
+                  }}
+                >
+                  Open on official site
+                </a>
               </div>
             </section>
 
@@ -213,7 +252,7 @@ export default function GamesPage() {
                 {randomSix.map((g) => (
                   <a key={`random-${g.id}`} className="card-link" href={gamePath(g)}>
                     <article className="wide-tile">
-                      <img src={g.thumbnail} alt={g.title} />
+                      <img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} />
                       <h3>{g.title}</h3>
                     </article>
                   </a>

@@ -1,5 +1,15 @@
 import React from 'react';
 
+function fallbackThumb(title = 'game') {
+  return `https://picsum.photos/seed/${encodeURIComponent(title)}/320/320`;
+}
+
+function onThumbError(event, title) {
+  if (event.currentTarget.dataset.fallbackApplied === '1') return;
+  event.currentTarget.dataset.fallbackApplied = '1';
+  event.currentTarget.src = fallbackThumb(title);
+}
+
 function StarIcon() {
   return (
     <svg className="game-card__star-ico" viewBox="0 0 12 12" width="12" height="12" aria-hidden>
@@ -15,7 +25,7 @@ function GameOrb({ game }) {
   return (
     <article className="game-orb">
       <div className="game-orb__ring">
-        <img src={game.thumbnail} alt={game.title} loading="lazy" />
+        <img src={game.thumbnail} alt={game.title} loading="lazy" onError={(e) => onThumbError(e, game.title)} />
       </div>
     </article>
   );
@@ -29,7 +39,7 @@ function GameTopSquare({ game, featured = false, hoverRated = false }) {
       className={`game-tile-square ${featured ? 'game-tile-square--featured' : ''} ${hoverRated ? 'game-tile-square--hover-rated' : ''}`}
     >
       <div className="game-tile-square__media">
-        <img src={game.thumbnail} alt="" loading="lazy" />
+        <img src={game.thumbnail} alt="" loading="lazy" onError={(e) => onThumbError(e, game.title)} />
 
         {hoverRated ? (
           <div className="game-tile-square__rating-float">
@@ -73,7 +83,7 @@ function GameCard({ game, variant = 'default', compact = false, showHot = false,
   return (
     <article className={`game-card ${compact ? 'game-card--compact' : ''}`}>
       <div className="game-card__media">
-        <img src={game.thumbnail} alt={game.title} loading="lazy" />
+        <img src={game.thumbnail} alt={game.title} loading="lazy" onError={(e) => onThumbError(e, game.title)} />
         {showHot ? <span className="game-card__hot">Hot</span> : null}
         <div className="game-card__rating-float">
           <span className="game-card__rating-pill">
