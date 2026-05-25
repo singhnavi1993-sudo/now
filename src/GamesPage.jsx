@@ -1,6 +1,7 @@
 ﻿import React, { useEffect, useMemo, useState } from 'react';
 import { browseCategories, categoryPath, categorySlug, gamePath, gameSlug, gamesData } from './gamesData';
 import GameCard from './GameCard';
+import gameSeoContent from './gameSeoContent.json';
 import './App.css';
 import './GamesPage.css';
 
@@ -61,10 +62,17 @@ function onThumbError(event, title) {
 function getPlayableSrc(game) {
   if (game?.embedUrl) return game.embedUrl;
   const link = String(game?.link || '');
-  if (link.includes('crazygames.com/game/')) {
-    return link.replace('/game/', '/embed/');
-  }
+  if (link.includes('crazygames.com/game/')) return link.replace('/game/', '/embed/');
   return link;
+}
+
+function renderRichLines(lines) {
+  return (lines || []).map((line, idx) => {
+    if (line.startsWith('<H2>')) return <h2 key={`h2-${idx}`}>{line.replace('<H2>', '').trim()}</h2>;
+    if (line.startsWith('<H3>')) return <h3 key={`h3-${idx}`}>{line.replace('<H3>', '').trim()}</h3>;
+    if (line.startsWith('* ')) return <p key={`li-${idx}`}>{line.slice(2)}</p>;
+    return <p key={`p-${idx}`}>{line}</p>;
+  });
 }
 
 export default function GamesPage() {
@@ -74,6 +82,8 @@ export default function GamesPage() {
 
   const [search, setSearch] = useState('');
   const [moreVisible, setMoreVisible] = useState(16);
+  const [isPlayStarted, setIsPlayStarted] = useState(false);
+  const [modalType, setModalType] = useState(null);
 
   const pathGameSlug = gamePathMatch?.[1] || '';
   const pathCategorySlug = categoryPathMatch?.[1] || '';
@@ -81,6 +91,8 @@ export default function GamesPage() {
   const isCategoryPage = Boolean(selectedCategory);
 
   const selectedGame = gamesData.find((g) => gameSlug(g) === pathGameSlug) || gamesData[0];
+  const selectedGameSlug = gameSlug(selectedGame);
+  const selectedContent = gameSeoContent[selectedGameSlug] || null;
   const hotRailGames = gamesData.slice(0, 10);
 
   const baseGames = selectedCategory
@@ -100,16 +112,15 @@ export default function GamesPage() {
     if (!q) return popularGames;
     return popularGames.filter((g) => g.title.toLowerCase().includes(q));
   }, [popularGames, search]);
+
   const searchResults = useMemo(() => {
     const q = normalize(search);
     if (!q) return [];
     return gamesData.filter(
-      (g) =>
-        normalize(g.title).includes(q) ||
-        normalize(g.category).includes(q) ||
-        normalize(g.slug).includes(q)
+      (g) => normalize(g.title).includes(q) || normalize(g.category).includes(q) || normalize(g.slug).includes(q)
     );
   }, [search]);
+
   const searchActive = search.trim().length > 0;
 
   useEffect(() => {
@@ -134,24 +145,52 @@ export default function GamesPage() {
       document.head.appendChild(canonical);
     }
 
-    if (pathGameSlug) {
-      canonical.setAttribute('href', `https://now-gg.com/games/${pathGameSlug}.html`);
-    } else if (pathCategorySlug) {
-      canonical.setAttribute('href', `https://now-gg.com/games/category/${pathCategorySlug}.html`);
-    } else {
-      canonical.setAttribute('href', 'https://now-gg.com/games/');
-    }
+    if (pathGameSlug) canonical.setAttribute('href', `https://now-gg.com/games/${pathGameSlug}.html`);
+    else if (pathCategorySlug) canonical.setAttribute('href', `https://now-gg.com/games/category/${pathCategorySlug}.html`);
+    else canonical.setAttribute('href', 'https://now-gg.com/games/');
 
-    setMeta(
-      'description',
-      'Browse and play popular online games instantly on now-gg.com/games/. No downloads, no installation, direct browser gameplay.'
-    );
-    setMeta('og:title', 'Games - Play Online in Browser | now-gg.com', true);
-    setMeta('og:description', 'Browse and play popular online games instantly on now-gg.com/games/.', true);
-    setMeta('og:url', canonical.getAttribute('href') || 'https://now-gg.com/games/', true);
-  }, [pathCategorySlug, pathGameSlug]);
+    if (selectedContent) {
+      document.title = selectedContent.metaTitle || `${selectedGame.title} - Play Free Online | now-gg`;
+      const desc = selectedContent.metaDescription || `Play ${selectedGame.title} online free on now-gg with no download required.`;
+      setMeta('description', desc);
+      setMeta('og:title', selectedContent.metaTitle || `${selectedGame.title} - Play Free Online | now-gg`, true);
+      setMeta('og:description', desc, true);
+      setMeta('og:url', canonical.getAttribute('href') || `https://now-gg.com/games/${selectedGameSlug}.html`, true);
+    } else {
+      setMeta('description', 'Browse and play popular online games instantly on now-gg.com/games/. No downloads, no installation, direct browser gameplay.');
+      setMeta('og:title', 'Games - Play Online in Browser | now-gg.com', true);
+      setMeta('og:description', 'Browse and play popular online games instantly on now-gg.com/games/.', true);
+      setMeta('og:url', canonical.getAttribute('href') || 'https://now-gg.com/games/', true);
+    }
+  }, [pathGameSlug, pathCategorySlug, selectedContent, selectedGame.title, selectedGameSlug]);
 
   const playerSrc = getPlayableSrc(selectedGame) || selectedGame.playUrl || selectedGame.link;
+
+  useEffect(() => {
+    setIsPlayStarted(false);
+    setModalType(null);
+  }, [pathGameSlug]);
+
+  const handlePlayInBrowser = () => setIsPlayStarted(true);
+
+  const renderModalBody = () => {
+    if (!selectedContent) return null;
+    if (modalType === 'readmore') return <>{renderRichLines(selectedContent.readMore)}</>;
+    if (modalType === 'faqs') {
+      const faqLines = selectedContent.faqs || [];
+      const pairs = [];
+      for (let i = 0; i < faqLines.length; i += 2) pairs.push([faqLines[i], faqLines[i + 1] || '']);
+      return (
+        <>
+          <h2>FAQs</h2>
+          {pairs.map(([q, a], idx) => (
+            <p key={`faq-${idx}`}><strong>{q}</strong><br />{a}</p>
+          ))}
+        </>
+      );
+    }
+    return null;
+  };
 
   return (
     <div className="games-page">
@@ -159,170 +198,126 @@ export default function GamesPage() {
         <div className="games-header__inner">
           <a className="games-logo" href="/">
             <NowLogo />
-            <span className="games-logo__wordmark">
-              <span>now</span>
-              <strong>-gg</strong>
-            </span>
+            <span className="games-logo__wordmark"><span>now</span><strong>-gg</strong></span>
           </a>
-          <input
-            className="games-search"
-            type="search"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search"
-          />
+          <input className="games-search" type="search" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search" />
         </div>
       </header>
 
       <main>
-        {searchActive ? (
-          <section className="games-section">
-            <h2>Search Results</h2>
-            <div className="games-grid games-grid--more">
-              {searchResults.map((g) => (
-                <a key={`search-${g.id}`} className="card-link" href={gamePath(g)}>
-                  <GameCard game={g} variant="topSquare" hoverRated />
-                </a>
-              ))}
-            </div>
-          </section>
-        ) : isCategoryPage ? (
-          <section className="games-section">
-            <h2>{selectedCategory}</h2>
-            <div className="games-grid games-grid--more">
-              {categoryGames.map((g) => (
-                <a key={`category-${g.id}`} className="card-link" href={gamePath(g)}>
-                  <GameCard game={g} variant="topSquare" hoverRated />
-                </a>
-              ))}
-            </div>
-          </section>
-        ) : (
+        {pathGameSlug ? (
           <>
             <section className="hero">
               <aside className="hot-rail" aria-label="Hot games">
                 {hotRailGames.map((g) => (
-                  <a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item">
-                    <img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} />
-                  </a>
+                  <a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item"><img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} /></a>
                 ))}
               </aside>
 
-              <div className="hero-stage hero-stage--playing">
-                <iframe
-                  className="hero-stage__iframe"
-                  src={playerSrc}
-                  title={`${selectedGame.title} game`}
-                  allow="autoplay; fullscreen; gamepad"
-                />
-                <a
-                  href={selectedGame.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  style={{
-                    position: 'absolute',
-                    right: '12px',
-                    bottom: '12px',
-                    zIndex: 4,
-                    background: 'rgba(0,0,0,0.65)',
-                    color: '#fff',
-                    padding: '8px 12px',
-                    borderRadius: '10px',
-                    textDecoration: 'none',
-                    fontSize: '12px',
-                    fontWeight: 600,
-                  }}
-                >
-                  Open on official site
-                </a>
+              <div className={`hero-stage ${isPlayStarted ? 'hero-stage--playing' : ''}`}>
+                {isPlayStarted ? (
+                  <iframe className="hero-stage__iframe" src={playerSrc} title={`${selectedGame.title} game`} allow="autoplay; fullscreen; gamepad" allowFullScreen />
+                ) : (
+                  <>
+                    <img className="hero-stage__bgimg" src={selectedGame.thumbnail} alt="" onError={(e) => onThumbError(e, selectedGame.title)} />
+                    <div className="hero-stage__overlay" />
+                    <div className="hero-card">
+                      <img src={selectedGame.thumbnail} alt={selectedContent?.imageAlt || selectedGame.title} onError={(e) => onThumbError(e, selectedGame.title)} />
+                      <h1>{selectedContent?.h1 || selectedGame.title}</h1>
+                      <p><strong>{Number(selectedGame.rating || 4.5).toFixed(1)}</strong> {' | '} {selectedContent?.subtitle || selectedGame.category?.join(' | ') || 'Online Game'}</p>
+                      <button type="button" className="hero-card__cta" onClick={handlePlayInBrowser}>Play in browser</button>
+                    </div>
+                    {selectedContent ? (
+                      <div className="hero-stage__details">
+                        <h2>{selectedContent.summaryTitle || `Play ${selectedGame.title} Online in Browser`}</h2>
+                        <p>{selectedContent.summary || `Play ${selectedGame.title} online instantly in your browser.`}</p>
+                        <div className="fnaf-content__links">
+                          <button type="button" onClick={() => setModalType('readmore')}>READ MORE</button>
+                          <button type="button" onClick={() => setModalType('faqs')}>FAQS</button>
+                        </div>
+                      </div>
+                    ) : null}
+                  </>
+                )}
               </div>
             </section>
 
             <section className="games-section">
               <h2>Popular Games</h2>
               <div className="games-grid games-grid--popular">
-                {filteredPopular.map((g) => (
-                  <a key={`popular-${g.id}`} className="card-link" href={gamePath(g)}>
-                    <GameCard game={g} variant="topSquare" hoverRated />
-                  </a>
-                ))}
-              </div>
-
-              <div className="games-grid games-grid--six">
-                {randomSix.map((g) => (
-                  <a key={`random-${g.id}`} className="card-link" href={gamePath(g)}>
-                    <article className="wide-tile">
-                      <img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} />
-                      <h3>{g.title}</h3>
-                    </article>
-                  </a>
-                ))}
+                {gamesData.slice(0, 20).map((g) => (<a key={`popular-${g.id}`} className="card-link" href={gamePath(g)}><GameCard game={g} variant="topSquare" hoverRated /></a>))}
               </div>
             </section>
 
             <section className="games-section">
-              <h2>More Games</h2>
+              <h2 id="more-title">More Games</h2>
               <div className="games-grid games-grid--more">
-                {moreGames.map((g) => (
-                  <a key={`more-${g.id}`} className="card-link" href={gamePath(g)}>
-                    <GameCard game={g} variant="topSquare" hoverRated />
-                  </a>
-                ))}
+                {gamesData.slice(0, moreVisible).map((g) => (<a key={`more-${g.id}`} className="card-link" href={gamePath(g)}><GameCard game={g} variant="topSquare" hoverRated /></a>))}
               </div>
-              {hasMore ? (
-                <div className="more-actions">
-                  <button type="button" onClick={() => setMoreVisible((v) => v + 16)}>
-                    Show More
-                  </button>
-                </div>
-              ) : null}
+              {moreVisible < gamesData.length ? (<div className="more-actions"><button type="button" onClick={() => setMoreVisible((v) => v + 16)}>Show More</button></div>) : null}
             </section>
 
             <section className="games-section">
               <h2>Explore by Categories</h2>
               <div className="category-grid category-grid--games-page">
-                {browseCategories.map((name) => (
-                  <a key={name} href={categoryPath(name)} className="category-chip">
-                    <span className="category-chip__icon">{CATEGORY_ICONS[name] || '•'}</span>
-                    <span className="category-chip__label">{name}</span>
-                  </a>
-                ))}
+                {browseCategories.map((name) => (<a key={name} href={categoryPath(name)} className="category-chip"><span className="category-chip__icon">{CATEGORY_ICONS[name] || '•'}</span><span className="category-chip__label">{name}</span></a>))}
               </div>
+            </section>
+          </>
+        ) : searchActive ? (
+          <section className="games-section">
+            <h2>Search Results</h2>
+            <div className="games-grid games-grid--more">{searchResults.map((g) => (<a key={`search-${g.id}`} className="card-link" href={gamePath(g)}><GameCard game={g} variant="topSquare" hoverRated /></a>))}</div>
+          </section>
+        ) : isCategoryPage ? (
+          <section className="games-section">
+            <h2>{selectedCategory}</h2>
+            <div className="games-grid games-grid--more">{categoryGames.map((g) => (<a key={`category-${g.id}`} className="card-link" href={gamePath(g)}><GameCard game={g} variant="topSquare" hoverRated /></a>))}</div>
+          </section>
+        ) : (
+          <>
+            <section className="hero">
+              <aside className="hot-rail" aria-label="Hot games">{hotRailGames.map((g) => (<a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item"><img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} /></a>))}</aside>
+              <div className="hero-stage hero-stage--playing"><iframe className="hero-stage__iframe" src={playerSrc} title={`${selectedGame.title} game`} allow="autoplay; fullscreen; gamepad" /></div>
+            </section>
+
+            <section className="games-section">
+              <h2>Popular Games</h2>
+              <div className="games-grid games-grid--popular">{filteredPopular.map((g) => (<a key={`popular-${g.id}`} className="card-link" href={gamePath(g)}><GameCard game={g} variant="topSquare" hoverRated /></a>))}</div>
+              <div className="games-grid games-grid--six">{randomSix.map((g) => (<a key={`random-${g.id}`} className="card-link" href={gamePath(g)}><article className="wide-tile"><img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} /><h3>{g.title}</h3></article></a>))}</div>
+            </section>
+
+            <section className="games-section">
+              <h2>More Games</h2>
+              <div className="games-grid games-grid--more">{moreGames.map((g) => (<a key={`more-${g.id}`} className="card-link" href={gamePath(g)}><GameCard game={g} variant="topSquare" hoverRated /></a>))}</div>
+              {hasMore ? (<div className="more-actions"><button type="button" onClick={() => setMoreVisible((v) => v + 16)}>Show More</button></div>) : null}
+            </section>
+
+            <section className="games-section">
+              <h2>Explore by Categories</h2>
+              <div className="category-grid category-grid--games-page">{browseCategories.map((name) => (<a key={name} href={categoryPath(name)} className="category-chip"><span className="category-chip__icon">{CATEGORY_ICONS[name] || '•'}</span><span className="category-chip__label">{name}</span></a>))}</div>
             </section>
           </>
         )}
       </main>
 
-      <footer className="games-footer">
-        <div className="games-footer__crumbs">
-          {isCategoryPage ? `Home > Games > ${selectedCategory}` : `Home > Games > Casual Games > ${selectedGame.title}`}
+      {modalType ? (
+        <div className="fnaf-modal" role="dialog" aria-modal="true" aria-label="Game content">
+          <div className="fnaf-modal__backdrop" onClick={() => setModalType(null)} />
+          <div className="fnaf-modal__panel">
+            <button type="button" className="fnaf-modal__close" onClick={() => setModalType(null)}>Close</button>
+            <div className="fnaf-modal__content">{renderModalBody()}</div>
+          </div>
         </div>
+      ) : null}
+
+      <footer className="games-footer">
+        <div className="games-footer__crumbs">{isCategoryPage ? `Home > Games > ${selectedCategory}` : `Home > Games > Casual Games > ${selectedGame.title}`}</div>
         <div className="games-footer__grid">
-          <div>
-            <a className="games-logo" href="/">
-              <NowLogo />
-              <span className="games-logo__wordmark">
-                <span>now</span>
-                <strong>-gg</strong>
-              </span>
-            </a>
-          </div>
-          <div>
-            <h4>Games</h4>
-            <p>Action</p><p>RPG</p><p>Strategy</p><p>Casual</p><p>Puzzle</p><p>Adventure</p><p>Simulation</p>
-          </div>
-          <div>
-            <h4>Company</h4>
-            <p>About Us</p><p>News</p>
-            <h4>Resources</h4>
-            <p>Blog</p><p>Developers</p>
-          </div>
-          <div>
-            <h4>Help &amp; Support</h4>
-            <p>Get in Touch</p><p>Help center</p>
-            <h4>Social</h4>
-            <p>YouTube</p><p>Discord</p>
-          </div>
+          <div><a className="games-logo" href="/"><NowLogo /><span className="games-logo__wordmark"><span>now</span><strong>-gg</strong></span></a></div>
+          <div><h4>Games</h4><p>Action</p><p>RPG</p><p>Strategy</p><p>Casual</p><p>Puzzle</p><p>Adventure</p><p>Simulation</p></div>
+          <div><h4>Company</h4><p>About Us</p><p>News</p><h4>Resources</h4><p>Blog</p><p>Developers</p></div>
+          <div><h4>Help &amp; Support</h4><p>Get in Touch</p><p>Help center</p><h4>Social</h4><p>YouTube</p><p>Discord</p></div>
         </div>
       </footer>
     </div>
