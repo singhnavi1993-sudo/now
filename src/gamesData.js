@@ -114,7 +114,7 @@ export const gamesData = [
     category: ['Strategy', 'Casual'],
     slug: 'ludo-king',
     thumbnail: 'https://ludoking.com/assets/images/ludoking-img.webp',
-    link: 'https://ludoking.com/',
+    link: 'shttps://ludoking.com/play/',
     rating: 4.6,
   },
   {
