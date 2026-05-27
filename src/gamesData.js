@@ -50,7 +50,7 @@ export const gamesData = [
     category: ['Trending', 'Casual'],
     slug: 'slither',
     thumbnail: 'https://slither.io/s/favicon.png',
-    link: 'https://slither.io',
+    link: 'http://slither.com/io',
     rating: 4.5,
   },
   {
