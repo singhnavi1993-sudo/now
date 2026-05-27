@@ -105,7 +105,7 @@ export const gamesData = [
     category: ['Strategy', 'Puzzle'],
     slug: 'chess',
     thumbnail: 'https://assets-configurator.chess.com/image/configurator/puzzles_1765899040725.webp',
-    link: 'https://www.democraticchess.com/main',
+    link: 'https://lichess.org/training/frame?theme=brown&bg=dark',
     rating: 4.9,
   },
   {
