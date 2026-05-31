@@ -398,9 +398,8 @@ export default function GamesPage() {
       ) : null}
 
       <footer className="games-footer">
-        <div className="games-footer__crumbs">{isCategoryPage ? `Home > Games > ${selectedCategory}` : `Home > Games > Casual Games > ${selectedGame.title}`}</div>
         <div className="games-footer__grid">
-          <div><a className="games-logo" href="/"><NowLogo /><span className="games-logo__wordmark"><span>now</span><strong>-gg</strong></span></a></div>
+          <div><a className="games-logo" href="/"><span className="games-logo__wordmark"><span>now</span><strong>-gg</strong></span></a></div>
           <div><h4>Games</h4><p>Action</p><p>RPG</p><p>Strategy</p><p>Casual</p><p>Puzzle</p><p>Adventure</p><p>Simulation</p></div>
           <div><h4>Company</h4><p style={{ cursor: 'pointer' }} onClick={() => setModalType('about')}>About Us</p><p>News</p><h4>Resources</h4><p>Blog</p><p>Developers</p></div>
           <div><h4>Help &amp; Support</h4><p>Get in Touch</p><p>Help center</p><h4>Social</h4><p>YouTube</p><p>Discord</p></div>
