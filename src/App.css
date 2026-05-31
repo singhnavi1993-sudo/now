@@ -11,10 +11,32 @@ html, body, #root {
     flex-direction: column;
     width: 100%;
     margin: 0;
-    background-color: #080a0f;
-    background-image: radial-gradient(at 100% 0%, rgba(236,72,153,0.3) 0px, transparent 55%), radial-gradient(at 0% 50%, rgba(59,130,246,0.3) 0px, transparent 55%), radial-gradient(at 50% 100%, rgba(139,92,246,0.2) 0px, transparent 50%);
+    background-color: #050508;
+    background-image: 
+        linear-gradient(to bottom, rgba(5, 5, 8, 0.6), rgba(5, 5, 8, 0.95)),
+        url('/cinematic_bg.png');
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
-   
+    position: relative;
+    z-index: 0;
+}
+
+.site::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 32px 32px;
+    mask-image: radial-gradient(circle at center, black 20%, transparent 80%);
+    -webkit-mask-image: radial-gradient(circle at center, black 20%, transparent 80%);
 }
 
 @supports (height: 100dvh) {
@@ -28,13 +50,22 @@ html, body, #root {
     display: flex;
     align-items: center;
     height: 65px;
-    padding: 0 1%;
-    background-color: #0b0d13;
-    border-bottom: 1px solid #1c1f2e;
+    padding: 0 20px;
+    background-color: rgba(11, 13, 19, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     position: sticky; /* Keeps it at the top */
-    top: 0;
+    top: 15px;
     z-index: 1000;
-    width: 100%; /* Ensure it spans the full width */
+    width: 95%; /* Don't make it full width */
+    max-width: 1440px;
+    margin: 15px auto 0;
+    border-radius: 16px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header--hidden {
+    transform: translateY(-150%);
 }
 
 .header__inner {
@@ -75,20 +106,20 @@ html, body, #root {
 }
 
 .logo__now {
-  color: #ffffff;
+  color: #00E5FF;
   font-weight: 900;
 }
 
 .logo__gg {
-    color: #ff42a5;
-    font-weight: 400;
+    color: #a855f7;
+    font-weight: 900;
 }
 
 /* White pill search, ~38px tall */
 .search {
   flex: 1 1 auto;
   min-width: 0;
-  max-width: 900px;
+  max-width: 450px;
   margin-left: 40px;
 }
 
@@ -1339,3 +1370,94 @@ html, body, #root {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
 }
+
+
+/* B&W Theme Overrides */
+.section--more, .prose, .section[aria-labelledby='faq-title'], .games-section--more { background-color: #000000; color: #ffffff; padding: 30px; border-radius: 12px; }
+.section--more .section__title, .prose .section__title, .section[aria-labelledby='faq-title'] .section__title, .games-section--more h2 { color: #ffffff !important; }
+.prose h2, .prose p, .faq-item summary, .faq-item p { color: #ffffff !important; }
+
+/* About Us Modal */
+.about-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.about-modal__backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+.about-modal__panel {
+  position: relative;
+  width: 90%;
+  max-width: 650px;
+  max-height: 85vh;
+  background: #111;
+  border-radius: 16px;
+  padding: 32px;
+  overflow-y: auto;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  border: 1px solid #333;
+}
+
+.about-modal__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.about-modal__close:hover {
+  background: #ff42a5;
+}
+
+.about-modal__content h2,
+.about-modal__content h3,
+.about-modal__content p {
+  color: #fff !important;
+}
+
+.about-modal__content h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 12px;
+  color: #fff !important;
+}
+
+.about-modal__content h3 {
+  font-size: 1.3rem;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: #00E5FF !important;
+}
+
+.about-modal__content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #ccc !important;
+}
+

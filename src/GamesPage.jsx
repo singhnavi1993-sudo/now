@@ -84,6 +84,23 @@ export default function GamesPage() {
   const [moreVisible, setMoreVisible] = useState(16);
   const [isPlayStarted, setIsPlayStarted] = useState(false);
   const [modalType, setModalType] = useState(null);
+  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        setIsHeaderVisible(false);
+      } else if (currentScrollY < lastScrollY) {
+        setIsHeaderVisible(true);
+      }
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   const pathGameSlug = gamePathMatch?.[1] || '';
   const pathCategorySlug = categoryPathMatch?.[1] || '';
@@ -210,15 +227,24 @@ export default function GamesPage() {
         </>
       );
     }
+    if (modalType === 'about') {
+      return (
+        <div className="about-modal__content">
+          <h2>About Us</h2>
+          <p><strong>Who We Are</strong><br/>now-gg is a cutting-edge cloud gaming platform designed to break down the barriers between players and their favorite games. We believe that gaming should be instant, accessible, and free of the limitations of hardware, storage space, and long download times. Whether you're on a smartphone, tablet, PC, or Mac, now-gg transforms your device into a powerful gaming console instantly.</p>
+          <p><strong>What We Offer</strong><br/>With a massive, ever-growing library of games spanning across Action, RPG, Strategy, Casual, and Puzzle genres, now-gg provides something for everyone. Our platform runs entirely in the cloud, meaning you can jump straight into high-quality gaming experiences with just a click. No installs, no updates—just pure gaming.</p>
+          <p><strong>Our Mission</strong><br/>Our mission is simple: <strong>To democratize gaming.</strong> We are building a future where anyone, anywhere, can play the best games the world has to offer without needing expensive hardware or complex setups. By leveraging advanced cloud technology, we’re making seamless, cross-platform multiplayer and instant-play experiences the new standard for gamers worldwide.</p>
+        </div>
+      );
+    }
     return null;
   };
 
   return (
     <div className="games-page">
-      <header className="games-header">
+      <header className={`games-header ${isHeaderVisible ? '' : 'games-header--hidden'}`}>
         <div className="games-header__inner">
           <a className="games-logo" href="/">
-            <NowLogo />
             <span className="games-logo__wordmark"><span>now</span><strong>-gg</strong></span>
           </a>
           <input className="games-search" type="search" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search" />
@@ -237,6 +263,17 @@ export default function GamesPage() {
 
               <div className={`hero-stage ${isPlayStarted ? 'hero-stage--playing' : ''} ${isGachaEmbed ? 'hero-stage--gacha-fix' : ''} ${gachaCropClass}`}>
                 {isPlayStarted ? (
+                  isLudoKing ? (
+                    <iframe 
+                      src="https://gamedistribution.com" 
+                      width="100%" 
+                      height="600" 
+                      frameBorder="0" 
+                      scrolling="no" 
+                      allow="autoplay; gamepad; fullscreen" 
+                      allowFullScreen>
+                    </iframe>
+                  ) : (
                   <iframe
                     className="hero-stage__iframe"
                     src={playerSrc}
@@ -244,8 +281,8 @@ export default function GamesPage() {
                     allow="autoplay; fullscreen; gamepad"
                     allowFullScreen
                     scrolling="no"
-                    sandbox={isLudoKing ? 'allow-scripts allow-same-origin allow-forms allow-pointer-lock' : undefined}
                   />
+                  )
                 ) : (
                   <>
                     <img className="hero-stage__bgimg" src={selectedGame.thumbnail} alt="" onError={(e) => onThumbError(e, selectedGame.title)} />
@@ -308,14 +345,25 @@ export default function GamesPage() {
             <section className="hero">
               <aside className="hot-rail" aria-label="Hot games">{hotRailGames.map((g) => (<a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item"><img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} /></a>))}</aside>
               <div className="hero-stage hero-stage--playing">
+                {isLudoKing ? (
+                  <iframe 
+                    src="https://gamedistribution.com" 
+                    width="100%" 
+                    height="600" 
+                    frameBorder="0" 
+                    scrolling="no" 
+                    allow="autoplay; gamepad; fullscreen" 
+                    allowFullScreen>
+                  </iframe>
+                ) : (
                 <iframe
                   className="hero-stage__iframe"
                   src={playerSrc}
                   title={`${selectedGame.title} game`}
                   allow="autoplay; fullscreen; gamepad"
                   scrolling="no"
-                  sandbox={isLudoKing ? 'allow-scripts allow-same-origin allow-forms allow-pointer-lock' : undefined}
                 />
+                )}
               </div>
             </section>
 
@@ -354,7 +402,7 @@ export default function GamesPage() {
         <div className="games-footer__grid">
           <div><a className="games-logo" href="/"><NowLogo /><span className="games-logo__wordmark"><span>now</span><strong>-gg</strong></span></a></div>
           <div><h4>Games</h4><p>Action</p><p>RPG</p><p>Strategy</p><p>Casual</p><p>Puzzle</p><p>Adventure</p><p>Simulation</p></div>
-          <div><h4>Company</h4><p>About Us</p><p>News</p><h4>Resources</h4><p>Blog</p><p>Developers</p></div>
+          <div><h4>Company</h4><p style={{ cursor: 'pointer' }} onClick={() => setModalType('about')}>About Us</p><p>News</p><h4>Resources</h4><p>Blog</p><p>Developers</p></div>
           <div><h4>Help &amp; Support</h4><p>Get in Touch</p><p>Help center</p><h4>Social</h4><p>YouTube</p><p>Discord</p></div>
         </div>
       </footer>

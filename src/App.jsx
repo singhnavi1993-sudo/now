@@ -86,6 +86,24 @@ const CATEGORY_ICONS = {
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [moreVisibleCount, setMoreVisibleCount] = useState(16);
+  const [isAboutModalOpen, setIsAboutModalOpen] = useState(false);
+  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY && currentScrollY > 50) {
+        setIsHeaderVisible(false);
+      } else if (currentScrollY < lastScrollY) {
+        setIsHeaderVisible(true);
+      }
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
 
   const filtered = useMemo(() => {
     const q = normalize(searchTerm);
@@ -159,10 +177,9 @@ function App() {
 
   return (
     <div className="site">
-      <header className="header">
+      <header className={`header ${isHeaderVisible ? '' : 'header--hidden'}`}>
         <div className="header__inner">
           <a className="logo" href="/" aria-label="now-gg home">
-            <NowGgLogoMark />
             <span className="logo__wordmark">
               <span className="logo__now">now</span>
               <span className="logo__gg">-gg</span>
@@ -378,59 +395,69 @@ function App() {
 
             <section className="section prose" id="about" aria-labelledby="what-title">
               <div className="section__head">
-                <h2 id="what-title" className="section__title">What is now-gg</h2>
-                <a className="section__link" href="https://now-gg.com/aboutus.html" target="_blank" rel="noreferrer">
+                <h2 id="what-title" className="section__title">What is now-gg?</h2>
+                <a className="section__link" href="#" onClick={(e) => { e.preventDefault(); setIsAboutModalOpen(true); }}>
                   About Us
                   <ChevronRight />
                 </a>
               </div>
 
-              <h2 id="online-title">Online Games - Play Anywhere, Anytime</h2>
+              <h2 id="online-title">Play Free Online Games, Instantly, on Any Device</h2>
               <p>
-                Discover a world of excitement with our vast collection of free online games, conveniently accessible with
-                no downloads required. Get ready to immerse yourself in endless fun, whether playing solo, challenging
-                friends, or seeking thrilling multiplayer adventures.
+                now-gg is a free cloud-powered gaming platform that lets you jump into your favorite games straight from any browser, with no downloads, no installs, and no account required. Whether you're on a phone, tablet, or desktop, now-gg makes it simple to start playing within seconds, anytime, anywhere.
               </p>
 
-              <h2 id="free-title">Free Online Games at Your Fingertips</h2>
+              <h2 id="free-title">A Library Built for Every Kind of Player</h2>
               <p>
-                Play online from a wide variety of fun online games, including <a href="https://now-gg.com/play/roblox-corporation/5349/roblox.html" target="_blank" rel="noreferrer">Bloxd.io</a>, and <a href="https://now-gg.com/play/mob-games/1853/poppy-playtime.html" target="_blank" rel="noreferrer">Poppy Playtime</a>. You can find a game to fit your mood and interests among the various game genres, such as <a href="https://now-gg.com/games/card.html" target="_blank" rel="noreferrer">card games</a>, <a href="https://now-gg.com/games/sports.html" target="_blank" rel="noreferrer">sports games</a>, <a href="https://now-gg.com/games/shooting.html" target="_blank" rel="noreferrer">shooting games</a>, <a href="https://now-gg.com/games/ludo.html" target="_blank" rel="noreferrer">ludo games</a>, <a href="https://now-gg.com/games/solitaire.html" target="_blank" rel="noreferrer">solitaire games</a>, <a href="https://now-gg.com/games/browser.html" target="_blank" rel="noreferrer">browser games</a>, <a href="https://now-gg.com/games/quiz.html" target="_blank" rel="noreferrer">quiz games</a>, and exciting <a href="https://now-gg.com/games/zombie.html" target="_blank" rel="noreferrer">zombie games</a>. Get ready to embark on unforgettable adventures and immerse yourself in exhilarating gaming experiences. Start playing right away and enjoy yourself!
+                From fast-paced shooters to relaxing puzzles, now-gg hosts a wide and ever-growing collection of free online games across every genre. Dive into intense multiplayer battles with Shell Shockers and Hazmob FPS, test your nerves in the spine-chilling Five Nights at Freddy's, or unwind with beloved card and board games like Chess and Ludo King. Prefer something creative? Gacha Life, Gacha Club, and Gacha Life 2 let you design original anime characters and tell your own stories. Browse genres including shooting games, puzzle games, simulation games, board games, adventure games, and many more.
               </p>
 
-              <h2 id="mp-title">Multiplayer Adventures Await</h2>
+              <h2 id="mp-title">Multiplayer Gaming Without the Hassle</h2>
               <p>
-                Gaming online with friends is more fun, and now.gg has you covered. Explore our collection of online <a href="https://now-gg.com/games/multiplayer.html" target="_blank" rel="noreferrer">multiplayer games</a> to play with friends and engage in epic combat. You can choose from numerous games like <a href="https://now-gg.com/play/king-soul-land/2054/soul-land-reloaded.html" target="_blank" rel="noreferrer">Soul Land Reloaded</a>, <a href="https://now-gg.com/play/lelithgames/1899/fireboy-and-watergirl-2-light-temple.html" target="_blank" rel="noreferrer">Fireboy and Watergirl 2: Light Temple</a>, <a href="https://now-gg.com/play/innersloth-llc/4047/among-us.html" target="_blank" rel="noreferrer">Among Us</a>, and many more. Connect with friends from around the world and let the competition begin.
+                Some of the best gaming moments happen with others. now-gg's multiplayer games collection makes it easy to challenge friends or compete with players from around the world, no setup required. Grow the biggest snake on the server in Slither.io, or battle for survival in ZombsRoyale.io. Whether you prefer casual competition or all-out battles, the fun is always one click away.
               </p>
 
-              <h2 id="ages-title">Fun for All Ages</h2>
+              <h2 id="brain-title">Brain Games, Puzzle Adventures, and More</h2>
               <p>
-                Players of all ages can play games on now.gg. We recognize the value of offering children a fun and secure gaming environment. Explore our selection of games like <a href="https://now-gg.com/play/kahoot/2048/kahoot-play-and-create-quizzes.html" target="_blank" rel="noreferrer">Kahoot! Play &amp; Create Quizzes</a>, and <a href="https://now-gg.com/play/tizi-town-games/2079/vexcode-v5.html" target="_blank" rel="noreferrer">VEXcode V5</a>, for children have been carefully chosen to guarantee fun. Our games will keep young minds entertained and inspired, offering everything from <a href="https://now-gg.com/games/educational.html" target="_blank" rel="noreferrer">educational quizzes</a> to delightful <a href="https://now-gg.com/games/adventure.html" target="_blank" rel="noreferrer">adventures</a>.
+                now-gg is home to some of the most satisfying puzzle and strategy experiences available online. Challenge yourself with timeless classics like Chess and Sudoku, keep your mind sharp with Block Puzzle Master, or take on the iconic horror of Five Nights at Freddy's if you're after a real test of nerves. Whatever your style, there is always something engaging to play.
+              </p>
+              
+              <h2 id="safe-title">Safe, Free, and Family-Friendly</h2>
+              <p>
+                now-gg is built for players of all ages. Our collection includes creative outlets like Gacha Life Dress Up and Gacha Life Maker for younger players who love building characters and stories, alongside classics like Ludo King and Sudoku that the whole family can enjoy together. Parents can feel confident knowing our platform is free of paywalls and unnecessary barriers, just good, clean gaming.
+              </p>
+              
+              <h2 id="cloud-title">Cloud Gaming, Simplified</h2>
+              <p>
+                Powered by cloud technology, now-gg removes the usual friction of gaming. No storage required. No update downloads. No hardware limits. Whatever device you're on, you can open a browser, pick a game, and be playing in seconds. It really is that simple.
               </p>
             </section>
 
             <section className="section" aria-labelledby="faq-title">
               <div className="section__head">
                 <h2 id="faq-title" className="section__title">
-                  Frequently asked questions
+                  Frequently Asked Questions
                 </h2>
               </div>
               <details className="faq-item" open>
-                <summary>01. What games can you play with friends online?</summary>
-                <p>
-                  We have multiplayer-friendly online games you can enjoy with friends—from cooperative adventures to
-                  competitive challenges.
-                </p>
+                <summary>What is now-gg and how does it work?</summary>
+                <p>now-gg is a free online gaming platform that lets you play games instantly in your browser with no downloads or installs required. Simply visit the site, pick a game, and start playing from any device, including your phone, tablet, or desktop.</p>
               </details>
               <details className="faq-item">
-                <summary>02. Do you need to upload or download online games?</summary>
-                <p>No, you don&apos;t need to download or upload anything. Select your game and begin playing immediately.</p>
+                <summary>Are all games on now-gg completely free to play?</summary>
+                <p>Yes. Every game on now-gg is free to play with no sign-up required. Just open your browser and start playing titles like Five Nights at Freddy's, Slither.io, Shell Shockers, Chess, Ludo King, and many more, all at no cost.</p>
               </details>
               <details className="faq-item">
-                <summary>03. Where can I play free games online without downloading them?</summary>
-                <p>
-                  Start on the homepage or choose a game from popular categories: Adventure, Action, Simulation, and
-                  Strategy.
-                </p>
+                <summary>Can I play now-gg games on my phone or mobile browser?</summary>
+                <p>Absolutely. now-gg is fully optimized for mobile play. All games run smoothly on both Android and iOS browsers without any app download needed, so you can enjoy free online games on mobile whenever and wherever you like.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Does now-gg have multiplayer games I can play with friends?</summary>
+                <p>Yes. now-gg features a wide selection of free multiplayer games online, including Slither.io, ZombsRoyale.io, Shell Shockers, Bloxd.io, 8 Ball Billiards Classic, and more. Just share the link and challenge friends from anywhere in the world.</p>
+              </details>
+              <details className="faq-item">
+                <summary>Is now-gg safe for kids?</summary>
+                <p>Yes. now-gg is designed to be safe and enjoyable for players of all ages. The platform includes family-friendly titles like Gacha Life, Gacha Life 2, Ludo King, Chess, and Sudoku, making it a great destination for free online games for kids and adults alike.</p>
               </details>
             </section>
 
@@ -474,7 +501,7 @@ function App() {
               <h3>Company</h3>
               <ul>
                 <li>
-                  <a href="https://now-gg.com/aboutus.html" target="_blank" rel="noreferrer">
+                  <a href="#" onClick={(e) => { e.preventDefault(); setIsAboutModalOpen(true); }}>
                     About Us
                   </a>
                 </li>
@@ -558,6 +585,28 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {isAboutModalOpen && (
+        <div className="about-modal" role="dialog" aria-modal="true" aria-label="About Us">
+          <div className="about-modal__backdrop" onClick={() => setIsAboutModalOpen(false)} />
+          <div className="about-modal__panel">
+            <button type="button" className="about-modal__close" onClick={() => setIsAboutModalOpen(false)}>Close</button>
+            <div className="about-modal__content">
+              <h2>ABOUT US</h2>
+              <h3>Who We Are</h3>
+              <p>now-gg is a free browser-based gaming platform built for players who want to jump straight into great games without the friction of downloads, installs, or account requirements. Whether you're on a phone, tablet, or desktop, now-gg lets you play instantly from any browser, on any device, anytime you want.</p>
+              <p>We believe gaming should be accessible to everyone. That's the idea behind everything we build: removing barriers, expanding access, and connecting players with the games they love in the simplest way possible.</p>
+              
+              <h3>What We Offer</h3>
+              <p>now-gg hosts a growing library of free online games spanning a wide range of genres, from action and shooting to puzzles, board games, simulation, and more. Every game on the platform is playable directly in your browser with no download and no cost. Our collection includes titles like Five Nights at Freddy's, Shell Shockers, Slither.io, Chess, Ludo King, Sudoku, Gacha Life, Gacha Club, Bloxd.io, ZombsRoyale.io, and many more.</p>
+              <p>We regularly add new games across all categories, so there is always something fresh to discover, whether you're in the mood for a quick match or a longer session.</p>
+              
+              <h3>Our Mission</h3>
+              <p>Our mission is simple: make great games available to everyone, everywhere, without barriers. We are committed to providing a safe, accessible, and enjoyable gaming experience for players of all ages, and we work continuously to improve the platform for the community that plays on it.</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

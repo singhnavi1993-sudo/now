@@ -1,4 +1,4 @@
-﻿export const browseCategories = [
+export const browseCategories = [
   'Free Browser Games',
   'Casual Games',
   'Strategy Games',
@@ -50,7 +50,7 @@ export const gamesData = [
     category: ['Trending', 'Casual'],
     slug: 'slither',
     thumbnail: 'https://slither.io/s/favicon.png',
-    link: 'http://slither.com/io',
+    link: 'https://slither.io',
     rating: 4.5,
   },
   {
@@ -99,6 +99,7 @@ export const gamesData = [
     rating: 4.43,
   },
 
+  /*
   {
     id: 11,
     title: 'Chess',
@@ -114,9 +115,10 @@ export const gamesData = [
     category: ['Strategy', 'Casual'],
     slug: 'ludo-king',
     thumbnail: 'https://ludoking.com/assets/images/ludoking-img.webp',
-    link: 'https://www.crazygames.com/game/ludo-king',
+    link: 'https://zv1y2i8p.play.gamezop.com/g/SkhljT2fdgb',
     rating: 4.6,
   },
+  */
   {
     id: 13,
     title: 'Sudoku',

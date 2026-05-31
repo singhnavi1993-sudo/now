@@ -57,11 +57,6 @@ function GameTopSquare({ game, featured = false, hoverRated = false }) {
         ) : null}
 
         <div className="game-tile-square__overlay">
-          <span className="game-tile-square__play" aria-hidden>
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </span>
         </div>
       </div>
       <h3 className="game-tile-square__title">{game.title}</h3>
@@ -92,11 +87,6 @@ function GameCard({ game, variant = 'default', compact = false, showHot = false,
           </span>
         </div>
         <div className="game-card__overlay">
-          <span className="game-card__play" aria-hidden>
-            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </span>
         </div>
       </div>
       <div className="game-card__meta">
