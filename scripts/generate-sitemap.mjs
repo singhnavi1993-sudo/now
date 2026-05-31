@@ -20,29 +20,62 @@ function buildUrlTag(loc, priority = '0.7', changefreq = 'weekly') {
   ].join('\n');
 }
 
-const staticUrls = [
+function writeSitemap(filename, urlTags) {
+  const xml = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...urlTags,
+    '</urlset>',
+    '',
+  ].join('\n');
+  const outputPath = resolve(process.cwd(), 'public', filename);
+  writeFileSync(outputPath, xml, 'utf8');
+  console.log(`Generated ${filename}`);
+}
+
+// 1. Home Sitemap
+const homeUrls = [
   buildUrlTag(toAbsoluteUrl('/'), '1.0', 'daily'),
   buildUrlTag(toAbsoluteUrl('/games/'), '0.9', 'daily'),
 ];
+writeSitemap('sitemap-home.xml', homeUrls);
 
+// 2. Categories Sitemap
 const categoryUrls = [...new Set(browseCategories.map((name) => toAbsoluteUrl(categoryPath(name))))].map((url) =>
   buildUrlTag(url, '0.8', 'daily')
 );
+writeSitemap('sitemap-categories.xml', categoryUrls);
 
+// 3. Games Sitemap
 const gameUrls = [...new Set(gamesData.map((game) => toAbsoluteUrl(gamePath(game))))].map((url) =>
-  buildUrlTag(url, '0.7', 'weekly')
+  buildUrlTag(url, '0.9', 'weekly')
 );
+writeSitemap('sitemap-games.xml', gameUrls);
 
-const xml = [
-  '<?xml version="1.0" encoding="UTF-8"?>',
-  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-  ...staticUrls,
-  ...categoryUrls,
-  ...gameUrls,
-  '</urlset>',
-  '',
-].join('\n');
+// 4. Sitemap Index
+function writeSitemapIndex(filename, sitemaps) {
+  const sitemapTags = sitemaps.map(sm => [
+    '  <sitemap>',
+    `    <loc>${toAbsoluteUrl('/' + sm)}</loc>`,
+    `    <lastmod>${today}</lastmod>`,
+    '  </sitemap>'
+  ].join('\n'));
 
-const outputPath = resolve(process.cwd(), 'public', 'sitemap.xml');
-writeFileSync(outputPath, xml, 'utf8');
-console.log(`Sitemap generated at ${outputPath}`);
+  const xml = [
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ...sitemapTags,
+    '</sitemapindex>',
+    '',
+  ].join('\n');
+
+  const outputPath = resolve(process.cwd(), 'public', filename);
+  writeFileSync(outputPath, xml, 'utf8');
+  console.log(`Generated Sitemap Index: ${filename}`);
+}
+
+writeSitemapIndex('sitemap.xml', [
+  'sitemap-home.xml',
+  'sitemap-categories.xml',
+  'sitemap-games.xml'
+]);
