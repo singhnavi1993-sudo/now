@@ -78,7 +78,7 @@ function renderRichLines(lines) {
 export default function GamesPage() {
   const path = window.location.pathname.toLowerCase();
   const gamePathMatch = path.match(/^\/games\/([a-z0-9-]+)\.html\/?$/);
-  const categoryPathMatch = path.match(/^\/([a-z0-9-]+)game\.html\/?$/);
+  const categoryPathMatch = path.match(/^\/games\/category\/([a-z0-9-]+)\.html\/?$/);
 
   const [search, setSearch] = useState('');
   const [moreVisible, setMoreVisible] = useState(16);

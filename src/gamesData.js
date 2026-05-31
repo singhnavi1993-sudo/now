@@ -388,5 +388,5 @@ export function categorySlug(name) {
 
 export function categoryPath(name) {
   const base = categorySlug(name).replace(/-games$/, '');
-  return `/${base}game.html`;
+  return `/games/category/${base}.html`;
 }
