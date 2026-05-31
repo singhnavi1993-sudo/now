@@ -1,0 +1,3009 @@
+{
+  "Home": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://now-gg.com/#website",
+        "url": "https://now-gg.com/",
+        "name": "now-gg",
+        "description": "Play free browser games online instantly on now-gg.com. Action, Puzzle, Racing, RPG and more \u2014 no downloads, no installs.",
+        "inLanguage": "en-US",
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://now-gg.com/#organization",
+        "name": "now-gg",
+        "url": "https://now-gg.com/"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/#webpage",
+        "url": "https://now-gg.com/",
+        "name": "Play Online Games for Free | now-gg.com",
+        "description": "Play free browser games online instantly on now-gg.com. Action, Puzzle, Racing, RPG and more \u2014 no downloads, no installs.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "about": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          }
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://now-gg.com/#game-categories",
+        "name": "Game Categories",
+        "description": "Browse all free online game categories on now-gg.com",
+        "url": "https://now-gg.com/",
+        "numberOfItems": 14,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Casual Games",
+            "item": "https://now-gg.com/games/category/casual-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Strategy Games",
+            "item": "https://now-gg.com/games/category/strategy-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Simulation Games",
+            "item": "https://now-gg.com/games/category/simulation-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Role Playing Games",
+            "item": "https://now-gg.com/games/category/role-playing-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Action Games",
+            "item": "https://now-gg.com/games/category/action-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Adventure Games",
+            "item": "https://now-gg.com/games/category/adventure-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Puzzle Games",
+            "item": "https://now-gg.com/games/category/puzzle-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Arcade Games",
+            "item": "https://now-gg.com/games/category/arcade-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Sports Games",
+            "item": "https://now-gg.com/games/category/sports-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "Racing Games",
+            "item": "https://now-gg.com/games/category/racing-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 12,
+            "name": "Card Games",
+            "item": "https://now-gg.com/games/category/card-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 13,
+            "name": "Educational Games",
+            "item": "https://now-gg.com/games/category/educational-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 14,
+            "name": "Social Games",
+            "item": "https://now-gg.com/games/category/social-games.html"
+          }
+        ]
+      }
+    ]
+  },
+  "fnaf": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/fnaf.html#game",
+        "name": "Five Nights at Freddy's",
+        "alternateName": "FNAF",
+        "description": "Play Five Nights at Freddy's free on now-gg. Step into the shoes of a night security guard at Freddy Fazbear's Pizza, where the characters come alive after dark. Use security cameras, manage your limited power, and survive five terrifying nights.",
+        "url": "https://now-gg.com/games/fnaf.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Survival Horror",
+          "Indie",
+          "Simulation"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Simulation Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": false,
+        "isAccessibleForFree": true,
+        "contentRating": "E10+",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Scott Cawthon",
+          "url": "https://scottgames.com"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/fnaf.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/fnaf.html#webpage",
+        "url": "https://now-gg.com/games/fnaf.html",
+        "name": "Play Five Nights at Freddy's (FNAF) Online Free | now-gg.com",
+        "description": "Play Five Nights at Freddy's free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/fnaf.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/fnaf.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/fnaf.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Five Nights at Freddy's",
+            "item": "https://now-gg.com/games/fnaf.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/fnaf.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Five Nights at Freddy's for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play FNAF free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Five Nights at Freddy's work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of FNAF works on both Android and iOS devices. The controls are touch-friendly and the game runs smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Five Nights at Freddy's unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. now-gg offers an unblocked version of Five Nights at Freddy's that you can play even on networks where download-based game sites are restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many nights are there in FNAF 1?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "There are five main nights. After completing Night 5, a hidden Night 6 unlocks. Night 6 is significantly harder, with all characters at maximum aggression."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who made Five Nights at Freddy's?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FNAF was created by Scott Cawthon, a solo indie developer. It was released on August 8, 2014, and sold over a million copies in its first month."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens when the power runs out in FNAF?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "All lights go out, and the doors open. You can no longer use any tools. Shortly after, Freddy appears in your doorway, and the game is over. You restart the night."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best strategy for Night 5?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Check Foxy's camera every few seconds to prevent him from sprinting. Use the hall lights before closing doors rather than keeping them shut. Avoid running both doors simultaneously, as this burns through power very quickly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Five Nights at Freddy's suitable for children?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "FNAF is rated E10+ on most platforms. The horror is based on jump scares rather than graphic violence or blood. Parental guidance is recommended for younger children who may be sensitive to sudden frights."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Shell Shockers": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/shell-shockers.html#game",
+        "name": "Shell Shockers",
+        "alternateName": "Shell Shockers io",
+        "description": "Play Shell Shockers free on now-gg. Pick up a weapon, join a live multiplayer arena, and battle egg players from around the world. Fast, chaotic, and endlessly fun, this free online egg shooter is playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/shell-shockers.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Shooter",
+          "Multiplayer",
+          "Action"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Shooting Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E10+",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 100
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Blue Wizard Digital",
+          "url": "https://bluewizard.com"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2017-09-01",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/shell-shockers.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/shell-shockers.html#webpage",
+        "url": "https://now-gg.com/games/shell-shockers.html",
+        "name": "Play Shell Shockers Online Free | now-gg.com",
+        "description": "Play Shell Shockers free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/shell-shockers.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/shell-shockers.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/shell-shockers.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Shell Shockers",
+            "item": "https://now-gg.com/games/shell-shockers.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/shell-shockers.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Shell Shockers for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Shell Shockers free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Shell Shockers work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Shell Shockers is playable in mobile browsers on both Android and iOS devices without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Shell Shockers unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg gives you access to an unblocked version of Shell Shockers that you can play even on networks where gaming sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who developed Shell Shockers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shell Shockers was developed by Blue Wizard Digital. The game was first released for browsers on September 1, 2017, and has since grown to over 200 million lifetime players worldwide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many game modes are in Shell Shockers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shell Shockers has four game modes: Free For All, Teams, Captula the Spatula, and King of the Coop. Each mode offers a different style of play, from solo deathmatches to team-based objectives."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best weapon in Shell Shockers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The best weapon depends on your playstyle. The EggK-47 is the best all-around choice for most players. The Scrambler works best at close range, while the Free Ranger and Crackshot reward accurate long-range players."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Shell Shockers safe for kids?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Shell Shockers features cartoon-style egg characters rather than realistic violence. The setting is lighthearted with no graphic content, making it a more family-friendly alternative to traditional shooter games."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I customize my egg in Shell Shockers?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Shell Shockers lets you customize your egg with skins, hats, and stamps. Cosmetic items are unlocked using golden eggs earned by getting kills in matches."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Slither.io": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/slither.html#game",
+        "name": "Slither.io",
+        "alternateName": "Slither",
+        "description": "Play Slither.io free on now-gg. Eat glowing pellets, grow your snake, and take down bigger rivals by cutting them off. One of the most popular multiplayer snake games online, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/slither.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "IO Game",
+          "Multiplayer",
+          "Casual"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": ".io Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 500
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Steve Howse",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Lowtech Studios"
+          }
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2016-03-01",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/slither.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/slither.html#webpage",
+        "url": "https://now-gg.com/games/slither.html",
+        "name": "Play Slither.io Online Free | now-gg.com",
+        "description": "Play Slither.io free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/slither.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/slither.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/slither.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Slither.io",
+            "item": "https://now-gg.com/games/slither.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/slither.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Slither.io for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Slither.io free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Slither.io work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Slither.io is playable in mobile browsers on both Android and iOS devices. The touch controls work smoothly and no app download is needed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Slither.io unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg provides an unblocked version of Slither.io that you can access even on networks where game sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who developed Slither.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Slither.io was developed by Steve Howse under his studio Lowtech Studios. It was released in March 2016 and became one of the fastest-growing browser games ever made."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I grow faster in Slither.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The fastest way to grow is to eliminate other snakes and eat the large pellets they leave behind. You can also boost your speed to cut off larger snakes and force them to crash into your body."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a small snake beat a large one in Slither.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, and this is one of the most exciting things about Slither.io. A small snake can defeat the largest snake on the server by using speed boosts to swerve in front of them, forcing their head to collide with your body."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a leaderboard in Slither.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The leaderboard on the right side of the screen shows the top snakes on your current server ranked by size. The player with the longest snake at any moment claims the top spot."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I customize my snake in Slither.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Slither.io offers a wide range of skins, including solid colors, patterns, and designs inspired by real-world flags. You can also use the Build a Slither tool to create your own custom snake skin."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Gacha Life 2": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/gacha-life-2.html#game",
+        "name": "Gacha Life 2",
+        "alternateName": "GL2",
+        "description": "Play Gacha Life 2 free on now-gg. Design your own anime-style characters, build scenes in Studio Mode, and collect units through the Gacha system. The most advanced entry in the Lunime series is now playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/gacha-life-2.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Simulation",
+          "Casual",
+          "Character Creator"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Simulation Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Lunime"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2023-10-01",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/gacha-life-2.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/gacha-life-2.html#webpage",
+        "url": "https://now-gg.com/games/gacha-life-2.html",
+        "name": "Play Gacha Life 2 (GL2) Online Free | now-gg.com",
+        "description": "Play Gacha Life 2 free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/gacha-life-2.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/gacha-life-2.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/gacha-life-2.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gacha Life 2",
+            "item": "https://now-gg.com/games/gacha-life-2.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/gacha-life-2.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Gacha Life 2 for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Gacha Life 2 free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Gacha Life 2 work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of GL2 works on both Android and iOS devices. The touch controls are optimized for mobile and the game runs smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life 2 unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Gacha Life 2 that you can access even on networks where app downloads are restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who made Gacha Life 2?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life 2 was developed by Lunime, an indie studio led by a developer known as Luni. It was released in October 2023 and is the most advanced game in the Lunime series."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many characters can I create in Gacha Life 2?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You start with nine character slots, each fully customizable. Additional slots are available within the game, letting you build a large cast of original characters."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the Gacha system in GL2?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Gacha system lets you spend in-game stars to pull random collectible units. There are over 550 units available. Each pull rewards you with stars that feed back into your Life Mode profile."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I share my characters in Gacha Life 2?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Life Mode lets you publish your character lineup so other players can view and interact with them. You can also visit other players' profiles and react to their creations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life 2 suitable for kids?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life 2 is designed for a broad audience and is generally considered appropriate for younger players. It focuses on creative expression and character design rather than violence or mature themes."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Gacha Life": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/gacha-life.html#game",
+        "name": "Gacha Life",
+        "alternateName": "Gacha Life by Lunime",
+        "description": "Play Gacha Life free on now-gg. Dress up anime characters, craft scenes with the Skit Maker, and interact with NPCs in a colorful world. One of the most popular anime character creator games online, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/gacha-life.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Simulation",
+          "Casual",
+          "Character Creator"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Simulation Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E10+",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Lunime"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2018-10-01",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/gacha-life.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/gacha-life.html#webpage",
+        "url": "https://now-gg.com/games/gacha-life.html",
+        "name": "Play Gacha Life Online Free | now-gg.com",
+        "description": "Play Gacha Life free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/gacha-life.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/gacha-life.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/gacha-life.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gacha Life",
+            "item": "https://now-gg.com/games/gacha-life.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/gacha-life.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Gacha Life for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Gacha Life free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Gacha Life work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of Gacha Life works on both Android and iOS devices. The touch interface is responsive and the game loads smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Gacha Life that you can access even on networks where gaming apps or downloads are restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who created Gacha Life?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life was created by Lunime, an indie game studio. It was first released in October 2018 and became one of the most popular anime dress-up games ever made."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I earn gems in Gacha Life?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gems are earned by playing the eight in-game mini-games. Each game has a daily bonus that rewards extra gems. You can also collect gems by leveling up your NPC friendships in Life Mode."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Life Mode in Gacha Life?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Life Mode lets you explore different in-game locations and interact with over 100 unique NPCs. You can give them gifts using your gems to raise your friendship level and unlock new dialogue."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many characters can I customize in Gacha Life?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life gives you eight character slots to customize. Each slot is independently configurable, so you can create eight entirely different characters for use in Studio Mode or Skit Maker."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life appropriate for children?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life is rated for players aged 9 and above. The game focuses on character creation, storytelling, and casual gameplay with no violence. Parental guidance is recommended as some community-created content exists outside the game itself."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Hazmob FPS": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/hazmob-fps.html#game",
+        "name": "Hazmob FPS",
+        "alternateName": "Hazmob: FPS Gun Shooting Games",
+        "description": "Play Hazmob FPS free on now-gg. Choose from over 55 weapons, pick your game mode, and drop into live multiplayer arenas against players from around the world. A free online FPS game with clean 3D graphics and tight close-quarters combat, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/hazmob-fps.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "First-Person Shooter",
+          "Multiplayer",
+          "Action"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Shooting Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": false,
+        "isAccessibleForFree": true,
+        "contentRating": "T",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 100
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Hazmob",
+          "founder": {
+            "@type": "Person",
+            "name": "Ozgur Hazar"
+          }
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/hazmob-fps.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/hazmob-fps.html#webpage",
+        "url": "https://now-gg.com/games/hazmob-fps.html",
+        "name": "Play Hazmob FPS Online Free | now-gg.com",
+        "description": "Play Hazmob FPS free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/hazmob-fps.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/hazmob-fps.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/hazmob-fps.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Hazmob FPS",
+            "item": "https://now-gg.com/games/hazmob-fps.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/hazmob-fps.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Hazmob FPS for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Hazmob FPS free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Hazmob FPS work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Hazmob FPS is playable on mobile browsers for both Android and iOS. Mobile controls use an on-screen touch joystick for movement and tap-to-shoot inputs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Hazmob FPS unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg provides an unblocked version of Hazmob FPS that you can play even on networks where gaming sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who developed Hazmob FPS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hazmob FPS was developed by Hazmob, a game studio founded by Ozgur Hazar. The company specializes in mobile and browser-based first-person shooter games."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many weapons are in Hazmob FPS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hazmob FPS features over 55 customizable weapons across SMG, assault rifle, shotgun, sniper, and LMG categories. Each weapon can be upgraded with attachments such as scopes, skins, and performance keychains."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does my progress save between sessions in Hazmob FPS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Hazmob FPS features cloud sync that saves your progress, rank, unlocked skins, and stats automatically. Your achievements carry over across devices without any manual saving."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Gun Race mode in Hazmob FPS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gun Race is a mode where every kill advances you to the next weapon in a set rotation of over 55 guns. The first player to score a kill with every weapon in the sequence wins the match."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Hazmob FPS suitable for beginners?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The controls follow standard FPS conventions and there is a tutorial to get you started. Free for All and Team Deathmatch are good starting modes before moving into objective-based play."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "BLOXD.io": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/bloxd.html#game",
+        "name": "Bloxd.io",
+        "alternateName": "Bloxd",
+        "description": "Play Bloxd.io free on now-gg. Build creative structures, survive open-world challenges, or compete in Bedwars and parkour arenas across a growing list of game modes. A free Minecraft-style browser game with no download, no install, and millions of active players worldwide.",
+        "url": "https://now-gg.com/games/bloxd.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Adventure",
+          "Sandbox",
+          "Multiplayer"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Adventure Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E10+",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 100
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Arthur"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2021-01-01",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.5",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/bloxd.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/bloxd.html#webpage",
+        "url": "https://now-gg.com/games/bloxd.html",
+        "name": "Play Bloxd.io Online Free | now-gg.com",
+        "description": "Play Bloxd.io free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/bloxd.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/bloxd.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/bloxd.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Bloxd.io",
+            "item": "https://now-gg.com/games/bloxd.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/bloxd.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Bloxd.io for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Bloxd.io free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Bloxd.io work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Bloxd.io is playable on mobile browsers for both Android and iOS. An app version also exists for download if you prefer a native experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Bloxd.io unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Bloxd.io that you can access even on networks where gaming sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who made Bloxd.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bloxd.io was created by an independent developer named Arthur, who started the project in 2021. The team has since grown to include several additional developers who each contribute game modes and content updates."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Bloxd.io like Minecraft?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bloxd.io uses the same voxel block-building concept as Minecraft and runs entirely in a browser with no download. While it shares the visual style and some mechanics, it offers its own set of game modes and a competitive multiplayer focus that differs from Minecraft's experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Bedwars in Bloxd.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bedwars is the most popular game mode in Bloxd.io. Teams protect their own bed while trying to destroy enemy beds. Once a bed is destroyed, that team can no longer respawn when eliminated. The last surviving team wins."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can players create their own games in Bloxd.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The WorldBuilder tool allows players to design custom game modes using Code Blocks and Code Boards. These player-created games can be published and played by the wider community directly within the platform."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Bloxd.io safe for kids?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bloxd.io is generally suitable for younger players. The game features live chat, which parents may want to monitor. The sandbox and parkour modes are entirely non-violent, while PvP modes like Bedwars involve cartoon-style combat with no graphic content."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "ZombsRoyale.io": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/zombsroyale.html#game",
+        "name": "ZombsRoyale.io",
+        "alternateName": "Zombs Royale",
+        "description": "Play ZombsRoyale.io free on now-gg. Drop onto a large map with up to 100 players, scavenge weapons and supplies, and fight to be the last player or squad standing. One of the most popular 2D battle royale games online, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/zombsroyale.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Battle Royale",
+          "IO Game",
+          "Multiplayer"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Battle Royale Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "T",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 100
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "End Game Interactive",
+          "founder": [
+            {
+              "@type": "Person",
+              "name": "Yang C. Liu"
+            },
+            {
+              "@type": "Person",
+              "name": "Luke Zbihlyj"
+            }
+          ]
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2018-03-14",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/zombsroyale.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/zombsroyale.html#webpage",
+        "url": "https://now-gg.com/games/zombsroyale.html",
+        "name": "Play ZombsRoyale.io Online Free | now-gg.com",
+        "description": "Play ZombsRoyale.io free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/zombsroyale.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/zombsroyale.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/zombsroyale.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "ZombsRoyale.io",
+            "item": "https://now-gg.com/games/zombsroyale.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/zombsroyale.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play ZombsRoyale.io for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play ZombsRoyale.io free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does ZombsRoyale.io work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. ZombsRoyale.io is playable on mobile browsers for both Android and iOS. The game also has a dedicated mobile app available for download if you prefer a native experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ZombsRoyale.io unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg provides an unblocked version of ZombsRoyale.io that you can play even on networks where gaming sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who made ZombsRoyale.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ZombsRoyale.io was developed by End Game Interactive, a Washington-based studio founded by Yang C. Liu and Luke Zbihlyj. It was released on March 14, 2018, and has since attracted over 120 million players worldwide."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many players are in a ZombsRoyale.io match?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Each match supports up to 100 players. Any remaining slots not filled by real players are filled by computer-controlled bots to ensure a full lobby."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the gas zone in ZombsRoyale.io?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The gas zone is a blue shrinking boundary that deals continuous damage to any player caught outside it. As the match progresses, the safe zone shrinks, forcing all remaining players into a smaller area and ensuring the game moves toward a conclusion."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I play ZombsRoyale.io with friends?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Duos and Squads modes let you team up with one or three friends. Players on desktop, Android, iOS, and web browsers can all join the same matches through cross-platform play."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is ZombsRoyale.io similar to Fortnite?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "ZombsRoyale.io shares the battle royale format with Fortnite, but plays from a top-down 2D perspective rather than a third-person 3D view. It has no building mechanic and is designed for quick, accessible matches in a browser rather than a full game client."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "CHESS": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/chess.html#game",
+        "name": "Chess",
+        "alternateName": "Chess Online",
+        "description": "Play Chess free on now-gg. Compete against a friend or go head-to-head with an AI opponent across multiple difficulty levels. One of the most enduring free online strategy games, playable instantly in your browser with no account or download needed.",
+        "url": "https://now-gg.com/games/chess.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Strategy",
+          "Board Game",
+          "Classic"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Strategy Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/chess.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/chess.html#webpage",
+        "url": "https://now-gg.com/games/chess.html",
+        "name": "Play Chess Online Free | now-gg.com",
+        "description": "Play Chess free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/chess.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/chess.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/chess.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chess",
+            "item": "https://now-gg.com/games/chess.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/chess.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Chess for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Chess free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Chess work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of Chess on now-gg works on both Android and iOS devices. The controls are touch-friendly and the game runs smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Chess unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Chess that you can play even on networks where gaming sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I play Chess against the computer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The game includes an AI opponent with adjustable difficulty levels, making it suitable for complete beginners learning the rules and for experienced players looking for a challenge."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is castling in Chess?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Castling is a special move that involves the king and a rook. The king moves two squares toward a rook, and the rook jumps to the square on the other side. It can only be performed if neither piece has moved, there are no pieces between them, and the king is not in check or passing through check."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is en passant in Chess?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "En passant is a special pawn capture available immediately after an opponent moves their pawn two squares from its starting position. Your pawn, now beside the opponent's pawn, can capture it as if it had only moved one square. The option expires after one move."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does checkmate mean in Chess?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Checkmate ends the game. It occurs when a king is under direct attack, has no legal square to move to, cannot block the attack with another piece, and cannot capture the attacking piece. The player whose king is checkmated loses."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a game of Chess take online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on the time control selected. Bullet games last under three minutes. Blitz games last three to five minutes. Classical games can run 30 minutes or longer. Browser Chess on now-gg allows you to choose a format that fits your schedule."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "LUDO KING": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/ludo-king.html#game",
+        "name": "Ludo King",
+        "alternateName": "Ludo King Online",
+        "description": "Play Ludo King free on now-gg. Roll the dice, move your tokens around the board, and get all four pieces home before your opponents do. The world's most downloaded online Ludo game, now playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/ludo-king.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Board Game",
+          "Casual",
+          "Multiplayer"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Board Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 6
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Gametion Technologies Pvt. Ltd.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Navi Mumbai",
+            "addressCountry": "IN"
+          }
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2016-02-20",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.6",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/ludo-king.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/ludo-king.html#webpage",
+        "url": "https://now-gg.com/games/ludo-king.html",
+        "name": "Play Ludo King Online Free | now-gg.com",
+        "description": "Play Ludo King free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/ludo-king.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/ludo-king.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/ludo-king.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Ludo King",
+            "item": "https://now-gg.com/games/ludo-king.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/ludo-king.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Ludo King for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Ludo King free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Ludo King work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of Ludo King works on both Android and iOS devices. The touch controls are fully supported and the game runs smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Ludo King unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Ludo King that you can play even on networks where gaming apps are restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who made Ludo King?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ludo King was developed by Gametion Technologies Pvt. Ltd., an Indian game studio based in Navi Mumbai. It launched on February 20, 2016, and became the first Indian app to surpass one billion downloads on Google Play."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many players can play Ludo King?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ludo King supports two to six players in online multiplayer. You can also play locally with friends and family on the same device, or solo against AI opponents."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What happens when you roll a six in Ludo King?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Rolling a six allows you to move a token out of the starting area if you have any remaining there. It also grants you an extra dice roll for that turn. Rolling three sixes in a row sends your current turn's token back to the start."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are there different board themes in Ludo King?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Ludo King features multiple themed boards, including Classic, Nature, Egyptian, Disco, Cake, Candy, and Pinball, among others. Each theme changes the visual style of the board without affecting the rules."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I play Ludo King without internet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Ludo King app supports offline play against AI opponents. The browser version on now-gg requires an internet connection to load but is fully playable once the game is running."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "sudoku": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/sudoku.html#game",
+        "name": "Sudoku",
+        "alternateName": "Sudoku Online",
+        "description": "Play Sudoku free on now-gg. Fill the 9x9 grid so that every row, column, and 3x3 box contains the numbers 1 through 9. One of the most popular free online puzzle games in the world, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/sudoku.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Puzzle",
+          "Logic",
+          "Classic"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Puzzle Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.4",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/sudoku.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/sudoku.html#webpage",
+        "url": "https://now-gg.com/games/sudoku.html",
+        "name": "Play Sudoku Online Free | now-gg.com",
+        "description": "Play Sudoku free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/sudoku.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/sudoku.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/sudoku.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Sudoku",
+            "item": "https://now-gg.com/games/sudoku.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/sudoku.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Sudoku for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Sudoku free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Sudoku work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of Sudoku on now-gg works on both Android and iOS devices. The touch controls are responsive and the game loads smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Sudoku unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Sudoku that you can play even on networks where gaming sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to be good at math to play Sudoku?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Sudoku is a logic puzzle, not a math puzzle. The numbers 1 through 9 are used as symbols. You never need to add, subtract, multiply, or divide anything to solve a puzzle."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I use hints in Sudoku?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Select an empty cell you are unsure about, then press the hint button. The game will reveal the correct number for that cell. Hints are useful when you are stuck, but using fewer hints leads to a more satisfying solve."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Easy, Medium, and Hard Sudoku?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Easy puzzles provide more starting numbers, reducing the number of deductions required. Medium puzzles have fewer givens and need elimination techniques. Hard puzzles provide minimal starting numbers and require advanced logic including candidate tracking across multiple cells."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Sudoku good for the brain?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Regular Sudoku play is widely linked to improvements in concentration, memory, pattern recognition, and logical reasoning. It is a popular mental exercise recommended for players of all ages, including older adults looking to maintain cognitive sharpness."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a Sudoku puzzle take to solve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "An Easy puzzle typically takes a beginner 10 to 20 minutes. A Medium puzzle may take 20 to 40 minutes. A Hard puzzle can take an hour or more, even for experienced players. Speed improves significantly with regular practice."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Block Puzzle Master": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/block-puzzle-master.html#game",
+        "name": "Block Puzzle Master",
+        "alternateName": "Block Puzzle",
+        "description": "Play Block Puzzle Master free on now-gg. Drag and drop colorful blocks onto an 8x8 grid, fill complete rows and columns to clear them, and keep the board open for as long as possible. A satisfying free block puzzle game online for all skill levels, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/block-puzzle-master.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Puzzle",
+          "Casual",
+          "Logic"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Puzzle Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.7",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/block-puzzle-master.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/block-puzzle-master.html#webpage",
+        "url": "https://now-gg.com/games/block-puzzle-master.html",
+        "name": "Play Block Puzzle Master Online Free | now-gg.com",
+        "description": "Play Block Puzzle Master free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/block-puzzle-master.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/block-puzzle-master.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/block-puzzle-master.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Block Puzzle Master",
+            "item": "https://now-gg.com/games/block-puzzle-master.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/block-puzzle-master.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Block Puzzle Master for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Block Puzzle Master free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Block Puzzle Master work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of Block Puzzle Master works on both Android and iOS devices. The drag-and-drop controls are touch-friendly and the game runs smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Block Puzzle Master unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Block Puzzle Master that you can play even on networks where gaming sites are typically restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do combos work in Block Puzzle Master?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A combo is triggered when a single block placement clears more than one row or column at the same time. Clearing two lines at once gives a higher score multiplier than clearing them separately. Building your placements to set up multi-line clears is the main way to achieve high scores."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does Block Puzzle Master end?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The game ends when none of the three available blocks in the current tray can be legally placed anywhere on the 8x8 board. This happens when the board becomes too fragmented, with scattered empty spaces that do not match the shapes of the remaining blocks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Block Puzzle Master suitable for children?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Block Puzzle Master is a calm, non-violent puzzle game suitable for players of all ages. The drag-and-drop mechanics are simple enough for young children to understand, while the strategic depth provides a challenge for adults."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Block Puzzle Master have difficulty levels?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The base mode does not have preset difficulty levels. Difficulty scales naturally as the board fills, creating increasing pressure that challenges players at their own pace. Some versions include an Extreme Mode with time pressure for more advanced players."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best strategy for a high score in Block Puzzle Master?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The highest scores come from combo clears. Focus on building sections of the board where placing one block will clear both a row and a column simultaneously. Keep one or two lanes consistently open for long pieces, and avoid filling corners that are hardest to clear."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Gacha Club": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/gacha-club.html#game",
+        "name": "Gacha Club",
+        "alternateName": "Gacha Club by Lunime",
+        "description": "Play Gacha Club free on now-gg. Design anime characters with an extensive customization system, build story scenes in Studio Mode, battle through RPG missions, and collect over 180 units. The definitive Lunime experience, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/gacha-club.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Role-Playing",
+          "Simulation",
+          "Character Creator"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Role-Playing Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E10+",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Lunime"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "datePublished": "2020-06-30",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/gacha-club.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/gacha-club.html#webpage",
+        "url": "https://now-gg.com/games/gacha-club.html",
+        "name": "Play Gacha Club Online Free | now-gg.com",
+        "description": "Play Gacha Club free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/gacha-club.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/gacha-club.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/gacha-club.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gacha Club",
+            "item": "https://now-gg.com/games/gacha-club.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/gacha-club.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Gacha Club for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Gacha Club free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Gacha Club work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version of Gacha Club works on both Android and iOS devices. Touch controls are fully supported and the game runs smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Club unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Gacha Club that you can access even on networks where app downloads are restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who made Gacha Club?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Club was developed by Lunime, an indie studio led by Luni. It was released in June 2020 and is the most feature-complete entry in the Lunime game series."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many units can I collect in Gacha Club?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Club has over 180 collectible units and more than 150 pets. Units are obtained through the Gacha pull system using gems earned in-game. Each unit has its own element type, skills, and stat profile for use in Battle Mode."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Battle Mode in Gacha Club?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Battle Mode is the RPG component of Gacha Club. It includes four modes: Main Story, which progresses a narrative through battles; Elemental Towers, which pit players against element-specific enemies for rare materials; Shadows of Corruption, a harder challenge mode; and Training, for testing team compositions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Club appropriate for children?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Club is designed for a broad audience and is generally considered family-friendly. Lunime targets a younger demographic and the game focuses on creativity, storytelling, and collection rather than mature themes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Gacha Club and Gacha Life?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Club adds a full RPG Battle Mode, more mini-games, deeper character customization, and a larger unit collection system on top of what Gacha Life offered. It is a significantly larger game, while Gacha Life is simpler and more focused purely on character creation and NPC interactions."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Gacha Life Dress Up": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/gacha-life-dress-up.html#game",
+        "name": "Gacha Life Dress Up",
+        "alternateName": "Gacha Dress Up",
+        "description": "Play Gacha Life Dress Up free on now-gg. Mix and match outfits, hairstyles, accessories, and color palettes to bring your perfect anime character to life. One of the most popular anime dress up games online, playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/gacha-life-dress-up.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Dress-Up",
+          "Casual",
+          "Character Creator"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Dress-Up Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Lunime"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/gacha-life-dress-up.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/gacha-life-dress-up.html#webpage",
+        "url": "https://now-gg.com/games/gacha-life-dress-up.html",
+        "name": "Play Gacha Life Dress Up Online Free | now-gg.com",
+        "description": "Play Gacha Life Dress Up free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/gacha-life-dress-up.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/gacha-life-dress-up.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/gacha-life-dress-up.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gacha Life Dress Up",
+            "item": "https://now-gg.com/games/gacha-life-dress-up.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/gacha-life-dress-up.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I play Gacha Life Dress Up for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can play Gacha Life Dress Up free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Gacha Life Dress Up work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version works on both Android and iOS devices. The touch interface is fully responsive and the game runs smoothly without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life Dress Up unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Gacha Life Dress Up that you can access even on networks where gaming apps or downloads are restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What can I customize in Gacha Life Dress Up?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can customize your character's hairstyle, hair color, eye shape and color, skin tone, tops, bottoms, dresses, shoes, accessories, props, and body proportions. Every item has independent color customization using a full RGB color wheel."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I save my Gacha Life Dress Up characters?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Gacha Life allows you to save your created characters to slots within the game. You can return to them later, load them into Studio Mode for scene creation, or continue editing them."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many outfits are available in Gacha Life Dress Up?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life features hundreds of individual clothing items across categories including tops, bottoms, dresses, and shoes. A 2023 update added a large catalog of items originally introduced in Gacha Club, significantly expanding the available wardrobe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life Dress Up appropriate for kids?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life Dress Up is focused entirely on creative character design and is appropriate for a general audience. It centers on artistic expression and styling with no violent or mature content."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "Gacha Life Maker": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": [
+          "VideoGame",
+          "WebApplication"
+        ],
+        "@id": "https://now-gg.com/games/gacha-life-maker.html#game",
+        "name": "Gacha Life Maker",
+        "alternateName": "Gacha Maker",
+        "description": "Play Gacha Life Maker free on now-gg. Build original anime characters, set up multi-character Studio scenes, and use the Skit Maker to bring your stories to life. The free Gacha character maker and scene creator from Lunime, now playable instantly in your browser with no download needed.",
+        "url": "https://now-gg.com/games/gacha-life-maker.html",
+        "gamePlatform": [
+          "Web Browser",
+          "PC",
+          "Android",
+          "iOS"
+        ],
+        "genre": [
+          "Simulation",
+          "Casual",
+          "Character Creator"
+        ],
+        "applicationCategory": "Game",
+        "applicationSubCategory": "Simulation Game",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires HTML5 browser",
+        "inLanguage": "en-US",
+        "isFamilyFriendly": true,
+        "isAccessibleForFree": true,
+        "contentRating": "E",
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 1
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Lunime"
+        },
+        "publisher": {
+          "@id": "https://now-gg.com/#organization"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "seller": {
+            "@id": "https://now-gg.com/#organization"
+          }
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.3",
+          "ratingCount": "DYNAMIC_RATING_COUNT",
+          "reviewCount": "DYNAMIC_REVIEW_COUNT",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "potentialAction": {
+          "@type": "PlayGameAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://now-gg.com/games/gacha-life-maker.html",
+            "actionPlatform": [
+              "http://schema.org/DesktopWebPlatform",
+              "http://schema.org/MobileWebPlatform"
+            ]
+          }
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://now-gg.com/games/gacha-life-maker.html#webpage",
+        "url": "https://now-gg.com/games/gacha-life-maker.html",
+        "name": "Play Gacha Life Maker Online Free | now-gg.com",
+        "description": "Play Gacha Life Maker free on now-gg.com. No account, no download, and no payment required. Works on mobile and desktop.",
+        "isPartOf": {
+          "@id": "https://now-gg.com/#website"
+        },
+        "breadcrumb": {
+          "@id": "https://now-gg.com/games/gacha-life-maker.html#breadcrumb"
+        },
+        "inLanguage": "en-US",
+        "potentialAction": {
+          "@type": "ReadAction",
+          "target": [
+            "https://now-gg.com/games/gacha-life-maker.html"
+          ]
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://now-gg.com/games/gacha-life-maker.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://now-gg.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Free Browser Games",
+            "item": "https://now-gg.com/games/category/free-browser-games.html"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Gacha Life Maker",
+            "item": "https://now-gg.com/games/gacha-life-maker.html"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://now-gg.com/games/gacha-life-maker.html#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I use Gacha Life Maker for free online?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. You can use Gacha Life Maker free on now-gg directly in your browser. No account, no download, and no payment required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Gacha Life Maker work on mobile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The browser version works on both Android and iOS devices. The touch controls are fully responsive and the experience is smooth without any app install."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life Maker unblocked?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "now-gg offers an unblocked version of Gacha Life Maker that you can access even on networks where gaming apps or downloads are restricted."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is Gacha Life Maker used for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life Maker is used to create original anime characters and build scenes using those characters. The community uses it to produce Gacha Life Mini Movies, music videos, comic-style stories, and character art shared across YouTube and social media platforms."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many characters can I use in a Studio scene?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Studio Mode supports up to eight characters in a single scene. Each character can be independently positioned, scaled, flipped, and posed to create the exact composition you need."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a GLMM in Gacha Life Maker?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "GLMM stands for Gacha Life Mini Movie. It is a video format created by the Gacha community using the Skit Maker and Studio tools to produce short animated stories, usually accompanied by background music and expressive character dialogue."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many backgrounds are available in Gacha Life Maker Studio Mode?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Gacha Life Studio Mode includes over 600 backgrounds covering a wide range of settings including indoors, outdoors, fantasy, school, city, and more. Many can also be customized with foreground props to build more detailed scenes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Gacha Life Maker suitable for beginners?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The character creator uses intuitive category tabs and color wheels that are easy to navigate from the start. Studio Mode and Skit Maker have a gentle learning curve, and the community produces many tutorials for creators who want to build more complex scenes."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

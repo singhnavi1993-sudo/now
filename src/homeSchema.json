@@ -1,0 +1,159 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://now-gg.com/#website",
+      "url": "https://now-gg.com/",
+      "name": "now-gg",
+      "description": "Play free browser games online instantly on now-gg.com. Action, Puzzle, Racing, RPG and more \u2014 no downloads, no installs.",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://now-gg.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://now-gg.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://now-gg.com/#organization",
+      "name": "now-gg",
+      "url": "https://now-gg.com/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://now-gg.com/#webpage",
+      "url": "https://now-gg.com/",
+      "name": "Play Online Games for Free | now-gg.com",
+      "description": "Play free browser games online instantly on now-gg.com. Action, Puzzle, Racing, RPG and more \u2014 no downloads, no installs.",
+      "isPartOf": {
+        "@id": "https://now-gg.com/#website"
+      },
+      "about": {
+        "@id": "https://now-gg.com/#organization"
+      },
+      "breadcrumb": {
+        "@id": "https://now-gg.com/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": [
+          "https://now-gg.com/"
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://now-gg.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://now-gg.com/"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://now-gg.com/#game-categories",
+      "name": "Game Categories",
+      "description": "Browse all free online game categories on now-gg.com",
+      "url": "https://now-gg.com/",
+      "numberOfItems": 14,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Free Browser Games",
+          "item": "https://now-gg.com/games/category/free-browser-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Casual Games",
+          "item": "https://now-gg.com/games/category/casual-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Strategy Games",
+          "item": "https://now-gg.com/games/category/strategy-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Simulation Games",
+          "item": "https://now-gg.com/games/category/simulation-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Role Playing Games",
+          "item": "https://now-gg.com/games/category/role-playing-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Action Games",
+          "item": "https://now-gg.com/games/category/action-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Adventure Games",
+          "item": "https://now-gg.com/games/category/adventure-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Puzzle Games",
+          "item": "https://now-gg.com/games/category/puzzle-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Arcade Games",
+          "item": "https://now-gg.com/games/category/arcade-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Sports Games",
+          "item": "https://now-gg.com/games/category/sports-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Racing Games",
+          "item": "https://now-gg.com/games/category/racing-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Card Games",
+          "item": "https://now-gg.com/games/category/card-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Educational Games",
+          "item": "https://now-gg.com/games/category/educational-games.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Social Games",
+          "item": "https://now-gg.com/games/category/social-games.html"
+        }
+      ]
+    }
+  ]
+}

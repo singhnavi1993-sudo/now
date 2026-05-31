@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { gamesData, categories, browseCategories, categoryPath, gamePath } from './gamesData';
 import GameCard from './GameCard';
+import homeSchema from './homeSchema.json';
 import './App.css';
 
 function normalize(s) {
@@ -146,6 +147,14 @@ function App() {
       true
     );
     setMeta('og:url', 'https://now-gg.com/', true);
+
+    let script = document.querySelector('script[type="application/ld+json"]');
+    if (!script) {
+      script = document.createElement('script');
+      script.setAttribute('type', 'application/ld+json');
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(homeSchema);
   }, []);
 
   return (

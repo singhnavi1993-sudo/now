@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { browseCategories, categoryPath, categorySlug, gamePath, gameSlug, gamesData } from './gamesData';
 import GameCard from './GameCard';
 import gameSeoContent from './gameSeoContent.json';
@@ -162,9 +162,30 @@ export default function GamesPage() {
       setMeta('og:description', 'Browse and play popular online games instantly on now-gg.com/games/.', true);
       setMeta('og:url', canonical.getAttribute('href') || 'https://now-gg.com/games/', true);
     }
+
+    let script = document.querySelector('script[type="application/ld+json"]');
+    if (!script) {
+      script = document.createElement('script');
+      script.setAttribute('type', 'application/ld+json');
+      document.head.appendChild(script);
+    }
+    if (selectedContent && selectedContent.schema) {
+      script.textContent = JSON.stringify(selectedContent.schema);
+    } else {
+      if (script.parentNode) script.parentNode.removeChild(script);
+    }
   }, [pathGameSlug, pathCategorySlug, selectedContent, selectedGame.title, selectedGameSlug]);
 
   const playerSrc = getPlayableSrc(selectedGame) || selectedGame.playUrl || selectedGame.link;
+  const isGachaEmbed = /gacha-life\.io/i.test(playerSrc);
+  const isLudoKing = selectedGameSlug === 'ludo-king';
+  const gachaCropClass = (() => {
+    if (!isGachaEmbed) return '';
+    if (selectedGameSlug === 'gacha-life-2') return 'hero-stage--gacha-life-2';
+    if (selectedGameSlug === 'gacha-club') return 'hero-stage--gacha-club';
+    if (selectedGameSlug === 'gacha-life-maker') return 'hero-stage--gacha-life-maker';
+    return '';
+  })();
 
   useEffect(() => {
     setIsPlayStarted(false);
@@ -207,16 +228,24 @@ export default function GamesPage() {
       <main>
         {pathGameSlug ? (
           <>
-            <section className="hero">
+            <section className={`hero hero--detail ${isGachaEmbed ? 'hero--detail-gacha' : ''}`}>
               <aside className="hot-rail" aria-label="Hot games">
                 {hotRailGames.map((g) => (
                   <a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item"><img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} /></a>
                 ))}
               </aside>
 
-              <div className={`hero-stage ${isPlayStarted ? 'hero-stage--playing' : ''}`}>
+              <div className={`hero-stage ${isPlayStarted ? 'hero-stage--playing' : ''} ${isGachaEmbed ? 'hero-stage--gacha-fix' : ''} ${gachaCropClass}`}>
                 {isPlayStarted ? (
-                  <iframe className="hero-stage__iframe" src={playerSrc} title={`${selectedGame.title} game`} allow="autoplay; fullscreen; gamepad" allowFullScreen />
+                  <iframe
+                    className="hero-stage__iframe"
+                    src={playerSrc}
+                    title={`${selectedGame.title} game`}
+                    allow="autoplay; fullscreen; gamepad"
+                    allowFullScreen
+                    scrolling="no"
+                    sandbox={isLudoKing ? 'allow-scripts allow-same-origin allow-forms allow-pointer-lock' : undefined}
+                  />
                 ) : (
                   <>
                     <img className="hero-stage__bgimg" src={selectedGame.thumbnail} alt="" onError={(e) => onThumbError(e, selectedGame.title)} />
@@ -278,7 +307,16 @@ export default function GamesPage() {
           <>
             <section className="hero">
               <aside className="hot-rail" aria-label="Hot games">{hotRailGames.map((g) => (<a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item"><img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} /></a>))}</aside>
-              <div className="hero-stage hero-stage--playing"><iframe className="hero-stage__iframe" src={playerSrc} title={`${selectedGame.title} game`} allow="autoplay; fullscreen; gamepad" /></div>
+              <div className="hero-stage hero-stage--playing">
+                <iframe
+                  className="hero-stage__iframe"
+                  src={playerSrc}
+                  title={`${selectedGame.title} game`}
+                  allow="autoplay; fullscreen; gamepad"
+                  scrolling="no"
+                  sandbox={isLudoKing ? 'allow-scripts allow-same-origin allow-forms allow-pointer-lock' : undefined}
+                />
+              </div>
             </section>
 
             <section className="games-section">
