@@ -32,7 +32,7 @@ if (redirectToHomePaths.has(path)) {
 
 const isGamesIndexPage = path === '/games' || path === '/games/';
 const isGameDetailPage = /^\/games\/[a-z0-9-]+\.html\/?$/.test(path);
-const isCategoryPage = /^\/games\/category\/[a-z0-9-]+\.html\/?$/.test(path);
+const isCategoryPage = /^\/([a-z0-9-]+)game\.html\/?$/.test(path);
 
 if (isGameDetailPage) {
   const gamePathSlug = path.replace(/^\/games\//, '').replace(/\.html\/?$/, '');
@@ -43,10 +43,11 @@ if (isGameDetailPage) {
 }
 
 if (isCategoryPage) {
-  const categoryPathSlug = path.replace(/^\/games\/category\//, '').replace(/\.html\/?$/, '');
-  const exists = browseCategories.some((name) => categorySlug(name) === categoryPathSlug);
+  const categoryMatch = path.match(/^\/([a-z0-9-]+)game\.html\/?$/);
+  const categoryPathSlug = categoryMatch ? categoryMatch[1] : '';
+  const exists = browseCategories.some((name) => categorySlug(name).replace(/-games$/, '') === categoryPathSlug);
   if (!exists) {
-    window.location.replace('https://now-gg.com/games/');
+    window.location.replace('/games/');
   }
 }
 

@@ -78,7 +78,7 @@ function renderRichLines(lines) {
 export default function GamesPage() {
   const path = window.location.pathname.toLowerCase();
   const gamePathMatch = path.match(/^\/games\/([a-z0-9-]+)\.html\/?$/);
-  const categoryPathMatch = path.match(/^\/games\/category\/([a-z0-9-]+)\.html\/?$/);
+  const categoryPathMatch = path.match(/^\/([a-z0-9-]+)game\.html\/?$/);
 
   const [search, setSearch] = useState('');
   const [moreVisible, setMoreVisible] = useState(16);
@@ -104,7 +104,7 @@ export default function GamesPage() {
 
   const pathGameSlug = gamePathMatch?.[1] || '';
   const pathCategorySlug = categoryPathMatch?.[1] || '';
-  const selectedCategory = browseCategories.find((name) => categorySlug(name) === pathCategorySlug) || null;
+  const selectedCategory = browseCategories.find((name) => categorySlug(name).replace(/-games$/, '') === pathCategorySlug) || null;
   const isCategoryPage = Boolean(selectedCategory);
 
   const selectedGame = gamesData.find((g) => gameSlug(g) === pathGameSlug) || gamesData[0];
@@ -342,31 +342,6 @@ export default function GamesPage() {
           </section>
         ) : (
           <>
-            <section className="hero">
-              <aside className="hot-rail" aria-label="Hot games">{hotRailGames.map((g) => (<a key={`rail-${g.id}`} href={gamePath(g)} className="hot-rail__item"><img src={g.thumbnail} alt={g.title} onError={(e) => onThumbError(e, g.title)} /></a>))}</aside>
-              <div className="hero-stage hero-stage--playing">
-                {isLudoKing ? (
-                  <iframe 
-                    src="https://gamedistribution.com" 
-                    width="100%" 
-                    height="600" 
-                    frameBorder="0" 
-                    scrolling="no" 
-                    allow="autoplay; gamepad; fullscreen" 
-                    allowFullScreen>
-                  </iframe>
-                ) : (
-                <iframe
-                  className="hero-stage__iframe"
-                  src={playerSrc}
-                  title={`${selectedGame.title} game`}
-                  allow="autoplay; fullscreen; gamepad"
-                  scrolling="no"
-                />
-                )}
-              </div>
-            </section>
-
             <section className="games-section">
               <h2>Popular Games</h2>
               <div className="games-grid games-grid--popular">{filteredPopular.map((g) => (<a key={`popular-${g.id}`} className="card-link" href={gamePath(g)}><GameCard game={g} variant="topSquare" hoverRated /></a>))}</div>
@@ -400,7 +375,7 @@ export default function GamesPage() {
       <footer className="games-footer">
         <div className="games-footer__grid">
           <div><a className="games-logo" href="/"><span className="games-logo__wordmark"><span>now</span><strong>-gg</strong></span></a></div>
-          <div><h4>Games</h4><p>Action</p><p>RPG</p><p>Strategy</p><p>Casual</p><p>Puzzle</p><p>Adventure</p><p>Simulation</p></div>
+          <div><h4>Games</h4><p><a href="/games/">All Games</a></p><p><a href={categoryPath('Action')}>Action Games</a></p><p><a href={categoryPath('RPG')}>RPG Games</a></p><p><a href={categoryPath('Strategy')}>Strategy Games</a></p><p><a href={categoryPath('Casual')}>Casual Games</a></p><p><a href={categoryPath('Puzzle')}>Puzzle Games</a></p><p><a href={categoryPath('Adventure')}>Adventure Games</a></p><p><a href={categoryPath('Simulation')}>Simulation Games</a></p></div>
           <div><h4>Company</h4><p style={{ cursor: 'pointer' }} onClick={() => setModalType('about')}>About Us</p><p>News</p><h4>Resources</h4><p>Blog</p><p>Developers</p></div>
           <div><h4>Help &amp; Support</h4><p>Get in Touch</p><p>Help center</p><h4>Social</h4><p>YouTube</p><p>Discord</p></div>
         </div>

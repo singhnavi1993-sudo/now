@@ -472,28 +472,28 @@ function App() {
               <h3>Games</h3>
               <ul>
                 <li>
-                  <a href="#games">All Games</a>
+                  <a href="/games/">All Games</a>
                 </li>
                 <li>
-                  <a href="#categories">Action</a>
+                  <a href={categoryPath('Action')}>Action Games</a>
                 </li>
                 <li>
-                  <a href="#categories">RPG</a>
+                  <a href={categoryPath('RPG')}>RPG Games</a>
                 </li>
                 <li>
-                  <a href="#categories">Strategy</a>
+                  <a href={categoryPath('Strategy')}>Strategy Games</a>
                 </li>
                 <li>
-                  <a href="#categories">Casual</a>
+                  <a href={categoryPath('Casual')}>Casual Games</a>
                 </li>
                 <li>
-                  <a href="#categories">Puzzle</a>
+                  <a href={categoryPath('Puzzle')}>Puzzle Games</a>
                 </li>
                 <li>
-                  <a href="#categories">Adventure</a>
+                  <a href={categoryPath('Adventure')}>Adventure Games</a>
                 </li>
                 <li>
-                  <a href="#categories">Simulation</a>
+                  <a href={categoryPath('Simulation')}>Simulation Games</a>
                 </li>
               </ul>
             </div>
@@ -506,9 +506,7 @@ function App() {
                   </a>
                 </li>
                 <li>
-                  <a href="https://now-gg.com/" target="_blank" rel="noreferrer">
-                    News
-                  </a>
+                  <span>News</span>
                 </li>
               </ul>
             </div>
@@ -516,14 +514,10 @@ function App() {
               <h3>Resources</h3>
               <ul>
                 <li>
-                  <a href="https://now-gg.com/blog.html" target="_blank" rel="noreferrer">
-                    Blog
-                  </a>
+                  <span>Blog</span>
                 </li>
                 <li>
-                  <a href="https://now-gg.com/" target="_blank" rel="noreferrer">
-                    Developers
-                  </a>
+                  <span>Developers</span>
                 </li>
               </ul>
             </div>
@@ -531,14 +525,10 @@ function App() {
               <h3>Help &amp; Support</h3>
               <ul>
                 <li>
-                  <a href="https://now-gg.com/" target="_blank" rel="noreferrer">
-                    Get in Touch
-                  </a>
+                  <span>Get in Touch</span>
                 </li>
                 <li>
-                  <a href="https://now-gg.com/" target="_blank" rel="noreferrer">
-                    Help center
-                  </a>
+                  <span>Help center</span>
                 </li>
               </ul>
               <h3 style={{ marginTop: '20px' }}>Social</h3>

@@ -53,6 +53,7 @@ export const gamesData = [
     link: 'https://slither.io',
     rating: 4.5,
   },
+/*
   {
     id: 4,
     title: 'Gacha Life 2',
@@ -62,6 +63,7 @@ export const gamesData = [
     link: 'https://gacha-life.io/gacha-life-2.embed',
     rating: 4.35,
   },
+*/
   {
     id: 5,
     title: 'Gacha Life',
@@ -385,5 +387,6 @@ export function categorySlug(name) {
 }
 
 export function categoryPath(name) {
-  return `/games/category/${categorySlug(name)}.html`;
+  const base = categorySlug(name).replace(/-games$/, '');
+  return `/${base}game.html`;
 }
