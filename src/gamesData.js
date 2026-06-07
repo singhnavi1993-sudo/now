@@ -1817,7 +1817,7 @@ export const gamesData = [
         }
     ]
   },
-  {
+  /*{
     id: 31,
     title: 'Arrows Puzzle Escape',
     category: ['Puzzle', 'Casual'],
@@ -1825,7 +1825,7 @@ export const gamesData = [
     thumbnail: 'https://img.gamedistribution.com/d41e8014aea74629934290991b008c7a-512x512.jpg',
     link: 'https://html5.gamedistribution.com/d41e8014aea74629934290991b008c7a/',
     rating: 4.3,
-  },
+  },*/
   {
     id: 32,
     title: 'Office Solitaire',
