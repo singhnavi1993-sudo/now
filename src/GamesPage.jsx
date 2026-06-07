@@ -67,7 +67,14 @@ function getPlayableSrc(game) {
 }
 
 function renderRichLines(lines) {
-  return (lines || []).map((line, idx) => {
+  return (lines || []).map((lineObj, idx) => {
+    const line = typeof lineObj === 'object' ? lineObj.content : lineObj;
+    if (!line) return null;
+    
+    if (typeof lineObj === 'object') {
+      return <div key={`rich-${idx}`} dangerouslySetInnerHTML={{ __html: line }} />;
+    }
+
     if (line.startsWith('<H2>')) return <h2 key={`h2-${idx}`}>{line.replace('<H2>', '').trim()}</h2>;
     if (line.startsWith('<H3>')) return <h3 key={`h3-${idx}`}>{line.replace('<H3>', '').trim()}</h3>;
     if (line.startsWith('* ')) return <p key={`li-${idx}`}>{line.slice(2)}</p>;
@@ -212,12 +219,21 @@ export default function GamesPage() {
   const handlePlayInBrowser = () => setIsPlayStarted(true);
 
   const renderModalBody = () => {
-    if (!selectedContent) return null;
-    if (modalType === 'readmore') return <>{renderRichLines(selectedContent.readMore)}</>;
+    const readMoreData = selectedContent?.readMore || selectedGame?.readMore;
+    const faqsData = selectedContent?.faqs || selectedGame?.faqs;
+
+    if (!readMoreData && !faqsData && !selectedContent) return null;
+
+    if (modalType === 'readmore') return <>{renderRichLines(readMoreData)}</>;
+    
     if (modalType === 'faqs') {
-      const faqLines = selectedContent.faqs || [];
+      const faqLines = faqsData || [];
       const pairs = [];
-      for (let i = 0; i < faqLines.length; i += 2) pairs.push([faqLines[i], faqLines[i + 1] || '']);
+      if (faqLines.length > 0 && typeof faqLines[0] === 'object' && faqLines[0].question) {
+        faqLines.forEach(f => pairs.push([f.question, f.answer]));
+      } else {
+        for (let i = 0; i < faqLines.length; i += 2) pairs.push([faqLines[i], faqLines[i + 1] || '']);
+      }
       return (
         <>
           <h2>FAQs</h2>
@@ -293,13 +309,13 @@ export default function GamesPage() {
                       <p><strong>{Number(selectedGame.rating || 4.5).toFixed(1)}</strong> {' | '} {selectedContent?.subtitle || selectedGame.category?.join(' | ') || 'Online Game'}</p>
                       <button type="button" className="hero-card__cta" onClick={handlePlayInBrowser}>Play in browser</button>
                     </div>
-                    {selectedContent ? (
+                    {(selectedContent || selectedGame.readMore || selectedGame.faqs) ? (
                       <div className="hero-stage__details">
-                        <h2>{selectedContent.summaryTitle || `Play ${selectedGame.title} Online in Browser`}</h2>
-                        <p>{selectedContent.summary || `Play ${selectedGame.title} online instantly in your browser.`}</p>
+                        <h2>{selectedContent?.summaryTitle || `Play ${selectedGame.title} Online in Browser`}</h2>
+                        <p>{selectedContent?.summary || `Play ${selectedGame.title} online instantly in your browser.`}</p>
                         <div className="fnaf-content__links">
-                          <button type="button" onClick={() => setModalType('readmore')}>READ MORE</button>
-                          <button type="button" onClick={() => setModalType('faqs')}>FAQS</button>
+                          {(selectedContent?.readMore || selectedGame.readMore) && <button type="button" onClick={() => setModalType('readmore')}>READ MORE</button>}
+                          {(selectedContent?.faqs || selectedGame.faqs) && <button type="button" onClick={() => setModalType('faqs')}>FAQS</button>}
                         </div>
                       </div>
                     ) : null}
