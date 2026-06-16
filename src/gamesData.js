@@ -85,15 +85,15 @@ export const gamesData = [
     ],
     faqs: []
   },
-  {
-    id: 3,
-    title: 'Slither',
-    category: ['Trending', 'Casual'],
-    slug: 'slither',
-    thumbnail: 'https://slither.io/s/favicon.png',
-    link: 'https://slither.io',
-    rating: 4.5,
-  },
+//   {
+//     id: 3,
+//     title: 'Slither',
+//     category: ['Trending', 'Casual'],
+//     slug: 'slither',
+//     thumbnail: 'https://slither.io/s/favicon.png',
+//     link: 'https://slither.io',
+//     rating: 4.5,
+//   },
 /*
   {
     id: 4,
@@ -1081,7 +1081,7 @@ export const gamesData = [
     category: ['Puzzle', 'Educational'],
     slug: 'words-of-wonders',
     thumbnail: 'https://play-lh.googleusercontent.com/gCzE3aroITpVUkpL4fFBLfeL6-x3kU8_PY2Sa4ae6c3hk7WpiD4i6Az6O2zlOtYN8Wg',
-    link: 'https://play.famobi.com/words-of-wonders',
+    link: 'https://games.cdn.famobi.com/html5games/w/words-of-wonders/v050/?fg_domain=play.famobi.com&fg_aid=A1000-111&fg_uid=909e737d-670d-4a40-be08-73165d13351d&fg_pid=e37ab3ce-88cd-4438-9b9c-a37df5d33736&fg_beat=607&original_ref=https%3A%2F%2Fplay.famobi.com%2Fhtml5game%2F909e737d-670d-4a40-be08-73165d13351d%2FA1000-1',
     rating: 4.4,
     readMore: [
         {
@@ -1152,1146 +1152,1146 @@ export const gamesData = [
         }
     ]
   },
-  {
-    id: 22,
-    title: 'Fireboy & Watergirl 7: and Friends',
-    category: ['Adventure', 'Puzzle'],
-    slug: 'fireboy-watergirl-7-and-friends',
-    thumbnail: 'https://img.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e/',
-    rating: 4.5,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Fireboy and Watergirl 7 And Friends</h2>\nFireboy and Watergirl 7 And Friends is a cooperative puzzle platformer developed by Oslo Albet, the creator behind the entire Fireboy and Watergirl series. Released in early 2026 as the seventh installment, it expands on the formula of every previous game by introducing three new playable companions alongside the classic elemental duo. Each companion brings a distinct ability that changes how players approach obstacles throughout the te"
-        },
-        {
-            "type": "p",
-            "content": "The game features 36 chambers built around five-character coordination. The Big Friend uses weight to tilt beams and press heavy switches. The Small Friend fits through narrow passages that Fireboy and Watergirl cannot enter. The Hairy Friend reaches platforms with exceptional jump height. Levels are designed so that no single character can solve everything alone. Players can tackle every puzzle solo by switching between characters, or share a keyboard with a friend for a full two-player cooperative experience."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Fireboy and Watergirl 7 And Friends Online</h2>\nPlay Fireboy and Watergirl 7 And Friends online on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nGuide all active characters to the exit doors in each chamber. Collect red, blue, and white diamonds to maximize your score. Every character must survive for the level to be cle"
-        },
-        {
-            "type": "h3",
-            "content": "KEY FEATURES</h3>\n<ul><li>Five Playable Characters: Control Fireboy, Watergirl, and three friends with unique abilities across every level.</li>\n<li>36 Temple Chambers: Progress through increasingly complex puzzles featuring lava, water, toxic sludge, moving platforms, tilting beams, levers, and narrow tunnels.</li>\n<li>Solo or Co-op Play: Switch between all five characters yourself, or share the keyboard with a friend for true two-player co-op.</li>\n<li>Diamond Collection: Gather red, blue, and white diamonds in each level to build your total score.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Fireboy: Arrow keys to move and jump.</li>\n<li>Watergirl: W, A, S, D keys to move and jump.</li>\n<li>The Friends: G, Y, and J keys to control the three companions.</li>\n<li>Mobile: Tap the colored arrows at the bottom of the screen to switch between and control characters.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Plan all characters before moving any: Look at the full chamber layout and identify which friend is needed for each obstacle before making your first move. Acting without a plan almost always forces a restart.</li>\n<li>Use the Big Friend for beam puzzles early: Tilting beams often need to be set to a specific angle before other characters cross. Position the Big Friend on the correct side of a beam first, then move the lighter characters over.</li>\n<li>Keep the Hairy Friend off lava at all costs: The three friends cannot survive lava contact. Route the Hairy Friend through elevated paths whenever possible, as its high jump makes reaching upper platforms natural.</li>\n<li>Switch characters in the correct order: When multiple characters need to cross the same section, send the one with the least movement freedom first. Leaving a character stuck with no valid moves is the most common way to need a restart.</li>\n<li>Use diamonds as breadcrumbs: In chambers with branching paths, collect diamonds as you move. If a path has no diamonds, it is likely a dead end or not the intended route for that character.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Fireboy and Watergirl 7 and Friends for free online?",
-            "answer": "Yes. You can play Fireboy and Watergirl 7 And Friends free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Fireboy and Watergirl 7 And Friends work on mobile?",
-            "answer": "Yes. The browser version works on both Android and iOS devices. Touch controls use on-screen colored arrows to switch between and move each character."
-        },
-        {
-            "question": "Is Fireboy and Watergirl 7 And Friends unblocked?",
-            "answer": "now-gg offers an unblocked version of Fireboy and Watergirl 7 and Friends that you can access even on networks where app downloads or gaming sites are restricted."
-        },
-        {
-            "question": "Who made Fireboy and Watergirl 7 And Friends?",
-            "answer": "Fireboy and Watergirl 7 and Friends was developed by Oslo Albet, the indie developer behind the entire Fireboy and Watergirl series. It was released in early 2026 as the seventh game in the series."
-        },
-        {
-            "question": "How many characters can I control in Fireboy and Watergirl 7?",
-            "answer": "You can control five characters: Fireboy, Watergirl, the Big Friend, the Small Friend, and the Hairy Friend. Each has a unique ability that is required to solve specific puzzles throughout the 36 chambers."
-        },
-        {
-            "question": "Can I play Fireboy and Watergirl 7 and Friends solo?",
-            "answer": "Yes. The game is fully playable alone. You switch between characters using keyboard shortcuts and solve each puzzle by managing all five yourself. The two-player mode lets a second person share the keyboard and control specific characters."
-        },
-        {
-            "question": "What do the three friends do in Fireboy and Watergirl 7?",
-            "answer": "The Big Friend is heavy and can tilt beams and press weight-sensitive switches. The Small Friend fits through narrow passages that Fireboy and Watergirl cannot enter. The Hairy Friend is lightweight and jumps exceptionally high, reaching platforms no other character can access."
-        },
-        {
-            "question": "Is Fireboy and Watergirl 7 And Friends suitable for kids?",
-            "answer": "Yes. The game is family-friendly and built around puzzle solving and cooperation rather than combat or mature themes. It is well-suited for children playing solo or together with a parent or sibling."
-        }
-    ]
-  },
-  {
-    id: 23,
-    title: 'Snake Go - Escape Puzzle',
-    category: ['Puzzle', 'Casual'],
-    slug: 'snake-go-escape-puzzle',
-    thumbnail: 'https://img.gamedistribution.com/73d8b722929e42d192795617dc4dd372-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/73d8b722929e42d192795617dc4dd372/',
-    rating: 4.4,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Snake Go Escape Puzzle</h2>\nSnake Go Escape Puzzle is a logic puzzle game developed by Skylink Studio. Available on iOS and Android and playable on now-gg in your browser, the game reimagines the classic snake concept as a grid-based escape puzzle. Rather than controlling a growing snake in real time, players slide pre-placed snakes through gridded paths and work out the correct sequence of moves to reach the exit without trapping any p"
-        },
-        {
-            "type": "p",
-            "content": "The game is designed to be relaxing but progressively challenging. There are no timers and no penalties for wrong moves, which makes it a stress-free logic experience. As levels advance, grids become more intricate, snakes grow longer, and the correct move order becomes less obvious. The result is a puzzle game that rewards careful planning over quick reflexes."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Snake Go Escape Puzzle Online</h2>\nPlay Snake Go Escape Puzzle online on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nMove each snake through the grid so that every snake reaches the exit point without getting blocked. The puzzle is solved when all snakes have escaped the "
-        },
-        {
-            "type": "h3",
-            "content": "HOW IT WORKS</h3>\n<ul><li>Select a Snake: Tap or click a snake to select it.</li>\n<li>Slide to Move: Swipe or drag in the direction you want the snake to move. The entire snake body shifts as one unit.</li>\n<li>Plan the Order: Moving one snake changes the available space for others. You must slide snakes in the right sequence to open a path to the exit.</li>\n<li>No Time Pressure: There are no timers. Take as long as needed to think through each solution.</li>\n<li>Hints: If you get stuck, the hint system reveals the correct next move.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse: Click a snake to select it, then drag in the desired direction to move it.</li>\n<li>Touch: Tap a snake to select it, then swipe in the desired direction.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Identify the exit path first: Before moving anything, trace which snake is closest to the exit and what is blocking it. Work backward from there to determine the order of moves.</li>\n<li>Move blockers before leaders: The snake closest to the exit usually cannot move until the snakes in front of it are cleared. Start with the snakes furthest from the exit and work inward.</li>\n<li>Think in sequences, not single moves: Each slide you make changes the grid state. Ask yourself what the board looks like after each move, not just whether the current move is valid.</li>\n<li>Longer snakes have fewer valid directions: A long snake takes up more cells and can only slide in limited directions without colliding with walls. Plan for long snakes first since they are the hardest to route.</li>\n<li>Restart without hesitation: Since there is no penalty for restarting, use it freely. Resetting after two or three bad moves is faster than trying to untangle a deadlocked grid.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Snake Go Escape Puzzle for free online?",
-            "answer": "Yes. You can play Snake Go Escape Puzzle free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Snake Go Escape Puzzle work on mobile?",
-            "answer": "Yes. The browser version works on both Android and iOS devices. Touch controls let you tap to select snakes and swipe to slide them through the grid."
-        },
-        {
-            "question": "Is Snake Go Escape Puzzle unblocked?",
-            "answer": "now-gg offers an unblocked version of Snake Go Escape Puzzle that you can access even on networks where gaming apps or downloads are restricted."
-        },
-        {
-            "question": "Who developed Snake Go Escape Puzzle?",
-            "answer": "Snake Go Escape Puzzle was developed by Skylink Studio. The game is available natively on iOS and Android, and is playable in the browser on now-gg with no installation required."
-        },
-        {
-            "question": "Is there a time limit in Snake Go Escape Puzzle?",
-            "answer": "No. Snake Go Escape Puzzle has no timers. You can take as long as you need to work out the solution to each level, making it a relaxed, pressure-free logic experience."
-        },
-        {
-            "question": "How do hints work in Snake Go Escape Puzzle?",
-            "answer": "The hint system reveals the correct next move when you are stuck. Activating a hint shows you which snake to move and in which direction without giving away the full solution, so you still work through the rest of the puzzle yourself."
-        },
-        {
-            "question": "What makes Snake Go Escape Puzzle different from classic snake games?",
-            "answer": "Classic snake games are real-time action games where a growing snake must avoid obstacles. Snake Go Escape Puzzle is a turn-based logic game. You slide pre-placed snakes through a grid in a specific order to reach the exit, with no reflexes required."
-        },
-        {
-            "question": "Is Snake Go Escape Puzzle suitable for children?",
-            "answer": "Yes. The game is non-violent, pressure-free, and built around logical thinking. The intuitive tap-and-swipe controls and calm visual design make it accessible for players of all ages, including younger children."
-        }
-    ]
-  },
-  {
-    id: 24,
-    title: 'Football Legends 2026',
-    category: ['Sports', 'Action'],
-    slug: 'football-legends-2026',
-    thumbnail: 'https://img.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/',
-    rating: 4.6,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Football Legends 2026</h2>\nFootball Legends 2026 is an arcade football game developed by MadPuffers, the studio behind the long-running Football Legends series. Released in February 2026, it features 24 international clubs and a roster of superstar-inspired players including Ronaldo, Messi, Mbappe, Haaland, and Bellingham. Each player carries distinct physical traits such as different jump heights, shot speeds, and movement weights, giving every matchup a genuine tactical dimension before a ball is ki"
-        },
-        {
-            "type": "p",
-            "content": "The game strips away simulation systems entirely and focuses on short, high-energy matches decided by timing, positioning, and two special abilities per player. The Fireball supershot produces an unstoppable strike when charged correctly. The Teleport ability moves the player instantly across the field to intercept or attack. Both can swing a match in seconds, which keeps every game unpredictable through the final moment. Matches are playable in solo tournament mode or head-to-head with a friend on the same device."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Football Legends 2026 Online</h2>\nPlay Football Legends 2026 online on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nScore more goals than your opponent before time runs out. Use movement, jumps, and special abilities to create and convert scoring opportunities while shutting down what the opponent atte"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Player 1: Arrow keys to move and jump. L to shoot or use ability.</li>\n<li>Player 2: W, A, S, D to move and jump. X to shoot or use ability.</li>\n<li>Mobile: On-screen touch buttons replace keyboard controls for movement, jumping, and shooting.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "GAME MODES</h3>\n<ul><li>1v1 Match: Single player versus AI or two players on the same device competing head-to-head.</li>\n<li>2v2 Match: Two-versus-two matches with each team sharing control of two players.</li>\n<li>Tournament: Progress through a bracket of AI opponents across multiple rounds to become champion.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Hold your supershot for the right moment: The Fireball ability needs a moment to charge. Do not use it as a panic shot. Use it when you have clear positioning and the goalkeeper is out of position.</li>\n<li>Use Teleport defensively: Most players instinctively use Teleport to chase the ball forward. Teleporting back into a defensive position when the opponent controls the ball disrupts their attack more effectively.</li>\n<li>Learn each player body: Heavier players like Haaland win physical duels near the goal but are slower to reposition. Lighter players like Mbappe recover faster. Match your playstyle to your player's movement profile.</li>\n<li>Jump over shots, not into them: Jumping at the wrong moment leaves your goal exposed. Use jumping primarily for headers and aerial duels rather than as a blocking reflex on ground shots.</li>\n<li>Stay central in 2v2: In 2v2 matches, keeping one player near the center of the field while the other pressures the ball creates both a defensive cover and a quick outlet for counterattacks.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Football Legends 2026 for free online?",
-            "answer": "Yes. You can play Football Legends 2026 free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Football Legends 2026 work on mobile?",
-            "answer": "Yes. The browser version of Football Legends 2026 works on both Android and iOS devices. On-screen touch buttons handle all movement and shooting inputs."
-        },
-        {
-            "question": "Is Football Legends 2026 unblocked?",
-            "answer": "now-gg offers an unblocked version of Football Legends 2026 that you can play even on networks where gaming sites are typically restricted."
-        },
-        {
-            "question": "Who made Football Legends 2026?",
-            "answer": "Football Legends 2026 was developed by MadPuffers, a game studio known for browser-based arcade sports games. It was released in February 2026 as the latest entry in the Football Legends series."
-        },
-        {
-            "question": "How many clubs are in Football Legends 2026?",
-            "answer": "Football Legends 2026 features 24 international football clubs, each represented by two players with distinct movement and ability profiles. Each player has a unique supershot and special skill."
-        },
-        {
-            "question": "Can I play Football Legends 2026 with a friend?",
-            "answer": "Yes. The game supports local two-player matches on the same device. One player uses the arrow keys and the other uses W, A, S, D. The 2v2 mode is also available for four-player sessions on a shared keyboard."
-        },
-        {
-            "question": "What is the Fireball ability in Football Legends 2026?",
-            "answer": "The Fireball is a charged supershot that produces a powerful, fast strike. When timed correctly, it is difficult for the opposing player to stop. It requires a brief charge time, so positioning and timing before releasing it are critical."
-        },
-        {
-            "question": "Is Football Legends 2026 a realistic football simulation?",
-            "answer": "No. Football Legends 2026 is an arcade game, not a simulation. It prioritizes fast, exaggerated action and special abilities over realistic physics. It is designed for quick sessions and casual to competitive head-to-head play rather than tactical realism."
-        }
-    ]
-  },
-  {
-    id: 25,
-    title: 'Grand Mahjong Connect',
-    category: ['Puzzle', 'Casual'],
-    slug: 'grand-mahjong-connect',
-    thumbnail: 'https://img.gamedistribution.com/92211d47448849d189bbc32d0d4d8f6f-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/92211d47448849d189bbc32d0d4d8f6f/',
-    rating: 4.4,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Grand Mahjong Connect</h2>\nGrand Mahjong Connect is a tile-matching puzzle game that combines classic mahjong aesthetics with a triple-match mechanic. Unlike traditional mahjong solitaire, where players remove pairs of identical tiles, Grand Mahjong Connect uses a collection bar system. Players tap tiles from the board, which move into a limited-space holding bar, and matches are triggered when three identical tiles collect in that bar at the same "
-        },
-        {
-            "type": "p",
-            "content": "The core tension of the game comes from managing the collection bar. It holds only a fixed number of tiles, and filling it completely without completing a triple match ends the game. Players must think carefully about which tiles to pick up and in what order, balancing the need to clear tiles quickly against the risk of locking up the bar with unmatched pieces. The result is a relaxed but strategically demanding puzzle experience."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Grand Mahjong Connect Online</h2>\nPlay Grand Mahjong Connect online on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nClear all tiles from the board by collecting them into the bar and matching three of a kind. Complete every level before the collection bar runs out of s"
-        },
-        {
-            "type": "h3",
-            "content": "HOW IT WORKS</h3>\n<ul><li>Tap Tiles to Collect: Tap any accessible tile on the board to move it into the collection bar at the bottom of the screen.</li>\n<li>Match Three: When three identical tiles appear in the collection bar, they automatically clear and award points.</li>\n<li>Manage the Bar: The bar has limited slots. If it fills completely without a match being completed, the game ends.</li>\n<li>Clear the Board: Continue selecting tiles strategically until all tiles are removed to complete the level.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap any tile on the board to select it and send it to the collection bar.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Prioritize tiles you already have two of: If you have two copies of a tile in your bar, finding and selecting the third immediately clears all three and frees up bar space. Keep track of what pairs you are holding.</li>\n<li>Never fill the bar with five different tiles: A bar full of five unmatched tile types is almost always a losing position. When the bar is close to full, only select tiles that match something already in it.</li>\n<li>Clear stacked tiles from the top: Tiles sitting on top of others block the tiles beneath them. Systematically working from the top of stacks downward opens up more accessible pieces as the board clears.</li>\n<li>Group tiles visually before picking: Before tapping anything, scan the board for clusters of tiles that share the same symbol. Knowing where your threes are located lets you sequence picks without wasting bar slots.</li>\n<li>Leave easy matches for emergencies: If you spot a triplet that is easy to collect, resist collecting it immediately. It is a guaranteed bar clear you can use later if the bar gets dangerously full.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Grand Mahjong Connect for free online?",
-            "answer": "Yes. You can play Grand Mahjong Connect free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Grand Mahjong Connect work on mobile?",
-            "answer": "Yes. The browser version of Grand Mahjong Connect works on both Android and iOS devices. Touch controls are responsive, and the tile-tap mechanic works naturally on mobile screens."
-        },
-        {
-            "question": "Is Grand Mahjong Connect unblocked?",
-            "answer": "now-gg offers an unblocked version of Grand Mahjong Connect that you can access even on networks where gaming sites are typically restricted."
-        },
-        {
-            "question": "How is Grand Mahjong Connect different from classic mahjong solitaire?",
-            "answer": "Classic mahjong solitaire removes pairs of tiles directly from the board. Grand Mahjong Connect uses a collection bar where tiles accumulate until three identical ones are present, at which point they clear. Managing the bar without filling it is the central challenge, which makes it a distinct game despite sharing the same tile set."
-        },
-        {
-            "question": "What happens if the collection bar fills up?",
-            "answer": "If the collection bar fills completely without a triple match being completed, the game ends. Keeping bar slots available by completing matches frequently is the main survival mechanic in Grand Mahjong Connect."
-        },
-        {
-            "question": "Are there different levels in Grand Mahjong Connect?",
-            "answer": "Yes. Grand Mahjong Connect features multiple levels with different board layouts. Each level varies the arrangement and density of tiles, increasing difficulty as you progress through the game."
-        },
-        {
-            "question": "Do I need to know how to play traditional mahjong to enjoy Grand Mahjong Connect?",
-            "answer": "No. Grand Mahjong Connect uses the visual style of mahjong tiles but plays entirely differently from the traditional game. No knowledge of mahjong rules is required. The only rule that matters is matching three identical tiles before the bar fills."
-        },
-        {
-            "question": "Is Grand Mahjong Connect suitable for all ages?",
-            "answer": "Yes. Grand Mahjong Connect is a calm, non-violent puzzle game with no time pressure in most modes. It is suitable for players of all ages and is particularly popular as a relaxing logic game for adults and older children."
-        }
-    ]
-  },
-  {
-    id: 26,
-    title: 'Ninja Survivor',
-    category: ['Action', 'Adventure'],
-    slug: 'ninja-survivor',
-    thumbnail: 'https://img.gamedistribution.com/6ff158a48fed4f3aa40877422662a71a-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/6ff158a48fed4f3aa40877422662a71a/',
-    rating: 4.5,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Ninja Survivor</h2>\nNinja Survivor is a 3D action survival game where players control a ninja through a series of increasingly dangerous levels filled with enemy waves, mechanical traps, environmental hazards, and boss encounters. The game blends fast movement mechanics with an upgrade system that lets players grow stronger across each run, unlocking new weapons and cosmetic skins as they prog"
-        },
-        {
-            "type": "p",
-            "content": "Each level challenges players to stay alive while dealing with multiple threat types simultaneously. Zombie enemies patrol fixed routes and respond to the player entering their range. Traps operate on timers or pressure triggers. Bosses appear at specific level thresholds and require both mobility and sustained damage output to defeat. The upgrade system rewards consistent play, making each session meaningfully better than the last even when an early run ends quickly."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Ninja Survivor Online</h2>\nPlay Ninja Survivor online on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nSurvive every wave of enemies in each level, defeat bosses, and reach the exit. Collect upgrades and weapons along the way to handle the increasing difficulty of later st"
-        },
-        {
-            "type": "h3",
-            "content": "KEY FEATURES</h3>\n<ul><li>3D Level Design: Navigate visually distinct environments with multiple layers, vertical platforming sections, and area-specific hazards.</li>\n<li>Enemy Waves: Face escalating waves of zombie enemies with varied behaviors and movement speeds.</li>\n<li>Boss Encounters: Defeat powerful boss characters at key level thresholds that require specific tactics to overcome.</li>\n<li>Upgrade System: Spend collected resources on weapon upgrades, damage boosts, and defensive improvements between levels.</li>\n<li>Skins: Unlock cosmetic skins that change the visual appearance of your ninja character.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Move: WASD keys to move the character.</li>\n<li>Mobile: Swipe on the screen to control movement direction.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Keep moving at all times: Standing still in Ninja Survivor is the fastest way to take damage. Constant movement forces enemies to chase you and reduces how often you walk into trap trigger zones.</li>\n<li>Clear traps before engaging enemies: When entering a new section, identify the active traps first and time your movement around them before pulling enemy attention. Fighting enemies in an active trap zone splits your attention and leads to avoidable damage.</li>\n<li>Prioritize damage upgrades early: Killing enemies faster reduces the time you spend exposed to their attacks. Early damage investment pays dividends across every subsequent level by shortening engagements.</li>\n<li>Study boss attack patterns before committing: Each boss has a telegraphed attack sequence. Spend the first phase observing the pattern before pushing aggressive damage. Learning when the safe windows are prevents unnecessary health loss.</li>\n<li>Use environmental geometry for cover: Walls, pillars, and platforms break enemy line of sight and block projectile paths. Routing enemies around obstacles forces them into a single file, which is far easier to manage than an open surround.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Ninja Survivor for free online?",
-            "answer": "Yes. You can play Ninja Survivor free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Ninja Survivor work on mobile?",
-            "answer": "Yes. Ninja Survivor is playable on both Android and iOS mobile browsers. Swipe controls replace keyboard input for movement, and the game runs smoothly without any app install."
-        },
-        {
-            "question": "Is Ninja Survivor unblocked?",
-            "answer": "now-gg provides an unblocked version of Ninja Survivor that you can play even on networks where gaming sites are typically restricted."
-        },
-        {
-            "question": "What types of enemies appear in Ninja Survivor?",
-            "answer": "Ninja Survivor features zombie-type enemies with varied patrol behaviors and attack speeds, as well as powerful boss characters that appear at designated level milestones. Boss enemies have significantly more health and require specific movement and attack timing to defeat safely."
-        },
-        {
-            "question": "Can I upgrade my ninja in Ninja Survivor?",
-            "answer": "Yes. Ninja Survivor includes an upgrade system that lets you improve weapon damage, attack speed, and defensive stats using resources collected during gameplay. You can also unlock new weapons and cosmetic skins for your character as you progress."
-        },
-        {
-            "question": "Is Ninja Survivor a roguelike game?",
-            "answer": "Ninja Survivor shares elements with the survival genre, including wave-based enemies and progressive upgrades, but it follows a level structure rather than the fully randomized run format typical of roguelikes. Each level is a designed challenge rather than a procedurally generated one."
-        },
-        {
-            "question": "How many levels does Ninja Survivor have?",
-            "answer": "Ninja Survivor features multiple levels across colorful 3D environments, with boss encounters at key intervals. The difficulty increases progressively as you advance through the level sequence."
-        },
-        {
-            "question": "Is Ninja Survivor suitable for younger players?",
-            "answer": "Ninja Survivor involves combat with zombie enemies but presents it in a stylized, non-graphic way with no blood or realistic violence. It is generally suitable for older children and teens who enjoy action and survival games."
-        }
-    ]
-  },
-  {
-    id: 27,
-    title: 'Artillery Vs Tanks',
-    category: ['Action', 'Strategy'],
-    slug: 'artillery-vs-tanks',
-    thumbnail: 'https://img.gamedistribution.com/8c85fb2b116f4299927e33071c852847-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/8c85fb2b116f4299927e33071c852847/',
-    rating: 4.4,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Artillery Vs Tanks</h2>\nArtillery Vs Tanks is a first-person artillery defense game developed by razrob. Released in April 2025, the game puts players behind a single howitzer gun tasked with stopping waves of enemy armor before any tank reaches the defensive line. The core gameplay is built around precision aiming, reload management, and a persistent upgrade system that rewards sustained performance across w"
-        },
-        {
-            "type": "p",
-            "content": "Unlike broad war simulators, Artillery Vs Tanks keeps the scope tight. One gun, one angle, incoming waves. The satisfaction comes from the interplay between targeting precision and upgrade decisions. Some tanks carry heavy armor that deflects shots unless aimed at vulnerable points like the turret or tracks. Destroying tanks consistently earns money that can be spent between waves on reload speed, accuracy improvements, damage upgrades, or entirely new artillery pieces with better base stats."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Artillery Vs Tanks Online</h2>\nPlay Artillery Vs Tanks online on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nDestroy every enemy tank in each wave before any of them reach your position. Earn money per kill, upgrade your artillery between waves, and survive as long as possible against increasingly armored and numerous ene"
-        },
-        {
-            "type": "h3",
-            "content": "HOW IT WORKS</h3>\n<ul><li>Aim: Move the mouse on desktop or swipe on mobile to control the scope and track incoming tanks.</li>\n<li>Zoom: Press F on desktop or tap the zoom button on mobile to magnify the view for long-range precision shots.</li>\n<li>Fire: Press Space on desktop or tap the fire button on mobile to shoot. A radial reload timer shows when the gun is ready again.</li>\n<li>Earn and Upgrade: Each destroyed tank drops money. Spend it between waves on reload speed, damage, accuracy, or new artillery units.</li>\n<li>Aim for weak points: Heavily armored tanks may deflect standard shots. Target the turret or tracks to trigger detonations or disable movement.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Aim: Mouse movement on desktop. Swipe on mobile.</li>\n<li>Zoom: F key on desktop. Zoom button on mobile.</li>\n<li>Fire: Space bar on desktop. Fire button on mobile.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Lead fast-moving tanks: Tanks in later waves move quickly. Aim slightly ahead of the direction of travel so the shell arrives where the tank will be, not where it is when you fire.</li>\n<li>Upgrade reload speed first: Damage matters less if you cannot fire fast enough to stop multiple tanks arriving at once. Getting reload speed to a comfortable level early prevents situations where you are watching tanks advance with an empty gun.</li>\n<li>Target armored tanks before lightly armored ones: Prioritize the tanks that require more shots to destroy. Light tanks can be eliminated in a single well-placed shot at any time. Heavy tanks left unaddressed while you clear weaker targets will reach your line.</li>\n<li>Use the zoom for distant targets only: Zooming in narrows your field of view. At close range, it is faster and more effective to aim without zoom. Reserve the scope for targets still far out on the horizon where precision matters more.</li>\n<li>Reinvest all earnings between waves: Never hold money. Each wave is harder than the last, and arriving at it with unspent upgrade currency means you fought the previous wave at a lower power level than you could have.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Artillery Vs Tanks for free online?",
-            "answer": "Yes. You can play Artillery Vs Tanks free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Artillery Vs Tanks work on mobile?",
-            "answer": "Yes. Artillery Vs Tanks is playable on mobile browsers for both Android and iOS. Swipe controls replace the mouse for aiming, and on-screen buttons handle zooming and firing."
-        },
-        {
-            "question": "Is Artillery Vs Tanks unblocked?",
-            "answer": "now-gg provides an unblocked version of Artillery Vs Tanks that you can play even on networks where gaming sites are typically restricted."
-        },
-        {
-            "question": "Who developed Artillery Vs Tanks?",
-            "answer": "Artillery Vs Tanks was developed by razrob, an indie game developer. The game was released in April 2025 and is available on multiple browser game platforms."
-        },
-        {
-            "question": "What weapons can I unlock in Artillery Vs Tanks?",
-            "answer": "The game features multiple artillery units with progressively better base stats. You start with a standard howitzer and can purchase more powerful artillery pieces using money earned from destroying enemy tanks. Each unit improves core stats like damage, range, and reload speed."
-        },
-        {
-            "question": "What are the weak points on armored tanks in Artillery Vs Tanks?",
-            "answer": "Heavily armored tanks can deflect shots that hit their main body. Targeting the turret triggers an ammo detonation for higher damage. Targeting the tracks disables the tank momentarily, slowing its advance and giving you additional time to finish it off."
-        },
-        {
-            "question": "Does Artillery Vs Tanks get harder over time?",
-            "answer": "Yes. Each wave introduces more tanks, greater armor, and faster movement speeds than the previous one. The upgrade system exists specifically to help players keep pace with the increasing threat level across waves."
-        },
-        {
-            "question": "Is Artillery Vs Tanks suitable for beginners?",
-            "answer": "Yes. The controls are straightforward and the early waves allow time to learn targeting and reload rhythms before the difficulty increases. The zoom mechanic and upgrade shop are intuitive to pick up without any tutorial required."
-        }
-    ]
-  },
-  {
-    id: 28,
-    title: 'Bubble Shooter Vintage',
-    category: ['Puzzle', 'Arcade'],
-    slug: 'bubble-shooter-vintage',
-    thumbnail: 'https://img.gamedistribution.com/92f19fdd8fe24ff18cfb3a07799c7114-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/92f19fdd8fe24ff18cfb3a07799c7114/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Bubble Shooter Vintage</h2>\nBubble Shooter Vintage is a classic color-matching bubble shooter developed by Phat Cat Games. It faithfully recreates the feel of the original arcade bubble shooter format that first appeared in the early 1990s, delivering the same aim-and-pop mechanic that has made the genre one of the longest-running in casual gaming. The vintage presentation strips away modern additions and focuses entirely on the core loop of aiming, shooting, and cascading cl"
-        },
-        {
-            "type": "p",
-            "content": "The game is played on a field of colored bubbles that the player clears by firing matching shots from a cannon at the bottom of the screen. Matching three or more bubbles of the same color removes them from the field. Any bubbles left floating without connection to the ceiling also fall, which creates chain reactions that reward precise angle shots. The goal is to clear the board completely while maintaining the highest possible score through combo clears."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Bubble Shooter Vintage Online</h2>\nPlay Bubble Shooter Vintage online on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nClear all bubbles from the board by matching three or more of the same color with each shot. Score as many points as possible by triggering combo drops and clearing large clusters in single s"
-        },
-        {
-            "type": "h3",
-            "content": "HOW IT WORKS</h3>\n<ul><li>Aim the Cannon: Move your mouse or touch the screen to angle the cannon toward the target area.</li>\n<li>Shoot: Click or tap to fire a bubble from the cannon toward the bubble field above.</li>\n<li>Match Three or More: When a fired bubble connects with two or more bubbles of the same color, the group pops and disappears.</li>\n<li>Combo Drops: Bubbles that lose connection to the ceiling after a pop fall off the board and count as bonus score. Setting up drop combos is the main path to high scores.</li>\n<li>Use the Wall: Shots can bounce off the left and right walls, allowing angle shots that reach clusters a straight shot could not.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse: Move the mouse to aim. Click to fire.</li>\n<li>Touch: Tap and drag to aim. Lift your finger to fire.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Aim for the sides of clusters, not the center: Shooting into the center of a large cluster often pops only the target group. Hitting the edge or an overhanging bubble is more likely to cause the entire connected mass to fall, generating a large combo drop.</li>\n<li>Use wall bounces to reach hidden clusters: Bubbles tucked in corners or behind overhangs cannot always be hit directly. Bouncing a shot off the side wall at the right angle reaches positions that look impossible from a direct line.</li>\n<li>Prioritize the bubble preview: Your next bubble is shown in the preview slot. If the upcoming color does not match anything useful, plan the current shot to set up a better position for the next one rather than forcing a poor match.</li>\n<li>Work from the bottom up: Clearing bubbles near the bottom of the field first prevents the board from descending too quickly. Popping low clusters also exposes the ceiling attachments of higher clusters, making combo drops easier to trigger.</li>\n<li>Save awkward colors for wall shots: When you have a color that does not match any accessible cluster, use it as a wall bounce to reach a secondary cluster rather than firing it somewhere it will stick with no match.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Bubble Shooter Vintage for free online?",
-            "answer": "Yes. You can play Bubble Shooter Vintage free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Bubble Shooter Vintage work on mobile?",
-            "answer": "Yes. The browser version of Bubble Shooter Vintage works on both Android and iOS devices. Touch controls let you aim and fire by tapping and dragging the screen."
-        },
-        {
-            "question": "Is Bubble Shooter Vintage unblocked?",
-            "answer": "now-gg offers an unblocked version of Bubble Shooter Vintage that you can play even on networks where gaming sites are typically restricted."
-        },
-        {
-            "question": "Who made Bubble Shooter Vintage?",
-            "answer": "Bubble Shooter Vintage was developed by Phat Cat Games. The game is available on Android and iOS and is playable for free in the browser on now-gg."
-        },
-        {
-            "question": "What makes Bubble Shooter Vintage different from other bubble shooter games?",
-            "answer": "Bubble Shooter Vintage focuses on the original classic format without modern additions like level maps, power-ups, or progression systems. It delivers the pure aim-and-pop arcade experience that defined the genre in its earliest form, making it the go-to option for players who want the traditional bubble shooter feel."
-        },
-        {
-            "question": "How do combo drops work in Bubble Shooter Vintage?",
-            "answer": "When a group of bubbles pops and the bubbles above them lose their connection to the ceiling, those floating bubbles fall off the board automatically. Each bubble that falls this way contributes to your score as a combo bonus. Setting up shots that trigger large falls is the primary way to achieve high scores."
-        },
-        {
-            "question": "Can I bounce shots off walls in Bubble Shooter Vintage?",
-            "answer": "Yes. Fired bubbles bounce off the left and right walls of the playing field. This allows angle shots that reach clusters tucked behind overhangs or in corners that a direct shot cannot access. Mastering wall bounces is essential for clearing advanced board layouts."
-        },
-        {
-            "question": "Is Bubble Shooter Vintage suitable for all ages?",
-            "answer": "Yes. Bubble Shooter Vintage is a calm, non-violent puzzle game with simple controls and no mature content. It is well-suited for players of all ages, from young children learning color matching to adults looking for a relaxing and satisfying casual game."
-        }
-    ]
-  },
-  {
-    id: 29,
-    title: 'Office Spider Solitaire',
-    category: ['Puzzle','Card'],
-    slug: 'office-spider-solitaire',
-    thumbnail: 'https://img.gamedistribution.com/09fd115d31734cb0bbab0e58fa6e4a1b-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/09fd115d31734cb0bbab0e58fa6e4a1b/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Office Spider Solitaire</h2>\nOffice Spider Solitaire is a browser-based implementation of Spider Solitaire, widely regarded as the most demanding variant in the solitaire family. The game earns its name from the eight foundation piles it uses, a reference to a spider's eight legs. Microsoft introduced Spider Solitaire to millions through Windows, and it remains one of the most-searched card games online to this"
-        },
-        {
-            "type": "p",
-            "content": "The game is played across ten columns with 104 cards (two standard decks). The goal is to build complete sequences of 13 cards in the same suit, running from King down to Ace, and remove them from the table. Office Spider Solitaire offers three difficulty settings that change how many suits are in play, making it accessible to beginners and deeply challenging for experienced players."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Office Spider Solitaire Online</h2>\nPlay Office Spider Solitaire on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nBuild complete suited sequences from King to Ace across the ten columns, then remove them from the table. Clear all cards to"
-        },
-        {
-            "type": "h3",
-            "content": "THE RULES</h3>\n<ul><li>Layout: The game begins with four columns of six cards and six columns of five cards. Only the top card of each column faces up.</li>\n<li>Moving Cards: You can move a card onto any card that is one value higher. For example, a 7 of spades can be placed on an 8 of hearts.</li>\n<li>Moving Groups: A group of cards in the same suit with consecutive values can be moved together as a single unit.</li>\n<li>Empty Columns: Any card or valid group can be placed on an empty column.</li>\n<li>Dealing New Cards: Click the stock pile to deal one new card to each column when you run out of valid moves.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse: Click to select a card, then click the destination to move it. Drag is also supported.</li>\n<li>Touch: Tap a card to select and tap the destination column to place it.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "DIFFICULTY LEVELS</h3>\n<ul><li>One Suit: All cards are the same suit. The easiest setting is ideal for learning spider solitaire mechanics.</li>\n<li>Two Suits: Two suits in play. Requires more planning to maintain clean sequences.</li>\n<li>Four Suits: All four suits are active. The most complex and rewarding version for experienced players.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Prioritize empty columns: Empty columns are the most powerful resource in Office Spider Solitaire. Use them as temporary storage to shuffle cards around and expose buried face-down cards.</li>\n<li>Build in one suit wherever possible: Even though mixed-suit sequences are permitted, only single-suit sequences can be removed. Avoid mixing suits in a column unless you have no alternative.</li>\n<li>Expose face-down cards before reorganizing: Every face-down card is a potential asset. Moves that flip face-down cards face-up should be prioritized over moves that only rearrange face-up cards.</li>\n<li>Avoid dealing from the stock prematurely: Dealing new cards onto cluttered columns makes the situation harder. Deal only when you have exhausted all useful moves on the current layout.</li>\n<li>Start with one suit to learn the game: New players who jump into four-suit spider solitaire often find it overwhelming. Mastering one-suit builds the pattern recognition needed for harder difficulties.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Office Spider Solitaire for free online?",
-            "answer": "Yes. You can play Office Spider Solitaire free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Office Spider Solitaire work on mobile?",
-            "answer": "Yes. The browser version of Office Spider Solitaire works on both Android and iOS devices. The touch controls are responsive and the card layout scales well on mobile screens."
-        },
-        {
-            "question": "Is Office Spider Solitaire unblocked?",
-            "answer": "now-gg offers an unblocked version of Office Spider Solitaire that you can access even on networks where gaming sites are restricted."
-        },
-        {
-            "question": "What makes Spider Solitaire different from Klondike Solitaire?",
-            "answer": "Spider Solitaire uses two decks of cards and ten columns rather than one deck and seven columns. The goal is to build complete King-to-Ace sequences within the columns rather than moving cards to foundation piles one suit at a time. It is widely considered more difficult than Klondike."
-        },
-        {
-            "question": "How many cards are in Office Spider Solitaire?",
-            "answer": "The game uses 104 cards (two standard 52-card decks). The cards are distributed across ten columns at the start, with a stock pile available to deal additional cards during play."
-        },
-        {
-            "question": "What does difficulty level affect in Office Spider Solitaire?",
-            "answer": "Difficulty determines how many suits are in play. One-suit mode uses only spades, making it easiest. Two-suit mode adds hearts. Four-suit mode uses all four suits, requiring significantly more strategic planning to avoid locking up the board."
-        },
-        {
-            "question": "Can I undo moves in Office Spider Solitaire?",
-            "answer": "Most browser versions of Office Spider Solitaire include an undo button that reverses your last move. Using it strategically when you realize a move has created a dead end is entirely valid."
-        },
-        {
-            "question": "Is Office Spider Solitaire suitable for beginners?",
-            "answer": "The one-suit difficulty is designed for beginners. It teaches the core mechanics of spider solitaire without the added complexity of mixed suits. Most players are ready for two-suit mode after a handful of one-suit wins."
-        }
-    ]
-  },
-  {
-    id: 30,
-    title: 'Office Pyramid Solitaire',
-    category: ['Puzzle', 'Card'],
-    slug: 'office-pyramid-solitaire',
-    thumbnail: 'https://img.gamedistribution.com/ca808ce686fa485c81fcf487ef65cac1-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/ca808ce686fa485c81fcf487ef65cac1/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Office Pyramid Solitaire</h2>\nOffice Pyramid Solitaire is a browser-based pyramid solitaire card game built around one elegant rule: remove cards from a triangular pyramid by pairing any two exposed cards that add up to exactly 13. Kings (value 13) are removed with a single click, no pair required. The game has deep roots in casual card gaming history and remains one of the most searched solitaire games online glob"
-        },
-        {
-            "type": "p",
-            "content": "The visual layout is instantly recognizable: 28 cards arranged in a seven-row pyramid, with each card partially covering the two cards below it. Only cards with no other card resting on top of them are accessible. A draw deck at the bottom right provides additional cards when the pyramid runs out of obvious pairs. Completing the pyramid on hard difficulty requires clearing the draw deck as well, adding a second layer of challenge."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Office Pyramid Solitaire Online</h2>\nPlay Office Pyramid Solitaire on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nClear all cards from the pyramid by pairing exposed cards that add up to 13. On hard difficulty, also clear the draw "
-        },
-        {
-            "type": "h3",
-            "content": "THE RULES</h3>\n<ul><li>Card Values: Ace = 1, numbered cards at face value, Jack = 11, Queen = 12, King = 13.</li>\n<li>Pairing to 13: Select any two exposed cards whose values add up to exactly 13. Common pairs include: Ace + Queen, 2 + Jack, 3 + 10, 4 + 9, 5 + 8, 6 + 7.</li>\n<li>Kings: A King (value 13) is removed with a single click. No pair needed.</li>\n<li>Accessible Cards: Only cards with no other card resting on top of them can be selected.</li>\n<li>Draw Deck: Click the deck in the bottom right to deal a new card when no pairs are available on the pyramid. The deck is not reused after the last card is dealt.</li>\n<li>Suit Bonus: Pairing two cards of the same suit awards double points.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "DIFFICULTY LEVELS</h3>\n<ul><li>Easy / Medium: Clear the pyramid to win. The draw deck does not need to be fully emptied.</li>\n<li>Hard: Clear both the pyramid and the draw deck completely for a full clear.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap cards to select them. Click the draw deck to deal a new card.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Clear the bottom row of the pyramid first: The bottom row blocks access to the largest number of cards. Removing pairs from it as early as possible opens up more accessible cards faster.</li>\n<li>Remove Kings immediately: Kings block one column each and require no pairing. Remove them the moment they become accessible.</li>\n<li>Prioritize suit-matched pairs: When multiple valid pairs exist, choosing pairs that share the same suit earns double points without any additional effort.</li>\n<li>Manage the draw deck carefully: The draw deck cannot be reshuffled. Drawing cards without using them can lock you out of completing the game on hard difficulty. Only draw when necessary.</li>\n<li>Think two pairs ahead: Removing one pair exposes new cards. Before making a move, visualize what the removal will unblock and whether the newly exposed card creates a better pair than the one you were about to take.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Office Pyramid Solitaire for free online?",
-            "answer": "Yes. You can play Office Pyramid Solitaire free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Office Pyramid Solitaire work on mobile?",
-            "answer": "Yes. The browser version of Office Pyramid Solitaire works on both Android and iOS devices. Touch controls are fully supported, and the pyramid layout is clearly readable on mobile screens."
-        },
-        {
-            "question": "Is Office Pyramid Solitaire unblocked?",
-            "answer": "now-gg offers an unblocked version of Office Pyramid Solitaire that you can access even on networks where gaming sites are restricted."
-        },
-        {
-            "question": "What numbers pair to 13 in Pyramid Solitaire?",
-            "answer": "The valid pairs are: Ace (1) + Queen (12), 2 + Jack (11), 3 + 10, 4 + 9, 5 + 8, and 6 + 7. Kings count as 13 on their own and are removed with a single click."
-        },
-        {
-            "question": "What happens if I run out of moves in Pyramid Solitaire?",
-            "answer": "If no valid pairs exist and the draw deck is empty, the game is over. The draw deck can provide new cards during play, but cannot be reshuffled, so managing when to draw from it is a key part of strategy on harder difficulties."
-        },
-        {
-            "question": "What is the suit bonus in Office Pyramid Solitaire?",
-            "answer": "Pairing two cards that share the same suit awards double points for that pair. This bonus does not change how the game is won or lost, but it significantly increases your final score if you actively pursue same-suit matches."
-        },
-        {
-            "question": "How is hard difficulty different from easier modes?",
-            "answer": "On hard difficulty, winning requires clearing both the pyramid and the entire draw deck. On easier settings, clearing only the pyramid is sufficient to complete the level."
-        },
-        {
-            "question": "Is Office Pyramid Solitaire suitable for beginners?",
-            "answer": "Yes. The pairing-to-13 rule is simple and quick to learn. New players can start on easy difficulty, focus on removing Kings immediately, and work down the pyramid row by row to understand how the game flows."
-        }
-    ]
-  },
-  {
-    id: 31,
-    title: 'Arrows Puzzle Escape',
-    category: ['Puzzle', 'Casual'],
-    slug: 'arrows-puzzle-escape',
-    thumbnail: 'https://img.gamedistribution.com/d41e8014aea74629934290991b008c7a-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/d41e8014aea74629934290991b008c7a/',
-    rating: 4.3,
-  },
-  {
-    id: 32,
-    title: 'Office Solitaire',
-    category: ['Puzzle', 'Card'],
-    slug: 'office-solitaire',
-    thumbnail: 'https://img.gamedistribution.com/ab572c1e1dc04e4499da4db26e768286-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/ab572c1e1dc04e4499da4db26e768286/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Office Solitaire</h2>\nOffice Solitaire is a browser-based implementation of Klondike Solitaire, the most recognized card game in the world. First popularized by Microsoft's inclusion of it in Windows 3.0 in 1990, Klondike became the template for every casual card game that followed. Today it remains the most-played free solitaire card game online, with millions of sessions played daily across every plat"
-        },
-        {
-            "type": "p",
-            "content": "The game uses a single 52-card deck arranged across seven tableau columns and four empty foundation piles. Players move cards between columns in descending alternating-color sequences to expose face-down cards and eventually sort all 52 cards onto the foundations in suited Ace-to-King sequences. A stock pile provides additional cards when tableau options are exhausted."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Office Solitaire Online</h2>\nPlay Office Solitaire on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nMove all 52 cards from the tableau columns and stock pile to the four foundation piles, each sorted by suit from Ace to "
-        },
-        {
-            "type": "h3",
-            "content": "THE RULES</h3>\n<ul><li>Tableau Columns: Seven columns with one to seven cards each. Only the top card faces up at the start.</li>\n<li>Moving Cards: Place a card on a column card that is one value higher and the opposite color. For example, a red 7 goes on a black 8.</li>\n<li>Moving Groups: A stack of face-up cards in a valid sequence can be moved as a unit to another tableau column.</li>\n<li>Empty Columns: Only a King (or a sequence starting with a King) can be placed on an empty column.</li>\n<li>Foundation Piles: Four piles at the top, one per suit. Start each with its Ace and build up in sequence to the King.</li>\n<li>Stock Pile: Click to deal additional cards (one or three at a time depending on the mode) when tableau moves are exhausted.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse: Click to select and click the destination to move. Drag is also supported.</li>\n<li>Touch: Tap a card to select and tap the destination column or foundation pile to move it.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Expose face-down cards before building sequences: The primary objective in early Klondike Solitaire is not to build pretty sequences but to flip face-down cards. Every move that reveals a new card increases your options.</li>\n<li>Avoid filling empty columns prematurely: Empty columns are invaluable for moving Kings and repositioning sequences. Filling them with the first available King can block critical maneuvers later in the game.</li>\n<li>Prioritize longer columns first: The longer tableau columns contain more face-down cards. Clearing them unlocks the most options and should take priority over building sequences in shorter columns.</li>\n<li>Build Aces and Twos to foundations immediately: Whenever an Ace or Two becomes available, move it to a foundation pile right away. These cards rarely serve a useful purpose in tableau play and clutter your columns unnecessarily.</li>\n<li>Think before drawing from the stock: Drawing from the stock when useful tableau moves still exist is wasteful. Exhaust your current options before cycling through the stockpile.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Office Solitaire for free online?",
-            "answer": "Yes. You can play Office Solitaire free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Office Solitaire work on mobile?",
-            "answer": "Yes. The browser version of Office Solitaire works on both Android and iOS devices. The card layout is touch-friendly, and the game runs smoothly without any app install."
-        },
-        {
-            "question": "Is Office Solitaire unblocked?",
-            "answer": "now-gg offers an unblocked version of Office Solitaire that you can access even on networks where gaming sites are restricted."
-        },
-        {
-            "question": "What is the difference between Office Solitaire and Spider Solitaire?",
-            "answer": "Office Solitaire (Klondike) uses one deck and seven tableau columns. The goal is to move all cards to four foundation piles by suit from Ace to King. Spider Solitaire uses two decks and ten columns, requiring you to build full-suited sequences within the columns themselves. Spider is generally considered more complex."
-        },
-        {
-            "question": "What does \"Turn 1\" vs \"Turn 3\" mean in solitaire?",
-            "answer": "Turn 1 deals one card at a time from the stockpile, making more cards accessible and the game easier to win. Turn 3 deals three cards at once, with only the top card playable, which significantly increases the difficulty and reduces your options per cycle."
-        },
-        {
-            "question": "Is every game of Office Solitaire winnable?",
-            "answer": "No. Statistically, approximately 80 percent of Klondike Solitaire deals are theoretically winnable given perfect play, but a portion of deals are unwinnable regardless of strategy. If you reach a dead end, starting a new deal is the right move."
-        },
-        {
-            "question": "What is the best opening move in Office Solitaire?",
-            "answer": "The best opening move depends on the specific deal, but generally you should look to expose face-down cards in the longer columns first. If an Ace is face-up, move it to a foundation pile immediately."
-        },
-        {
-            "question": "Is Office Solitaire suitable for all ages?",
-            "answer": "Yes. Office Solitaire is a non-violent card game suitable for players of all ages. It has been a standard casual game for decades and is widely recommended as a gentle brain exercise for older adults and a simple introduction to strategy games for younger players."
-        }
-    ]
-  },
-  {
-    id: 33,
-    title: 'Jungle Match Adventures',
-    category: ['jungle', 'Adventure'],
-    slug: 'jungle-match-adventures',
-    thumbnail: 'https://img.gamedistribution.com/c6d324c4729f48ef9a3cd8882bdf078e-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/c6d324c4729f48ef9a3cd8882bdf078e/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Jungle Match Adventures</h2>\nJungle Match Adventures is a jungle-themed match-3 puzzle game that sends players on an expedition through the lush Amazon forest alongside an explorer named Aria. Each level challenges players to combine identical jewels on a grid to meet score targets, clear obstacles, and unlock hidden relics. Daily and weekly challenges add fresh content to the regular level progression, rewarding consistent play with bonus items and special power"
-        },
-        {
-            "type": "p",
-            "content": "The game draws on the timeless appeal of the match-3 genre, blending it with a narrative exploration theme. Colorful animations, jungle-inspired visuals, and a satisfying chain-reaction mechanic make each completed level feel rewarding. Hundreds of handcrafted levels scale in difficulty progressively, introducing new tile types and obstacles as you journey deeper into the jungle."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Jungle Match Adventures Online</h2>\nPlay Jungle Match Adventures on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nMeet the level objective before your moves run out. Objectives vary by level and include reaching a target score, clearing specific tiles, or collecting a set number of jewel t"
-        },
-        {
-            "type": "h3",
-            "content": "HOW IT WORKS</h3>\n<ul><li>Swap Jewels: Click or tap two adjacent jewels to swap them. If the swap creates a group of three or more matching jewels, they clear from the board.</li>\n<li>Match Three or More: Matching exactly three clears the group. Matching four or more creates special power-up jewels with enhanced effects.</li>\n<li>Chain Reactions: Cleared jewels cause those above them to fall. If falling jewels form new matches automatically, a chain reaction occurs and awards bonus points.</li>\n<li>Obstacles: Some levels include vines, rocks, and locked tiles that require adjacent matches to remove them.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "POWER-UPS</h3>\n<ul><li>Bomb Jewel: Formed by matching five or more in an L or T shape. Clears all jewels in a surrounding radius.</li>\n<li>Striped Jewel: Formed by matching four in a row. Clears an entire row or column, depending on orientation.</li>\n<li>Rainbow Jewel: Formed by matching five in a straight line. Removes all jewels of the selected color from the board.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse: Click one jewel and click an adjacent jewel to swap.</li>\n<li>Touch: Tap and drag a jewel in the direction you want to swap</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Plan matches from the bottom of the board: Matching jewels at the bottom creates the most chain reactions from falling pieces above. This generates bonus points and clears more of the board per move than matching at the top.</li>\n<li>Prioritize power-up creation over simple matches: A single striped or bomb jewel, used in the right position, can accomplish more than five basic three-match clears. Look for four- or five-jewel formations before settling for three.</li>\n<li>Clear obstacle tiles as early as possible: Vines and locked tiles restrict the areas of the board you can use. Prioritizing their removal in the first half of your moves gives you a much larger playable area for the endgame.</li>\n<li>Complete daily challenges consistently: Daily and weekly challenges in Jungle Match Adventures award boosters and bonus items. Completing them regularly gives you a stockpile of power-ups for harder levels.</li>\n<li>Count your remaining moves before spending power-ups: Power-ups are most valuable when you are close to a target but short on moves. Using them with ten or more moves remaining is almost always wasteful.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Jungle Match Adventures for free online?",
-            "answer": "Yes. You can play Jungle Match Adventures free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Jungle Match Adventures work on mobile?",
-            "answer": "Yes. The browser version of Jungle Match Adventures works on both Android and iOS devices. Touch controls are responsive, and the tile grid is well-suited to mobile play."
-        },
-        {
-            "question": "Is Jungle Match Adventures unblocked?",
-            "answer": "Now-gg offers an unblocked version of Jungle Match Adventures that you can access even on networks where gaming sites are restricted."
-        },
-        {
-            "question": "How do power-up jewels form in Jungle Match Adventures?",
-            "answer": "Matching four jewels in a row forms a striped jewel that clears an entire row or column. Matching five in an L or T shape creates a bomb jewel. Matching five in a straight line creates a rainbow jewel that removes all jewels of one color from the board."
-        },
-        {
-            "question": "What are the daily challenges in Jungle Match Adventures?",
-            "answer": "Daily challenges are special levels with unique objectives that refresh every 24 hours. Completing them rewards bonus items, power-ups, and extra in-game currency that can be used on harder regular levels."
-        },
-        {
-            "question": "Does Jungle Match Adventures get harder over time?",
-            "answer": "Yes. Early levels introduce basic matching on a clean grid. Later levels add obstacle tiles like vines, rocks, and locked squares, reduce the number of available moves, and require more precise power-up placement to clear successfully."
-        },
-        {
-            "question": "What are obstacle tiles in Jungle Match Adventures?",
-            "answer": "Obstacle tiles include vines, rocks, and locked jewels that cannot be moved directly. They are cleared by creating matches adjacent to them, which chips away at their structure over one or more matches, depending on the tile type."
-        },
-        {
-            "question": "Is Jungle Match Adventures suitable for children?",
-            "answer": "Yes. Jungle Match Adventures is a colorful, non-violent match-3 puzzle game with an adventurous jungle theme. The simple swap-and-match mechanics are easy for younger players to understand, while the strategic depth of later levels appeals to adults as well."
-        }
-    ]
-  },
-  {
-    id: 34,
-    title: 'Zumba Story',
-    category: ['Puzzle', 'jungle'],
-    slug: 'zumba-story',
-    thumbnail: 'https://img.gamedistribution.com/14a1edf4f80540ec9102d722996a867b-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/14a1edf4f80540ec9102d722996a867b/',
-    rating: 4.3,
-    readMore: [],
-    faqs: []
-  },
-  {
-    id: 35,
-    title: 'Water Sort Puzzle 3',
-    category: ['Puzzle', 'Strategy'],
-    slug: 'water-sort-puzzle-3',
-    thumbnail: 'https://img.gamedistribution.com/bba6ae893ed4493eb3553c93637db902-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/bba6ae893ed4493eb3553c93637db902/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Water Sort Puzzle 3</h2>\nWater Sort Puzzle 3 is the third installment in the Water Sort Puzzle series developed by IEC Global Pty Ltd. Originally launched in 2020, the series became one of the most downloaded mobile puzzle games in the world, praised for its clean visual design, satisfying mechanics, and genuinely brain-stretching difficulty at higher levels. The third entry builds on the core formula with more levels, additional color layers per tube, and increasingly complex pour seque"
-        },
-        {
-            "type": "p",
-            "content": "The premise is elegantly simple: several test tubes are partially filled with differently colored layers of water. Players pour water from one tube into another, with the rule that you can only pour into a tube if the receiving color matches the color being poured and there is enough space. The goal is to get every tube holding a single, pure color. There is no time limit, so the game rewards careful planning over speed."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Water Sort Puzzle 3 Online</h2>\nPlay Water Sort Puzzle 3 on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nSort all colored water so that each test tube contains only one color. When every tube is a single pure color, the level is comp"
-        },
-        {
-            "type": "h3",
-            "content": "THE RULES</h3>\n<ul><li>Pouring: Tap the source tube to select it, then tap the destination tube to pour.</li>\n<li>Color Matching: You can only pour into a tube if the top color of the destination matches the color being poured. If the colors do not match, the pour is not allowed.</li>\n<li>Space Requirement: A tube must have enough empty space to receive the poured layers. You cannot pour more layers than the available empty space.</li>\n<li>No Time Limit: There is no timer. Take as long as needed to work through the logic.</li>\n<li>Restart: Tap the restart button at any time to reset the level to its original state with no penalty.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap a tube to select it. Click or tap the destination tube to execute the pour.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Identify your target colors before pouring: Before making your first move, look at all the tubes and identify which color appears most frequently. That color will need the most space and the most pours, so plan its consolidation route first.</li>\n<li>Create empty tubes as quickly as possible: Empty tubes are the most powerful resource in Water Sort Puzzle 3. They act as temporary holding spaces for any color, which unlocks blocked pours elsewhere. Work toward creating at least one empty tube in the first few moves.</li>\n<li>Never block a color you need: Pouring one color on top of a different color in a nearly full tube traps the lower color. Before pouring, confirm you will not seal off a color that still needs to move.</li>\n<li>Work backward from the solution: Imagine the final state, all tubes pure, then trace backward to identify which pours need to happen last. This reverse planning approach is especially helpful for complex levels with many colors.</li>\n<li>Restart without hesitation: Since there is no penalty for restarting, do so freely whenever you reach a dead end. A fresh perspective after a restart often reveals the correct pour sequence within a few moves.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Water Sort Puzzle 3 for free online?",
-            "answer": "Yes. You can play Water Sort Puzzle 3 free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Water Sort Puzzle 3 work on mobile?",
-            "answer": "Yes. The browser version of Water Sort Puzzle 3 works on both Android and iOS devices. The tap-to-pour controls are perfectly suited to mobile, and the game runs smoothly without any app install."
-        },
-        {
-            "question": "Is Water Sort Puzzle 3 unblocked?",
-            "answer": "now-gg offers an unblocked version of Water Sort Puzzle 3 that you can access even on networks where gaming apps or downloads are restricted."
-        },
-        {
-            "question": "What is the rule for pouring water in Water Sort Puzzle 3?",
-            "answer": "You can only pour water from one tube into another if the color being poured matches the top color already in the destination tube, and the destination tube has enough empty space to receive the layers being transferred."
-        },
-        {
-            "question": "Is there a time limit in Water Sort Puzzle 3?",
-            "answer": "No. Water Sort Puzzle 3 has no timer. You can take as long as needed to solve each level. The game is designed as a relaxed logic challenge, not a speed test."
-        },
-        {
-            "question": "What makes Water Sort Puzzle 3 harder than earlier versions?",
-            "answer": "The third installment introduces more tubes per level, more color layers stacked within each tube, and more intricate pour sequences where a single blocked move can require several repositioning steps to undo."
-        },
-        {
-            "question": "Can I undo a pour in Water Sort Puzzle 3?",
-            "answer": "Most versions include an undo button that reverses the most recent pour. If you cannot undo a bad move, the restart button resets the level entirely with no penalty."
-        },
-        {
-            "question": "Is Water Sort Puzzle 3 suitable for children?",
-            "answer": "Yes. Water Sort Puzzle 3 is a calm, colorful, non-violent puzzle game suitable for all ages. The visual clarity of the color-sorting mechanic makes it easy for younger players to understand, while the deeper levels provide a meaningful challenge for adults."
-        }
-    ]
-  },
-  {
-    id: 36,
-    title: 'Bloons Survival.io',
-    category: ['Survival', 'Strategy'],
-    slug: 'bloons-survival-io',
-    thumbnail: 'https://img.gamedistribution.com/0340635cab9e421ca6c3cda5acaa03f1-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/0340635cab9e421ca6c3cda5acaa03f1/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Bloons Survival.io</h2>\nBloons Survival.io is a balloon survival arcade game developed by GameBerry Studio. It belongs to the survivor-style .io game genre, placing your hero in an arena against endless waves of incoming enemies. In this case, the enemies are Bloons, the colorful balloons familiar to fans of the Bloons Tower Defense series. Unlike tower defense games, Bloons Survival.io gives you direct control of a monkey hero who moves freely while weapons fire automatic"
-        },
-        {
-            "type": "p",
-            "content": "Each popped balloon drops diamonds and hearts. Diamonds allow you to unlock cosmetic character skins. Hearts restore your health. As you destroy balloons and earn XP, your monkey levels up and unlocks new weapons to choose from, including boomerangs, cannonballs, shurikens, and fists. The difficulty increases steadily, with harder-to-pop balloons appearing in later waves. The goal is simple: survive as long as possible."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Bloons Survival.io Online</h2>\nPlay Bloons Survival.io on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nSurvive as long as possible against endless waves of Bloons. Pop balloons to earn XP, level up your monkey, and unlock increasingly powerful wea"
-        },
-        {
-            "type": "h3",
-            "content": "HOW IT WORKS</h3>\n<ul><li>Automatic Weapons: Your monkey fires weapons automatically in all directions. You do not need to aim or shoot manually.</li>\n<li>Movement Controls the Battle: Since weapons are automatic, your entire input is managing where your monkey moves. Position determines which balloons you pop and which you avoid.</li>\n<li>XP and Leveling: Every balloon you pop earns XP. When enough XP accumulates, your monkey levels up and is presented with weapon upgrade choices.</li>\n<li>Collectibles: Diamonds dropped by popped balloons unlock new character skins. Hearts restore lost health points.</li>\n<li>Waves: Each wave introduces more Bloons, larger Bloons, and Bloons that require multiple hits to pop.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "WEAPONS</h3>\n<ul><li>Darts: The starting weapon. Fast, forward-firing, and effective at close to medium range.</li>\n<li>Boomerang: Curves around the monkey in an arc, hitting multiple Bloons in a sweeping path.</li>\n<li>Cannonball: Slow but deals heavy damage to large or armored Bloons.</li>\n<li>Shuriken: Fires in multiple directions simultaneously, covering a wide angular spread.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse: Hold and drag to move the monkey. Weapons fire automatically.</li>\n<li>Touch: Press and drag to move. The monkey fires without any additional input.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Keep moving in circular patterns: Balloons home in on your monkey from all sides. Moving in a consistent loop pulls Bloons into a trailing cluster, which your automatic weapons clear more efficiently than a stationary spray.</li>\n<li>Collect hearts the moment they appear: Hearts restore health and disappear after a short time. Route your movement through dropped hearts as you circle the arena rather than completing a loop and returning too late.</li>\n<li>Prioritize multi-directional weapons at level-up: Weapons like the shuriken that fire in multiple directions simultaneously are far more valuable than single-direction upgrades in later waves when balloons approach from every angle.</li>\n<li>Never allow yourself to be surrounded: Once Bloons close in from all sides, your movement options collapse rapidly. Whenever you notice a gap in the incoming ring, push through it aggressively before it closes.</li>\n<li>Focus on larger Bloons in dense waves: Larger Bloons block movement and take multiple hits. Routing toward them while your weapons chip them down clears the most space and prevents them from cornering you.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Bloons Survival.io for free online?",
-            "answer": "Yes. You can play Bloons Survival.io free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Bloons Survival.io work on mobile?",
-            "answer": "Yes. Bloons Survival.io is playable on mobile browsers for both Android and iOS. Touch controls let you press and drag to move the monkey, with all weapons firing automatically."
-        },
-        {
-            "question": "Is Bloons Survival.io unblocked?",
-            "answer": "now-gg provides an unblocked version of Bloons Survival.io that you can play even on networks where gaming sites are typically restricted."
-        },
-        {
-            "question": "Who developed Bloons Survival.io?",
-            "answer": "Bloons Survival.io was developed by GameBerry Studio. It is inspired by the Bloons universe but plays as an independent survivor-style arcade game rather than a tower defense game."
-        },
-        {
-            "question": "How do weapons work in Bloons Survival.io?",
-            "answer": "Weapons in Bloons Survival.io fire automatically without any player input. Your monkey equips and fires all active weapons simultaneously while you focus entirely on movement. New weapons are unlocked and upgraded each time your monkey levels up."
-        },
-        {
-            "question": "What are diamonds used for in Bloons Survival.io?",
-            "answer": "Diamonds drop from popped balloons and are used to unlock cosmetic character skins for your monkey hero. They do not affect gameplay stats."
-        },
-        {
-            "question": "Does Bloons Survival.io get harder the longer you survive?",
-            "answer": "Yes. Each wave introduces more Bloons, larger Bloons, and balloon types that require multiple hits to pop. The speed and density of incoming waves also increases progressively, making survival increasingly difficult over time."
-        },
-        {
-            "question": "Is Bloons Survival.io related to Bloons Tower Defense?",
-            "answer": "Both games feature Bloons balloons as enemies and a monkey hero, but they play very differently. Bloons Survival.io is an action movement game where you directly control the monkey. Bloons Tower Defense is a strategic tower placement game. They share the same visual universe but are separate games."
-        }
-    ]
-  },
-  {
-    id: 37,
-    title: 'Sudo Tetroid Daily',
-    category: ['Puzzle', 'Casual'],
-    slug: 'sudo-tetroid-daily',
-    thumbnail: 'https://img.gamedistribution.com/82e9077372484a82ab196e2e38c7efc6-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/82e9077372484a82ab196e2e38c7efc6/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Sudo Tetroid Daily</h2>\nSudo Tetroid Daily is a unique hybrid puzzle game developed by Denda that combines the grid logic of Sudoku with the block-placement mechanics of Tetromino (Tetris-style) pieces. Instead of entering single numbers into individual cells, players are given numbered multi-cell pieces that must be rotated and placed as complete units, filling the 9x9 Sudoku grid without violating any of the core Sudoku r"
-        },
-        {
-            "type": "p",
-            "content": "The game offers both a standard level progression and a daily challenge mode that delivers a unique puzzle every day. Each daily puzzle has exactly one correct solution, requiring players to think both spatially and logically at the same time. This dual-skill demand makes Sudo Tetroid Daily meaningfully different from either Sudoku or Tetris alone, appealing to fans of both genres. Sister titles from the same studio include Sudoku Daily, Combinations, and Mine Quest."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Sudo Tetroid Daily Online</h2>\nPlay Sudo Tetroid Daily on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nPlace all numbered tetromino pieces into the 9x9 Sudoku grid so that every row, every column, and every 3x3 box contains the numbers 1 through 9 exactly "
-        },
-        {
-            "type": "h3",
-            "content": "THE RULES</h3>\n<ul><li>Sudoku Rules Apply: No number may repeat in any row, column, or 3x3 box. Each number from 1 to 9 must appear exactly once in each.</li>\n<li>Numbered Pieces: Each tetromino block carries numbers on its cells. These numbers are fixed and cannot be changed.</li>\n<li>Rotation: All pieces can be rotated, allowing them to fit into the grid in multiple orientations.</li>\n<li>Single Solution: Every valid puzzle has exactly one correct solution. If numbers conflict, the placement is invalid.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "DAILY CHALLENGE</h3>\n<ul><li>New Puzzle Every Day: The daily mode refreshes each day with a uniquely generated puzzle at a consistent difficulty level.</li>\n<li>Standard Levels: A progression of pre-designed puzzles is also available for practice outside the daily challenge.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap a piece to select it. Click or tap the grid to place it. Most versions include a rotate button or respond to a keyboard shortcut for rotation.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Start with the most constrained pieces: L-shaped and Z-shaped pieces have fewer valid grid positions than straight or square pieces. Placing the awkward pieces first narrows down where the remaining pieces can logically go.</li>\n<li>Use existing numbers as anchors: The pre-filled cells in the Sudoku grid tell you which numbers are still needed in each row, column, and box. Cross-reference this information with the numbers on your available pieces to identify where each piece must go.</li>\n<li>Try all four rotations before placing: Rotating a piece 180 or 270 degrees sometimes reveals a placement that is invisible at the default orientation. Always test all rotations before concluding a piece cannot fit in a given area.</li>\n<li>Work box by box: Focusing on completing one 3x3 box at a time, rather than scanning the whole grid, makes the number constraints easier to track and reduces the chance of overlooking a conflict.</li>\n<li>Return to daily puzzles consistently: The daily challenge is calibrated to a consistent difficulty. Solving it regularly builds both spatial and logical reasoning skills faster than replaying fixed levels at any difficulty.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Sudo Tetroid Daily for free online?",
-            "answer": "Yes. You can play Sudo Tetroid Daily free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Sudo Tetroid Daily work on mobile?",
-            "answer": "Yes. The browser version of Sudo Tetroid Daily works on both Android and iOS devices. The tap-to-place controls are intuitive on mobile and the 9x9 grid scales cleanly to smaller screens."
-        },
-        {
-            "question": "Is Sudo Tetroid Daily unblocked?",
-            "answer": "now-gg offers an unblocked version of Sudo Tetroid Daily that you can access even on networks where gaming sites are restricted."
-        },
-        {
-            "question": "Who made Sudo Tetroid Daily?",
-            "answer": "Sudo Tetroid Daily was created by Denda, a studio known for producing daily brain puzzle games. Other titles in the Denda catalog include Sudoku Daily, the logic puzzle Combinations, and the Minesweeper variant Mine Quest."
-        },
-        {
-            "question": "How is Sudo Tetroid Daily different from regular Sudoku?",
-            "answer": "Regular Sudoku asks you to place single numbers into individual cells. Sudo Tetroid Daily replaces single numbers with multi-cell tetromino-shaped pieces that must be placed and rotated as complete units. This adds a spatial dimension that does not exist in standard Sudoku."
-        },
-        {
-            "question": "Does the daily puzzle change every day?",
-            "answer": "Yes. The daily challenge in Sudo Tetroid Daily generates a new unique puzzle every day with exactly one correct solution. Standard level progression puzzles are also available outside the daily mode."
-        },
-        {
-            "question": "Can tetromino pieces be rotated in Sudo Tetroid Daily?",
-            "answer": "Yes. All pieces can be rotated to fit into the grid in different orientations. Rotation is essential because many pieces have a valid placement in only one or two of their four possible orientations, given the constraints of the existing Sudoku numbers on the board."
-        },
-        {
-            "question": "Is Sudo Tetroid Daily suitable for beginners?",
-            "answer": "Players who are comfortable with either Sudoku or Tetris will find the learning curve manageable. Complete beginners to both games may find the dual logic demanding at first. Starting with standard progression levels before tackling the daily challenge is recommended for newcomers."
-        }
-    ]
-  },
-  {
-    id: 38,
-    title: 'Bubble Pop Fairyland',
-    category: ['Balloon', 'Casual'],
-    slug: 'bubble-pop-fairyland',
-    thumbnail: 'https://img.gamedistribution.com/fc84a63fc1db4ebabc334521c2cb3c68-512x512.jpg',
-    link: 'https://html5.gamedistribution.com/fc84a63fc1db4ebabc334521c2cb3c68/',
-    rating: 4.3,
-    readMore: [
-        {
-            "type": "h2",
-            "content": "About Bubble Pop Fairyland</h2>\nBubble Pop Fairyland is a bubble shooter puzzle game developed by PlayGama. Set in a colorful and magical fairyland, the game wraps the classic aim-and-pop bubble mechanic around a story of trapped fairies that players must rescue by clearing the bubble fields above them. The result is a visually delightful experience that appeals to both casual players seeking a relaxing game and dedicated players chasing high scores across thousands of le"
-        },
-        {
-            "type": "p",
-            "content": "The game features a wide variety of blaster types and special bubbles that unlock as players progress, adding depth to what begins as a simple matching exercise. Daily challenges refresh each day with new board layouts and reward players with in-game coins. The difficulty curve scales gradually, making early levels accessible to younger players while later levels require genuine strategic planning to complete without running out of shots."
-        },
-        {
-            "type": "h2",
-            "content": "How to Play Bubble Pop Fairyland Online</h2>\nPlay Bubble Pop Fairyland on now-gg directly in your browser with no download or account needed. Here is what you need to "
-        },
-        {
-            "type": "h3",
-            "content": "YOUR GOAL</h3>\nClear all bubbles from the board by matching three or more of the same color with each shot. Rescue the fairies trapped within the bubble field to complete each l"
-        },
-        {
-            "type": "h3",
-            "content": "HOW IT WORKS</h3>\n<ul><li>Aim the Blaster: Move your mouse or touch the screen to angle the blaster toward the target cluster.</li>\n<li>Shoot: Click or tap to fire a bubble toward the field above.</li>\n<li>Match Three: When the fired bubble connects with two or more bubbles of the same color, they all pop.</li>\n<li>Cascade Drops: Bubbles that lose their connection to the ceiling after a pop fall and clear from the board as bonus points.</li>\n<li>Wall Bounces: Bubbles bounce off the left and right walls, allowing angled shots that reach clusters a direct path cannot access.</li>\n<li>Bubble Preview: The next bubble to be fired is displayed beside the blaster. Plan your current shot with the upcoming color in mind.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "SPECIAL BUBBLES</h3>\n<ul><li>Bomb Bubble: Pops a large area of bubbles regardless of color when it connects with the field.</li>\n<li>Rainbow Bubble: Matches any color in the field, allowing it to pop any cluster it contacts.</li>\n<li>Ice Bubble: Freezes a section of the bubble field, holding it in place and buying time to plan the next shot.</li>"
-        },
-        {
-            "type": "h3",
-            "content": "CONTROLS</h3>\n<ul><li>Mouse: Move to aim. Click to shoot.</li>\n<li>Touch: Tap and drag to aim. Lift your finger to fire.</li>"
-        },
-        {
-            "type": "h2",
-            "content": "TIPS AND STRATEGY</h2>\n<ul><li>Target the ceiling attachment points: The most efficient shots in Bubble Pop Fairyland hit the connection point where a large cluster attaches to the ceiling. Severing this connection drops the entire hanging mass at once, clearing far more bubbles than individual pops.</li>\n<li>Use wall bounces to access corners: Bubbles tucked in the far corners of the board are often inaccessible from a direct line. Bouncing a shot off the left or right wall at the correct angle reaches these positions with precision unavailable from a straight shot.</li>\n<li>Check the bubble preview before every shot: If the upcoming color has no useful match on the current board, use your present shot to clear space or reposition rather than wasting the upcoming bubble in an awkward spot.</li>\n<li>Save special bubbles for critical moments: The bomb and rainbow bubbles are most effective when the board is too fragmented for regular color matching to make progress. Using them on a board still full of matching opportunities is wasteful.</li>\n<li>Complete daily challenges for coins: The daily challenges in Bubble Pop Fairyland refresh every day and award coins that fund special blaster upgrades. Completing them consistently is the most efficient way to access harder-level tools without running dry.</li>"
-        }
-    ],
-    faqs: [
-        {
-            "question": "Can I play Bubble Pop Fairyland for free online?",
-            "answer": "Yes. You can play Bubble Pop Fairyland free on now-gg directly in your browser. No account, no download, and no payment required."
-        },
-        {
-            "question": "Does Bubble Pop Fairyland work on mobile?",
-            "answer": "Yes. The browser version of Bubble Pop Fairyland works on both Android and iOS devices. The touch controls are smooth and responsive, and the level design is optimized for mobile screen sizes without any app install."
-        },
-        {
-            "question": "Is Bubble Pop Fairyland unblocked?",
-            "answer": "now-gg offers an unblocked version of Bubble Pop Fairyland that you can access even on networks where gaming sites are restricted."
-        },
-        {
-            "question": "Who made Bubble Pop Fairyland?",
-            "answer": "Bubble Pop Fairyland was developed by PlayGama. The game is available on iOS and Android and is fully playable for free in the browser on now-gg."
-        },
-        {
-            "question": "What are daily challenges in Bubble Pop Fairyland?",
-            "answer": "Daily challenges are unique level layouts that refresh every 24 hours. Completing them rewards in-game coins that can be used to unlock new blaster types and power-up items for regular levels."
-        },
-        {
-            "question": "How do cascade drops work in Bubble Pop Fairyland?",
-            "answer": "When a group of bubbles pops and leaves other bubbles floating without any connection to the ceiling, those disconnected bubbles fall off the board automatically. Each bubble that falls this way contributes bonus points to your score beyond what the direct pop awarded."
-        },
-        {
-            "question": "What are the special bubbles in Bubble Pop Fairyland?",
-            "answer": "Special bubbles include a Bomb that clears a large area regardless of color, a Rainbow bubble that matches any color in the field, and an Ice bubble that freezes a section of the board to pause its movement temporarily."
-        },
-        {
-            "question": "Is Bubble Pop Fairyland suitable for children?",
-            "answer": "Yes. Bubble Pop Fairyland features a whimsical fairy theme, bright colorful visuals, and non-violent gameplay suitable for players of all ages. The early levels are simple enough for young children while the strategic depth of later stages provides a genuine challenge for adults."
-        }
-    ]
-  },
-    
+//   {
+//     id: 22,
+//     title: 'Fireboy & Watergirl 7: and Friends',
+//     category: ['Adventure', 'Puzzle'],
+//     slug: 'fireboy-watergirl-7-and-friends',
+//     thumbnail: 'https://img.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/d4a3629101574bc39bd8f9d1888ca58e/',
+//     rating: 4.5,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Fireboy and Watergirl 7 And Friends</h2>\nFireboy and Watergirl 7 And Friends is a cooperative puzzle platformer developed by Oslo Albet, the creator behind the entire Fireboy and Watergirl series. Released in early 2026 as the seventh installment, it expands on the formula of every previous game by introducing three new playable companions alongside the classic elemental duo. Each companion brings a distinct ability that changes how players approach obstacles throughout the te"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game features 36 chambers built around five-character coordination. The Big Friend uses weight to tilt beams and press heavy switches. The Small Friend fits through narrow passages that Fireboy and Watergirl cannot enter. The Hairy Friend reaches platforms with exceptional jump height. Levels are designed so that no single character can solve everything alone. Players can tackle every puzzle solo by switching between characters, or share a keyboard with a friend for a full two-player cooperative experience."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Fireboy and Watergirl 7 And Friends Online</h2>\nPlay Fireboy and Watergirl 7 And Friends online on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nGuide all active characters to the exit doors in each chamber. Collect red, blue, and white diamonds to maximize your score. Every character must survive for the level to be cle"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "KEY FEATURES</h3>\n<ul><li>Five Playable Characters: Control Fireboy, Watergirl, and three friends with unique abilities across every level.</li>\n<li>36 Temple Chambers: Progress through increasingly complex puzzles featuring lava, water, toxic sludge, moving platforms, tilting beams, levers, and narrow tunnels.</li>\n<li>Solo or Co-op Play: Switch between all five characters yourself, or share the keyboard with a friend for true two-player co-op.</li>\n<li>Diamond Collection: Gather red, blue, and white diamonds in each level to build your total score.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Fireboy: Arrow keys to move and jump.</li>\n<li>Watergirl: W, A, S, D keys to move and jump.</li>\n<li>The Friends: G, Y, and J keys to control the three companions.</li>\n<li>Mobile: Tap the colored arrows at the bottom of the screen to switch between and control characters.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Plan all characters before moving any: Look at the full chamber layout and identify which friend is needed for each obstacle before making your first move. Acting without a plan almost always forces a restart.</li>\n<li>Use the Big Friend for beam puzzles early: Tilting beams often need to be set to a specific angle before other characters cross. Position the Big Friend on the correct side of a beam first, then move the lighter characters over.</li>\n<li>Keep the Hairy Friend off lava at all costs: The three friends cannot survive lava contact. Route the Hairy Friend through elevated paths whenever possible, as its high jump makes reaching upper platforms natural.</li>\n<li>Switch characters in the correct order: When multiple characters need to cross the same section, send the one with the least movement freedom first. Leaving a character stuck with no valid moves is the most common way to need a restart.</li>\n<li>Use diamonds as breadcrumbs: In chambers with branching paths, collect diamonds as you move. If a path has no diamonds, it is likely a dead end or not the intended route for that character.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Fireboy and Watergirl 7 and Friends for free online?",
+//             "answer": "Yes. You can play Fireboy and Watergirl 7 And Friends free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Fireboy and Watergirl 7 And Friends work on mobile?",
+//             "answer": "Yes. The browser version works on both Android and iOS devices. Touch controls use on-screen colored arrows to switch between and move each character."
+//         },
+//         {
+//             "question": "Is Fireboy and Watergirl 7 And Friends unblocked?",
+//             "answer": "now-gg offers an unblocked version of Fireboy and Watergirl 7 and Friends that you can access even on networks where app downloads or gaming sites are restricted."
+//         },
+//         {
+//             "question": "Who made Fireboy and Watergirl 7 And Friends?",
+//             "answer": "Fireboy and Watergirl 7 and Friends was developed by Oslo Albet, the indie developer behind the entire Fireboy and Watergirl series. It was released in early 2026 as the seventh game in the series."
+//         },
+//         {
+//             "question": "How many characters can I control in Fireboy and Watergirl 7?",
+//             "answer": "You can control five characters: Fireboy, Watergirl, the Big Friend, the Small Friend, and the Hairy Friend. Each has a unique ability that is required to solve specific puzzles throughout the 36 chambers."
+//         },
+//         {
+//             "question": "Can I play Fireboy and Watergirl 7 and Friends solo?",
+//             "answer": "Yes. The game is fully playable alone. You switch between characters using keyboard shortcuts and solve each puzzle by managing all five yourself. The two-player mode lets a second person share the keyboard and control specific characters."
+//         },
+//         {
+//             "question": "What do the three friends do in Fireboy and Watergirl 7?",
+//             "answer": "The Big Friend is heavy and can tilt beams and press weight-sensitive switches. The Small Friend fits through narrow passages that Fireboy and Watergirl cannot enter. The Hairy Friend is lightweight and jumps exceptionally high, reaching platforms no other character can access."
+//         },
+//         {
+//             "question": "Is Fireboy and Watergirl 7 And Friends suitable for kids?",
+//             "answer": "Yes. The game is family-friendly and built around puzzle solving and cooperation rather than combat or mature themes. It is well-suited for children playing solo or together with a parent or sibling."
+//         }
+//     ]
+//   },
+//   {
+//     id: 23,
+//     title: 'Snake Go - Escape Puzzle',
+//     category: ['Puzzle', 'Casual'],
+//     slug: 'snake-go-escape-puzzle',
+//     thumbnail: 'https://img.gamedistribution.com/73d8b722929e42d192795617dc4dd372-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/73d8b722929e42d192795617dc4dd372/',
+//     rating: 4.4,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Snake Go Escape Puzzle</h2>\nSnake Go Escape Puzzle is a logic puzzle game developed by Skylink Studio. Available on iOS and Android and playable on now-gg in your browser, the game reimagines the classic snake concept as a grid-based escape puzzle. Rather than controlling a growing snake in real time, players slide pre-placed snakes through gridded paths and work out the correct sequence of moves to reach the exit without trapping any p"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game is designed to be relaxing but progressively challenging. There are no timers and no penalties for wrong moves, which makes it a stress-free logic experience. As levels advance, grids become more intricate, snakes grow longer, and the correct move order becomes less obvious. The result is a puzzle game that rewards careful planning over quick reflexes."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Snake Go Escape Puzzle Online</h2>\nPlay Snake Go Escape Puzzle online on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nMove each snake through the grid so that every snake reaches the exit point without getting blocked. The puzzle is solved when all snakes have escaped the "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "HOW IT WORKS</h3>\n<ul><li>Select a Snake: Tap or click a snake to select it.</li>\n<li>Slide to Move: Swipe or drag in the direction you want the snake to move. The entire snake body shifts as one unit.</li>\n<li>Plan the Order: Moving one snake changes the available space for others. You must slide snakes in the right sequence to open a path to the exit.</li>\n<li>No Time Pressure: There are no timers. Take as long as needed to think through each solution.</li>\n<li>Hints: If you get stuck, the hint system reveals the correct next move.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse: Click a snake to select it, then drag in the desired direction to move it.</li>\n<li>Touch: Tap a snake to select it, then swipe in the desired direction.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Identify the exit path first: Before moving anything, trace which snake is closest to the exit and what is blocking it. Work backward from there to determine the order of moves.</li>\n<li>Move blockers before leaders: The snake closest to the exit usually cannot move until the snakes in front of it are cleared. Start with the snakes furthest from the exit and work inward.</li>\n<li>Think in sequences, not single moves: Each slide you make changes the grid state. Ask yourself what the board looks like after each move, not just whether the current move is valid.</li>\n<li>Longer snakes have fewer valid directions: A long snake takes up more cells and can only slide in limited directions without colliding with walls. Plan for long snakes first since they are the hardest to route.</li>\n<li>Restart without hesitation: Since there is no penalty for restarting, use it freely. Resetting after two or three bad moves is faster than trying to untangle a deadlocked grid.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Snake Go Escape Puzzle for free online?",
+//             "answer": "Yes. You can play Snake Go Escape Puzzle free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Snake Go Escape Puzzle work on mobile?",
+//             "answer": "Yes. The browser version works on both Android and iOS devices. Touch controls let you tap to select snakes and swipe to slide them through the grid."
+//         },
+//         {
+//             "question": "Is Snake Go Escape Puzzle unblocked?",
+//             "answer": "now-gg offers an unblocked version of Snake Go Escape Puzzle that you can access even on networks where gaming apps or downloads are restricted."
+//         },
+//         {
+//             "question": "Who developed Snake Go Escape Puzzle?",
+//             "answer": "Snake Go Escape Puzzle was developed by Skylink Studio. The game is available natively on iOS and Android, and is playable in the browser on now-gg with no installation required."
+//         },
+//         {
+//             "question": "Is there a time limit in Snake Go Escape Puzzle?",
+//             "answer": "No. Snake Go Escape Puzzle has no timers. You can take as long as you need to work out the solution to each level, making it a relaxed, pressure-free logic experience."
+//         },
+//         {
+//             "question": "How do hints work in Snake Go Escape Puzzle?",
+//             "answer": "The hint system reveals the correct next move when you are stuck. Activating a hint shows you which snake to move and in which direction without giving away the full solution, so you still work through the rest of the puzzle yourself."
+//         },
+//         {
+//             "question": "What makes Snake Go Escape Puzzle different from classic snake games?",
+//             "answer": "Classic snake games are real-time action games where a growing snake must avoid obstacles. Snake Go Escape Puzzle is a turn-based logic game. You slide pre-placed snakes through a grid in a specific order to reach the exit, with no reflexes required."
+//         },
+//         {
+//             "question": "Is Snake Go Escape Puzzle suitable for children?",
+//             "answer": "Yes. The game is non-violent, pressure-free, and built around logical thinking. The intuitive tap-and-swipe controls and calm visual design make it accessible for players of all ages, including younger children."
+//         }
+//     ]
+//   },
+//   {
+//     id: 24,
+//     title: 'Football Legends 2026',
+//     category: ['Sports', 'Action'],
+//     slug: 'football-legends-2026',
+//     thumbnail: 'https://img.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/',
+//     rating: 4.6,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Football Legends 2026</h2>\nFootball Legends 2026 is an arcade football game developed by MadPuffers, the studio behind the long-running Football Legends series. Released in February 2026, it features 24 international clubs and a roster of superstar-inspired players including Ronaldo, Messi, Mbappe, Haaland, and Bellingham. Each player carries distinct physical traits such as different jump heights, shot speeds, and movement weights, giving every matchup a genuine tactical dimension before a ball is ki"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game strips away simulation systems entirely and focuses on short, high-energy matches decided by timing, positioning, and two special abilities per player. The Fireball supershot produces an unstoppable strike when charged correctly. The Teleport ability moves the player instantly across the field to intercept or attack. Both can swing a match in seconds, which keeps every game unpredictable through the final moment. Matches are playable in solo tournament mode or head-to-head with a friend on the same device."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Football Legends 2026 Online</h2>\nPlay Football Legends 2026 online on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nScore more goals than your opponent before time runs out. Use movement, jumps, and special abilities to create and convert scoring opportunities while shutting down what the opponent atte"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Player 1: Arrow keys to move and jump. L to shoot or use ability.</li>\n<li>Player 2: W, A, S, D to move and jump. X to shoot or use ability.</li>\n<li>Mobile: On-screen touch buttons replace keyboard controls for movement, jumping, and shooting.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "GAME MODES</h3>\n<ul><li>1v1 Match: Single player versus AI or two players on the same device competing head-to-head.</li>\n<li>2v2 Match: Two-versus-two matches with each team sharing control of two players.</li>\n<li>Tournament: Progress through a bracket of AI opponents across multiple rounds to become champion.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Hold your supershot for the right moment: The Fireball ability needs a moment to charge. Do not use it as a panic shot. Use it when you have clear positioning and the goalkeeper is out of position.</li>\n<li>Use Teleport defensively: Most players instinctively use Teleport to chase the ball forward. Teleporting back into a defensive position when the opponent controls the ball disrupts their attack more effectively.</li>\n<li>Learn each player body: Heavier players like Haaland win physical duels near the goal but are slower to reposition. Lighter players like Mbappe recover faster. Match your playstyle to your player's movement profile.</li>\n<li>Jump over shots, not into them: Jumping at the wrong moment leaves your goal exposed. Use jumping primarily for headers and aerial duels rather than as a blocking reflex on ground shots.</li>\n<li>Stay central in 2v2: In 2v2 matches, keeping one player near the center of the field while the other pressures the ball creates both a defensive cover and a quick outlet for counterattacks.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Football Legends 2026 for free online?",
+//             "answer": "Yes. You can play Football Legends 2026 free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Football Legends 2026 work on mobile?",
+//             "answer": "Yes. The browser version of Football Legends 2026 works on both Android and iOS devices. On-screen touch buttons handle all movement and shooting inputs."
+//         },
+//         {
+//             "question": "Is Football Legends 2026 unblocked?",
+//             "answer": "now-gg offers an unblocked version of Football Legends 2026 that you can play even on networks where gaming sites are typically restricted."
+//         },
+//         {
+//             "question": "Who made Football Legends 2026?",
+//             "answer": "Football Legends 2026 was developed by MadPuffers, a game studio known for browser-based arcade sports games. It was released in February 2026 as the latest entry in the Football Legends series."
+//         },
+//         {
+//             "question": "How many clubs are in Football Legends 2026?",
+//             "answer": "Football Legends 2026 features 24 international football clubs, each represented by two players with distinct movement and ability profiles. Each player has a unique supershot and special skill."
+//         },
+//         {
+//             "question": "Can I play Football Legends 2026 with a friend?",
+//             "answer": "Yes. The game supports local two-player matches on the same device. One player uses the arrow keys and the other uses W, A, S, D. The 2v2 mode is also available for four-player sessions on a shared keyboard."
+//         },
+//         {
+//             "question": "What is the Fireball ability in Football Legends 2026?",
+//             "answer": "The Fireball is a charged supershot that produces a powerful, fast strike. When timed correctly, it is difficult for the opposing player to stop. It requires a brief charge time, so positioning and timing before releasing it are critical."
+//         },
+//         {
+//             "question": "Is Football Legends 2026 a realistic football simulation?",
+//             "answer": "No. Football Legends 2026 is an arcade game, not a simulation. It prioritizes fast, exaggerated action and special abilities over realistic physics. It is designed for quick sessions and casual to competitive head-to-head play rather than tactical realism."
+//         }
+//     ]
+//   },
+//   {
+//     id: 25,
+//     title: 'Grand Mahjong Connect',
+//     category: ['Puzzle', 'Casual'],
+//     slug: 'grand-mahjong-connect',
+//     thumbnail: 'https://img.gamedistribution.com/92211d47448849d189bbc32d0d4d8f6f-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/92211d47448849d189bbc32d0d4d8f6f/',
+//     rating: 4.4,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Grand Mahjong Connect</h2>\nGrand Mahjong Connect is a tile-matching puzzle game that combines classic mahjong aesthetics with a triple-match mechanic. Unlike traditional mahjong solitaire, where players remove pairs of identical tiles, Grand Mahjong Connect uses a collection bar system. Players tap tiles from the board, which move into a limited-space holding bar, and matches are triggered when three identical tiles collect in that bar at the same "
+//         },
+//         {
+//             "type": "p",
+//             "content": "The core tension of the game comes from managing the collection bar. It holds only a fixed number of tiles, and filling it completely without completing a triple match ends the game. Players must think carefully about which tiles to pick up and in what order, balancing the need to clear tiles quickly against the risk of locking up the bar with unmatched pieces. The result is a relaxed but strategically demanding puzzle experience."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Grand Mahjong Connect Online</h2>\nPlay Grand Mahjong Connect online on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nClear all tiles from the board by collecting them into the bar and matching three of a kind. Complete every level before the collection bar runs out of s"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "HOW IT WORKS</h3>\n<ul><li>Tap Tiles to Collect: Tap any accessible tile on the board to move it into the collection bar at the bottom of the screen.</li>\n<li>Match Three: When three identical tiles appear in the collection bar, they automatically clear and award points.</li>\n<li>Manage the Bar: The bar has limited slots. If it fills completely without a match being completed, the game ends.</li>\n<li>Clear the Board: Continue selecting tiles strategically until all tiles are removed to complete the level.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap any tile on the board to select it and send it to the collection bar.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Prioritize tiles you already have two of: If you have two copies of a tile in your bar, finding and selecting the third immediately clears all three and frees up bar space. Keep track of what pairs you are holding.</li>\n<li>Never fill the bar with five different tiles: A bar full of five unmatched tile types is almost always a losing position. When the bar is close to full, only select tiles that match something already in it.</li>\n<li>Clear stacked tiles from the top: Tiles sitting on top of others block the tiles beneath them. Systematically working from the top of stacks downward opens up more accessible pieces as the board clears.</li>\n<li>Group tiles visually before picking: Before tapping anything, scan the board for clusters of tiles that share the same symbol. Knowing where your threes are located lets you sequence picks without wasting bar slots.</li>\n<li>Leave easy matches for emergencies: If you spot a triplet that is easy to collect, resist collecting it immediately. It is a guaranteed bar clear you can use later if the bar gets dangerously full.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Grand Mahjong Connect for free online?",
+//             "answer": "Yes. You can play Grand Mahjong Connect free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Grand Mahjong Connect work on mobile?",
+//             "answer": "Yes. The browser version of Grand Mahjong Connect works on both Android and iOS devices. Touch controls are responsive, and the tile-tap mechanic works naturally on mobile screens."
+//         },
+//         {
+//             "question": "Is Grand Mahjong Connect unblocked?",
+//             "answer": "now-gg offers an unblocked version of Grand Mahjong Connect that you can access even on networks where gaming sites are typically restricted."
+//         },
+//         {
+//             "question": "How is Grand Mahjong Connect different from classic mahjong solitaire?",
+//             "answer": "Classic mahjong solitaire removes pairs of tiles directly from the board. Grand Mahjong Connect uses a collection bar where tiles accumulate until three identical ones are present, at which point they clear. Managing the bar without filling it is the central challenge, which makes it a distinct game despite sharing the same tile set."
+//         },
+//         {
+//             "question": "What happens if the collection bar fills up?",
+//             "answer": "If the collection bar fills completely without a triple match being completed, the game ends. Keeping bar slots available by completing matches frequently is the main survival mechanic in Grand Mahjong Connect."
+//         },
+//         {
+//             "question": "Are there different levels in Grand Mahjong Connect?",
+//             "answer": "Yes. Grand Mahjong Connect features multiple levels with different board layouts. Each level varies the arrangement and density of tiles, increasing difficulty as you progress through the game."
+//         },
+//         {
+//             "question": "Do I need to know how to play traditional mahjong to enjoy Grand Mahjong Connect?",
+//             "answer": "No. Grand Mahjong Connect uses the visual style of mahjong tiles but plays entirely differently from the traditional game. No knowledge of mahjong rules is required. The only rule that matters is matching three identical tiles before the bar fills."
+//         },
+//         {
+//             "question": "Is Grand Mahjong Connect suitable for all ages?",
+//             "answer": "Yes. Grand Mahjong Connect is a calm, non-violent puzzle game with no time pressure in most modes. It is suitable for players of all ages and is particularly popular as a relaxing logic game for adults and older children."
+//         }
+//     ]
+//   },
+//   {
+//     id: 26,
+//     title: 'Ninja Survivor',
+//     category: ['Action', 'Adventure'],
+//     slug: 'ninja-survivor',
+//     thumbnail: 'https://img.gamedistribution.com/6ff158a48fed4f3aa40877422662a71a-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/6ff158a48fed4f3aa40877422662a71a/',
+//     rating: 4.5,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Ninja Survivor</h2>\nNinja Survivor is a 3D action survival game where players control a ninja through a series of increasingly dangerous levels filled with enemy waves, mechanical traps, environmental hazards, and boss encounters. The game blends fast movement mechanics with an upgrade system that lets players grow stronger across each run, unlocking new weapons and cosmetic skins as they prog"
+//         },
+//         {
+//             "type": "p",
+//             "content": "Each level challenges players to stay alive while dealing with multiple threat types simultaneously. Zombie enemies patrol fixed routes and respond to the player entering their range. Traps operate on timers or pressure triggers. Bosses appear at specific level thresholds and require both mobility and sustained damage output to defeat. The upgrade system rewards consistent play, making each session meaningfully better than the last even when an early run ends quickly."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Ninja Survivor Online</h2>\nPlay Ninja Survivor online on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nSurvive every wave of enemies in each level, defeat bosses, and reach the exit. Collect upgrades and weapons along the way to handle the increasing difficulty of later st"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "KEY FEATURES</h3>\n<ul><li>3D Level Design: Navigate visually distinct environments with multiple layers, vertical platforming sections, and area-specific hazards.</li>\n<li>Enemy Waves: Face escalating waves of zombie enemies with varied behaviors and movement speeds.</li>\n<li>Boss Encounters: Defeat powerful boss characters at key level thresholds that require specific tactics to overcome.</li>\n<li>Upgrade System: Spend collected resources on weapon upgrades, damage boosts, and defensive improvements between levels.</li>\n<li>Skins: Unlock cosmetic skins that change the visual appearance of your ninja character.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Move: WASD keys to move the character.</li>\n<li>Mobile: Swipe on the screen to control movement direction.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Keep moving at all times: Standing still in Ninja Survivor is the fastest way to take damage. Constant movement forces enemies to chase you and reduces how often you walk into trap trigger zones.</li>\n<li>Clear traps before engaging enemies: When entering a new section, identify the active traps first and time your movement around them before pulling enemy attention. Fighting enemies in an active trap zone splits your attention and leads to avoidable damage.</li>\n<li>Prioritize damage upgrades early: Killing enemies faster reduces the time you spend exposed to their attacks. Early damage investment pays dividends across every subsequent level by shortening engagements.</li>\n<li>Study boss attack patterns before committing: Each boss has a telegraphed attack sequence. Spend the first phase observing the pattern before pushing aggressive damage. Learning when the safe windows are prevents unnecessary health loss.</li>\n<li>Use environmental geometry for cover: Walls, pillars, and platforms break enemy line of sight and block projectile paths. Routing enemies around obstacles forces them into a single file, which is far easier to manage than an open surround.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Ninja Survivor for free online?",
+//             "answer": "Yes. You can play Ninja Survivor free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Ninja Survivor work on mobile?",
+//             "answer": "Yes. Ninja Survivor is playable on both Android and iOS mobile browsers. Swipe controls replace keyboard input for movement, and the game runs smoothly without any app install."
+//         },
+//         {
+//             "question": "Is Ninja Survivor unblocked?",
+//             "answer": "now-gg provides an unblocked version of Ninja Survivor that you can play even on networks where gaming sites are typically restricted."
+//         },
+//         {
+//             "question": "What types of enemies appear in Ninja Survivor?",
+//             "answer": "Ninja Survivor features zombie-type enemies with varied patrol behaviors and attack speeds, as well as powerful boss characters that appear at designated level milestones. Boss enemies have significantly more health and require specific movement and attack timing to defeat safely."
+//         },
+//         {
+//             "question": "Can I upgrade my ninja in Ninja Survivor?",
+//             "answer": "Yes. Ninja Survivor includes an upgrade system that lets you improve weapon damage, attack speed, and defensive stats using resources collected during gameplay. You can also unlock new weapons and cosmetic skins for your character as you progress."
+//         },
+//         {
+//             "question": "Is Ninja Survivor a roguelike game?",
+//             "answer": "Ninja Survivor shares elements with the survival genre, including wave-based enemies and progressive upgrades, but it follows a level structure rather than the fully randomized run format typical of roguelikes. Each level is a designed challenge rather than a procedurally generated one."
+//         },
+//         {
+//             "question": "How many levels does Ninja Survivor have?",
+//             "answer": "Ninja Survivor features multiple levels across colorful 3D environments, with boss encounters at key intervals. The difficulty increases progressively as you advance through the level sequence."
+//         },
+//         {
+//             "question": "Is Ninja Survivor suitable for younger players?",
+//             "answer": "Ninja Survivor involves combat with zombie enemies but presents it in a stylized, non-graphic way with no blood or realistic violence. It is generally suitable for older children and teens who enjoy action and survival games."
+//         }
+//     ]
+//   },
+//   {
+//     id: 27,
+//     title: 'Artillery Vs Tanks',
+//     category: ['Action', 'Strategy'],
+//     slug: 'artillery-vs-tanks',
+//     thumbnail: 'https://img.gamedistribution.com/8c85fb2b116f4299927e33071c852847-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/8c85fb2b116f4299927e33071c852847/',
+//     rating: 4.4,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Artillery Vs Tanks</h2>\nArtillery Vs Tanks is a first-person artillery defense game developed by razrob. Released in April 2025, the game puts players behind a single howitzer gun tasked with stopping waves of enemy armor before any tank reaches the defensive line. The core gameplay is built around precision aiming, reload management, and a persistent upgrade system that rewards sustained performance across w"
+//         },
+//         {
+//             "type": "p",
+//             "content": "Unlike broad war simulators, Artillery Vs Tanks keeps the scope tight. One gun, one angle, incoming waves. The satisfaction comes from the interplay between targeting precision and upgrade decisions. Some tanks carry heavy armor that deflects shots unless aimed at vulnerable points like the turret or tracks. Destroying tanks consistently earns money that can be spent between waves on reload speed, accuracy improvements, damage upgrades, or entirely new artillery pieces with better base stats."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Artillery Vs Tanks Online</h2>\nPlay Artillery Vs Tanks online on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nDestroy every enemy tank in each wave before any of them reach your position. Earn money per kill, upgrade your artillery between waves, and survive as long as possible against increasingly armored and numerous ene"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "HOW IT WORKS</h3>\n<ul><li>Aim: Move the mouse on desktop or swipe on mobile to control the scope and track incoming tanks.</li>\n<li>Zoom: Press F on desktop or tap the zoom button on mobile to magnify the view for long-range precision shots.</li>\n<li>Fire: Press Space on desktop or tap the fire button on mobile to shoot. A radial reload timer shows when the gun is ready again.</li>\n<li>Earn and Upgrade: Each destroyed tank drops money. Spend it between waves on reload speed, damage, accuracy, or new artillery units.</li>\n<li>Aim for weak points: Heavily armored tanks may deflect standard shots. Target the turret or tracks to trigger detonations or disable movement.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Aim: Mouse movement on desktop. Swipe on mobile.</li>\n<li>Zoom: F key on desktop. Zoom button on mobile.</li>\n<li>Fire: Space bar on desktop. Fire button on mobile.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Lead fast-moving tanks: Tanks in later waves move quickly. Aim slightly ahead of the direction of travel so the shell arrives where the tank will be, not where it is when you fire.</li>\n<li>Upgrade reload speed first: Damage matters less if you cannot fire fast enough to stop multiple tanks arriving at once. Getting reload speed to a comfortable level early prevents situations where you are watching tanks advance with an empty gun.</li>\n<li>Target armored tanks before lightly armored ones: Prioritize the tanks that require more shots to destroy. Light tanks can be eliminated in a single well-placed shot at any time. Heavy tanks left unaddressed while you clear weaker targets will reach your line.</li>\n<li>Use the zoom for distant targets only: Zooming in narrows your field of view. At close range, it is faster and more effective to aim without zoom. Reserve the scope for targets still far out on the horizon where precision matters more.</li>\n<li>Reinvest all earnings between waves: Never hold money. Each wave is harder than the last, and arriving at it with unspent upgrade currency means you fought the previous wave at a lower power level than you could have.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Artillery Vs Tanks for free online?",
+//             "answer": "Yes. You can play Artillery Vs Tanks free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Artillery Vs Tanks work on mobile?",
+//             "answer": "Yes. Artillery Vs Tanks is playable on mobile browsers for both Android and iOS. Swipe controls replace the mouse for aiming, and on-screen buttons handle zooming and firing."
+//         },
+//         {
+//             "question": "Is Artillery Vs Tanks unblocked?",
+//             "answer": "now-gg provides an unblocked version of Artillery Vs Tanks that you can play even on networks where gaming sites are typically restricted."
+//         },
+//         {
+//             "question": "Who developed Artillery Vs Tanks?",
+//             "answer": "Artillery Vs Tanks was developed by razrob, an indie game developer. The game was released in April 2025 and is available on multiple browser game platforms."
+//         },
+//         {
+//             "question": "What weapons can I unlock in Artillery Vs Tanks?",
+//             "answer": "The game features multiple artillery units with progressively better base stats. You start with a standard howitzer and can purchase more powerful artillery pieces using money earned from destroying enemy tanks. Each unit improves core stats like damage, range, and reload speed."
+//         },
+//         {
+//             "question": "What are the weak points on armored tanks in Artillery Vs Tanks?",
+//             "answer": "Heavily armored tanks can deflect shots that hit their main body. Targeting the turret triggers an ammo detonation for higher damage. Targeting the tracks disables the tank momentarily, slowing its advance and giving you additional time to finish it off."
+//         },
+//         {
+//             "question": "Does Artillery Vs Tanks get harder over time?",
+//             "answer": "Yes. Each wave introduces more tanks, greater armor, and faster movement speeds than the previous one. The upgrade system exists specifically to help players keep pace with the increasing threat level across waves."
+//         },
+//         {
+//             "question": "Is Artillery Vs Tanks suitable for beginners?",
+//             "answer": "Yes. The controls are straightforward and the early waves allow time to learn targeting and reload rhythms before the difficulty increases. The zoom mechanic and upgrade shop are intuitive to pick up without any tutorial required."
+//         }
+//     ]
+//   },
+//   {
+//     id: 28,
+//     title: 'Bubble Shooter Vintage',
+//     category: ['Puzzle', 'Arcade'],
+//     slug: 'bubble-shooter-vintage',
+//     thumbnail: 'https://img.gamedistribution.com/92f19fdd8fe24ff18cfb3a07799c7114-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/92f19fdd8fe24ff18cfb3a07799c7114/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Bubble Shooter Vintage</h2>\nBubble Shooter Vintage is a classic color-matching bubble shooter developed by Phat Cat Games. It faithfully recreates the feel of the original arcade bubble shooter format that first appeared in the early 1990s, delivering the same aim-and-pop mechanic that has made the genre one of the longest-running in casual gaming. The vintage presentation strips away modern additions and focuses entirely on the core loop of aiming, shooting, and cascading cl"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game is played on a field of colored bubbles that the player clears by firing matching shots from a cannon at the bottom of the screen. Matching three or more bubbles of the same color removes them from the field. Any bubbles left floating without connection to the ceiling also fall, which creates chain reactions that reward precise angle shots. The goal is to clear the board completely while maintaining the highest possible score through combo clears."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Bubble Shooter Vintage Online</h2>\nPlay Bubble Shooter Vintage online on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nClear all bubbles from the board by matching three or more of the same color with each shot. Score as many points as possible by triggering combo drops and clearing large clusters in single s"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "HOW IT WORKS</h3>\n<ul><li>Aim the Cannon: Move your mouse or touch the screen to angle the cannon toward the target area.</li>\n<li>Shoot: Click or tap to fire a bubble from the cannon toward the bubble field above.</li>\n<li>Match Three or More: When a fired bubble connects with two or more bubbles of the same color, the group pops and disappears.</li>\n<li>Combo Drops: Bubbles that lose connection to the ceiling after a pop fall off the board and count as bonus score. Setting up drop combos is the main path to high scores.</li>\n<li>Use the Wall: Shots can bounce off the left and right walls, allowing angle shots that reach clusters a straight shot could not.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse: Move the mouse to aim. Click to fire.</li>\n<li>Touch: Tap and drag to aim. Lift your finger to fire.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Aim for the sides of clusters, not the center: Shooting into the center of a large cluster often pops only the target group. Hitting the edge or an overhanging bubble is more likely to cause the entire connected mass to fall, generating a large combo drop.</li>\n<li>Use wall bounces to reach hidden clusters: Bubbles tucked in corners or behind overhangs cannot always be hit directly. Bouncing a shot off the side wall at the right angle reaches positions that look impossible from a direct line.</li>\n<li>Prioritize the bubble preview: Your next bubble is shown in the preview slot. If the upcoming color does not match anything useful, plan the current shot to set up a better position for the next one rather than forcing a poor match.</li>\n<li>Work from the bottom up: Clearing bubbles near the bottom of the field first prevents the board from descending too quickly. Popping low clusters also exposes the ceiling attachments of higher clusters, making combo drops easier to trigger.</li>\n<li>Save awkward colors for wall shots: When you have a color that does not match any accessible cluster, use it as a wall bounce to reach a secondary cluster rather than firing it somewhere it will stick with no match.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Bubble Shooter Vintage for free online?",
+//             "answer": "Yes. You can play Bubble Shooter Vintage free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Bubble Shooter Vintage work on mobile?",
+//             "answer": "Yes. The browser version of Bubble Shooter Vintage works on both Android and iOS devices. Touch controls let you aim and fire by tapping and dragging the screen."
+//         },
+//         {
+//             "question": "Is Bubble Shooter Vintage unblocked?",
+//             "answer": "now-gg offers an unblocked version of Bubble Shooter Vintage that you can play even on networks where gaming sites are typically restricted."
+//         },
+//         {
+//             "question": "Who made Bubble Shooter Vintage?",
+//             "answer": "Bubble Shooter Vintage was developed by Phat Cat Games. The game is available on Android and iOS and is playable for free in the browser on now-gg."
+//         },
+//         {
+//             "question": "What makes Bubble Shooter Vintage different from other bubble shooter games?",
+//             "answer": "Bubble Shooter Vintage focuses on the original classic format without modern additions like level maps, power-ups, or progression systems. It delivers the pure aim-and-pop arcade experience that defined the genre in its earliest form, making it the go-to option for players who want the traditional bubble shooter feel."
+//         },
+//         {
+//             "question": "How do combo drops work in Bubble Shooter Vintage?",
+//             "answer": "When a group of bubbles pops and the bubbles above them lose their connection to the ceiling, those floating bubbles fall off the board automatically. Each bubble that falls this way contributes to your score as a combo bonus. Setting up shots that trigger large falls is the primary way to achieve high scores."
+//         },
+//         {
+//             "question": "Can I bounce shots off walls in Bubble Shooter Vintage?",
+//             "answer": "Yes. Fired bubbles bounce off the left and right walls of the playing field. This allows angle shots that reach clusters tucked behind overhangs or in corners that a direct shot cannot access. Mastering wall bounces is essential for clearing advanced board layouts."
+//         },
+//         {
+//             "question": "Is Bubble Shooter Vintage suitable for all ages?",
+//             "answer": "Yes. Bubble Shooter Vintage is a calm, non-violent puzzle game with simple controls and no mature content. It is well-suited for players of all ages, from young children learning color matching to adults looking for a relaxing and satisfying casual game."
+//         }
+//     ]
+//   },
+//   {
+//     id: 29,
+//     title: 'Office Spider Solitaire',
+//     category: ['Puzzle','Card'],
+//     slug: 'office-spider-solitaire',
+//     thumbnail: 'https://img.gamedistribution.com/09fd115d31734cb0bbab0e58fa6e4a1b-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/09fd115d31734cb0bbab0e58fa6e4a1b/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Office Spider Solitaire</h2>\nOffice Spider Solitaire is a browser-based implementation of Spider Solitaire, widely regarded as the most demanding variant in the solitaire family. The game earns its name from the eight foundation piles it uses, a reference to a spider's eight legs. Microsoft introduced Spider Solitaire to millions through Windows, and it remains one of the most-searched card games online to this"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game is played across ten columns with 104 cards (two standard decks). The goal is to build complete sequences of 13 cards in the same suit, running from King down to Ace, and remove them from the table. Office Spider Solitaire offers three difficulty settings that change how many suits are in play, making it accessible to beginners and deeply challenging for experienced players."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Office Spider Solitaire Online</h2>\nPlay Office Spider Solitaire on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nBuild complete suited sequences from King to Ace across the ten columns, then remove them from the table. Clear all cards to"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "THE RULES</h3>\n<ul><li>Layout: The game begins with four columns of six cards and six columns of five cards. Only the top card of each column faces up.</li>\n<li>Moving Cards: You can move a card onto any card that is one value higher. For example, a 7 of spades can be placed on an 8 of hearts.</li>\n<li>Moving Groups: A group of cards in the same suit with consecutive values can be moved together as a single unit.</li>\n<li>Empty Columns: Any card or valid group can be placed on an empty column.</li>\n<li>Dealing New Cards: Click the stock pile to deal one new card to each column when you run out of valid moves.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse: Click to select a card, then click the destination to move it. Drag is also supported.</li>\n<li>Touch: Tap a card to select and tap the destination column to place it.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "DIFFICULTY LEVELS</h3>\n<ul><li>One Suit: All cards are the same suit. The easiest setting is ideal for learning spider solitaire mechanics.</li>\n<li>Two Suits: Two suits in play. Requires more planning to maintain clean sequences.</li>\n<li>Four Suits: All four suits are active. The most complex and rewarding version for experienced players.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Prioritize empty columns: Empty columns are the most powerful resource in Office Spider Solitaire. Use them as temporary storage to shuffle cards around and expose buried face-down cards.</li>\n<li>Build in one suit wherever possible: Even though mixed-suit sequences are permitted, only single-suit sequences can be removed. Avoid mixing suits in a column unless you have no alternative.</li>\n<li>Expose face-down cards before reorganizing: Every face-down card is a potential asset. Moves that flip face-down cards face-up should be prioritized over moves that only rearrange face-up cards.</li>\n<li>Avoid dealing from the stock prematurely: Dealing new cards onto cluttered columns makes the situation harder. Deal only when you have exhausted all useful moves on the current layout.</li>\n<li>Start with one suit to learn the game: New players who jump into four-suit spider solitaire often find it overwhelming. Mastering one-suit builds the pattern recognition needed for harder difficulties.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Office Spider Solitaire for free online?",
+//             "answer": "Yes. You can play Office Spider Solitaire free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Office Spider Solitaire work on mobile?",
+//             "answer": "Yes. The browser version of Office Spider Solitaire works on both Android and iOS devices. The touch controls are responsive and the card layout scales well on mobile screens."
+//         },
+//         {
+//             "question": "Is Office Spider Solitaire unblocked?",
+//             "answer": "now-gg offers an unblocked version of Office Spider Solitaire that you can access even on networks where gaming sites are restricted."
+//         },
+//         {
+//             "question": "What makes Spider Solitaire different from Klondike Solitaire?",
+//             "answer": "Spider Solitaire uses two decks of cards and ten columns rather than one deck and seven columns. The goal is to build complete King-to-Ace sequences within the columns rather than moving cards to foundation piles one suit at a time. It is widely considered more difficult than Klondike."
+//         },
+//         {
+//             "question": "How many cards are in Office Spider Solitaire?",
+//             "answer": "The game uses 104 cards (two standard 52-card decks). The cards are distributed across ten columns at the start, with a stock pile available to deal additional cards during play."
+//         },
+//         {
+//             "question": "What does difficulty level affect in Office Spider Solitaire?",
+//             "answer": "Difficulty determines how many suits are in play. One-suit mode uses only spades, making it easiest. Two-suit mode adds hearts. Four-suit mode uses all four suits, requiring significantly more strategic planning to avoid locking up the board."
+//         },
+//         {
+//             "question": "Can I undo moves in Office Spider Solitaire?",
+//             "answer": "Most browser versions of Office Spider Solitaire include an undo button that reverses your last move. Using it strategically when you realize a move has created a dead end is entirely valid."
+//         },
+//         {
+//             "question": "Is Office Spider Solitaire suitable for beginners?",
+//             "answer": "The one-suit difficulty is designed for beginners. It teaches the core mechanics of spider solitaire without the added complexity of mixed suits. Most players are ready for two-suit mode after a handful of one-suit wins."
+//         }
+//     ]
+//   },
+//   {
+//     id: 30,
+//     title: 'Office Pyramid Solitaire',
+//     category: ['Puzzle', 'Card'],
+//     slug: 'office-pyramid-solitaire',
+//     thumbnail: 'https://img.gamedistribution.com/ca808ce686fa485c81fcf487ef65cac1-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/ca808ce686fa485c81fcf487ef65cac1/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Office Pyramid Solitaire</h2>\nOffice Pyramid Solitaire is a browser-based pyramid solitaire card game built around one elegant rule: remove cards from a triangular pyramid by pairing any two exposed cards that add up to exactly 13. Kings (value 13) are removed with a single click, no pair required. The game has deep roots in casual card gaming history and remains one of the most searched solitaire games online glob"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The visual layout is instantly recognizable: 28 cards arranged in a seven-row pyramid, with each card partially covering the two cards below it. Only cards with no other card resting on top of them are accessible. A draw deck at the bottom right provides additional cards when the pyramid runs out of obvious pairs. Completing the pyramid on hard difficulty requires clearing the draw deck as well, adding a second layer of challenge."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Office Pyramid Solitaire Online</h2>\nPlay Office Pyramid Solitaire on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nClear all cards from the pyramid by pairing exposed cards that add up to 13. On hard difficulty, also clear the draw "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "THE RULES</h3>\n<ul><li>Card Values: Ace = 1, numbered cards at face value, Jack = 11, Queen = 12, King = 13.</li>\n<li>Pairing to 13: Select any two exposed cards whose values add up to exactly 13. Common pairs include: Ace + Queen, 2 + Jack, 3 + 10, 4 + 9, 5 + 8, 6 + 7.</li>\n<li>Kings: A King (value 13) is removed with a single click. No pair needed.</li>\n<li>Accessible Cards: Only cards with no other card resting on top of them can be selected.</li>\n<li>Draw Deck: Click the deck in the bottom right to deal a new card when no pairs are available on the pyramid. The deck is not reused after the last card is dealt.</li>\n<li>Suit Bonus: Pairing two cards of the same suit awards double points.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "DIFFICULTY LEVELS</h3>\n<ul><li>Easy / Medium: Clear the pyramid to win. The draw deck does not need to be fully emptied.</li>\n<li>Hard: Clear both the pyramid and the draw deck completely for a full clear.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap cards to select them. Click the draw deck to deal a new card.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Clear the bottom row of the pyramid first: The bottom row blocks access to the largest number of cards. Removing pairs from it as early as possible opens up more accessible cards faster.</li>\n<li>Remove Kings immediately: Kings block one column each and require no pairing. Remove them the moment they become accessible.</li>\n<li>Prioritize suit-matched pairs: When multiple valid pairs exist, choosing pairs that share the same suit earns double points without any additional effort.</li>\n<li>Manage the draw deck carefully: The draw deck cannot be reshuffled. Drawing cards without using them can lock you out of completing the game on hard difficulty. Only draw when necessary.</li>\n<li>Think two pairs ahead: Removing one pair exposes new cards. Before making a move, visualize what the removal will unblock and whether the newly exposed card creates a better pair than the one you were about to take.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Office Pyramid Solitaire for free online?",
+//             "answer": "Yes. You can play Office Pyramid Solitaire free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Office Pyramid Solitaire work on mobile?",
+//             "answer": "Yes. The browser version of Office Pyramid Solitaire works on both Android and iOS devices. Touch controls are fully supported, and the pyramid layout is clearly readable on mobile screens."
+//         },
+//         {
+//             "question": "Is Office Pyramid Solitaire unblocked?",
+//             "answer": "now-gg offers an unblocked version of Office Pyramid Solitaire that you can access even on networks where gaming sites are restricted."
+//         },
+//         {
+//             "question": "What numbers pair to 13 in Pyramid Solitaire?",
+//             "answer": "The valid pairs are: Ace (1) + Queen (12), 2 + Jack (11), 3 + 10, 4 + 9, 5 + 8, and 6 + 7. Kings count as 13 on their own and are removed with a single click."
+//         },
+//         {
+//             "question": "What happens if I run out of moves in Pyramid Solitaire?",
+//             "answer": "If no valid pairs exist and the draw deck is empty, the game is over. The draw deck can provide new cards during play, but cannot be reshuffled, so managing when to draw from it is a key part of strategy on harder difficulties."
+//         },
+//         {
+//             "question": "What is the suit bonus in Office Pyramid Solitaire?",
+//             "answer": "Pairing two cards that share the same suit awards double points for that pair. This bonus does not change how the game is won or lost, but it significantly increases your final score if you actively pursue same-suit matches."
+//         },
+//         {
+//             "question": "How is hard difficulty different from easier modes?",
+//             "answer": "On hard difficulty, winning requires clearing both the pyramid and the entire draw deck. On easier settings, clearing only the pyramid is sufficient to complete the level."
+//         },
+//         {
+//             "question": "Is Office Pyramid Solitaire suitable for beginners?",
+//             "answer": "Yes. The pairing-to-13 rule is simple and quick to learn. New players can start on easy difficulty, focus on removing Kings immediately, and work down the pyramid row by row to understand how the game flows."
+//         }
+//     ]
+//   },
+//   {
+//     id: 31,
+//     title: 'Arrows Puzzle Escape',
+//     category: ['Puzzle', 'Casual'],
+//     slug: 'arrows-puzzle-escape',
+//     thumbnail: 'https://img.gamedistribution.com/d41e8014aea74629934290991b008c7a-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/d41e8014aea74629934290991b008c7a/',
+//     rating: 4.3,
+//   },
+//   {
+//     id: 32,
+//     title: 'Office Solitaire',
+//     category: ['Puzzle', 'Card'],
+//     slug: 'office-solitaire',
+//     thumbnail: 'https://img.gamedistribution.com/ab572c1e1dc04e4499da4db26e768286-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/ab572c1e1dc04e4499da4db26e768286/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Office Solitaire</h2>\nOffice Solitaire is a browser-based implementation of Klondike Solitaire, the most recognized card game in the world. First popularized by Microsoft's inclusion of it in Windows 3.0 in 1990, Klondike became the template for every casual card game that followed. Today it remains the most-played free solitaire card game online, with millions of sessions played daily across every plat"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game uses a single 52-card deck arranged across seven tableau columns and four empty foundation piles. Players move cards between columns in descending alternating-color sequences to expose face-down cards and eventually sort all 52 cards onto the foundations in suited Ace-to-King sequences. A stock pile provides additional cards when tableau options are exhausted."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Office Solitaire Online</h2>\nPlay Office Solitaire on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nMove all 52 cards from the tableau columns and stock pile to the four foundation piles, each sorted by suit from Ace to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "THE RULES</h3>\n<ul><li>Tableau Columns: Seven columns with one to seven cards each. Only the top card faces up at the start.</li>\n<li>Moving Cards: Place a card on a column card that is one value higher and the opposite color. For example, a red 7 goes on a black 8.</li>\n<li>Moving Groups: A stack of face-up cards in a valid sequence can be moved as a unit to another tableau column.</li>\n<li>Empty Columns: Only a King (or a sequence starting with a King) can be placed on an empty column.</li>\n<li>Foundation Piles: Four piles at the top, one per suit. Start each with its Ace and build up in sequence to the King.</li>\n<li>Stock Pile: Click to deal additional cards (one or three at a time depending on the mode) when tableau moves are exhausted.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse: Click to select and click the destination to move. Drag is also supported.</li>\n<li>Touch: Tap a card to select and tap the destination column or foundation pile to move it.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Expose face-down cards before building sequences: The primary objective in early Klondike Solitaire is not to build pretty sequences but to flip face-down cards. Every move that reveals a new card increases your options.</li>\n<li>Avoid filling empty columns prematurely: Empty columns are invaluable for moving Kings and repositioning sequences. Filling them with the first available King can block critical maneuvers later in the game.</li>\n<li>Prioritize longer columns first: The longer tableau columns contain more face-down cards. Clearing them unlocks the most options and should take priority over building sequences in shorter columns.</li>\n<li>Build Aces and Twos to foundations immediately: Whenever an Ace or Two becomes available, move it to a foundation pile right away. These cards rarely serve a useful purpose in tableau play and clutter your columns unnecessarily.</li>\n<li>Think before drawing from the stock: Drawing from the stock when useful tableau moves still exist is wasteful. Exhaust your current options before cycling through the stockpile.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Office Solitaire for free online?",
+//             "answer": "Yes. You can play Office Solitaire free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Office Solitaire work on mobile?",
+//             "answer": "Yes. The browser version of Office Solitaire works on both Android and iOS devices. The card layout is touch-friendly, and the game runs smoothly without any app install."
+//         },
+//         {
+//             "question": "Is Office Solitaire unblocked?",
+//             "answer": "now-gg offers an unblocked version of Office Solitaire that you can access even on networks where gaming sites are restricted."
+//         },
+//         {
+//             "question": "What is the difference between Office Solitaire and Spider Solitaire?",
+//             "answer": "Office Solitaire (Klondike) uses one deck and seven tableau columns. The goal is to move all cards to four foundation piles by suit from Ace to King. Spider Solitaire uses two decks and ten columns, requiring you to build full-suited sequences within the columns themselves. Spider is generally considered more complex."
+//         },
+//         {
+//             "question": "What does \"Turn 1\" vs \"Turn 3\" mean in solitaire?",
+//             "answer": "Turn 1 deals one card at a time from the stockpile, making more cards accessible and the game easier to win. Turn 3 deals three cards at once, with only the top card playable, which significantly increases the difficulty and reduces your options per cycle."
+//         },
+//         {
+//             "question": "Is every game of Office Solitaire winnable?",
+//             "answer": "No. Statistically, approximately 80 percent of Klondike Solitaire deals are theoretically winnable given perfect play, but a portion of deals are unwinnable regardless of strategy. If you reach a dead end, starting a new deal is the right move."
+//         },
+//         {
+//             "question": "What is the best opening move in Office Solitaire?",
+//             "answer": "The best opening move depends on the specific deal, but generally you should look to expose face-down cards in the longer columns first. If an Ace is face-up, move it to a foundation pile immediately."
+//         },
+//         {
+//             "question": "Is Office Solitaire suitable for all ages?",
+//             "answer": "Yes. Office Solitaire is a non-violent card game suitable for players of all ages. It has been a standard casual game for decades and is widely recommended as a gentle brain exercise for older adults and a simple introduction to strategy games for younger players."
+//         }
+//     ]
+//   },
+//   {
+//     id: 33,
+//     title: 'Jungle Match Adventures',
+//     category: ['jungle', 'Adventure'],
+//     slug: 'jungle-match-adventures',
+//     thumbnail: 'https://img.gamedistribution.com/c6d324c4729f48ef9a3cd8882bdf078e-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/c6d324c4729f48ef9a3cd8882bdf078e/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Jungle Match Adventures</h2>\nJungle Match Adventures is a jungle-themed match-3 puzzle game that sends players on an expedition through the lush Amazon forest alongside an explorer named Aria. Each level challenges players to combine identical jewels on a grid to meet score targets, clear obstacles, and unlock hidden relics. Daily and weekly challenges add fresh content to the regular level progression, rewarding consistent play with bonus items and special power"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game draws on the timeless appeal of the match-3 genre, blending it with a narrative exploration theme. Colorful animations, jungle-inspired visuals, and a satisfying chain-reaction mechanic make each completed level feel rewarding. Hundreds of handcrafted levels scale in difficulty progressively, introducing new tile types and obstacles as you journey deeper into the jungle."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Jungle Match Adventures Online</h2>\nPlay Jungle Match Adventures on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nMeet the level objective before your moves run out. Objectives vary by level and include reaching a target score, clearing specific tiles, or collecting a set number of jewel t"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "HOW IT WORKS</h3>\n<ul><li>Swap Jewels: Click or tap two adjacent jewels to swap them. If the swap creates a group of three or more matching jewels, they clear from the board.</li>\n<li>Match Three or More: Matching exactly three clears the group. Matching four or more creates special power-up jewels with enhanced effects.</li>\n<li>Chain Reactions: Cleared jewels cause those above them to fall. If falling jewels form new matches automatically, a chain reaction occurs and awards bonus points.</li>\n<li>Obstacles: Some levels include vines, rocks, and locked tiles that require adjacent matches to remove them.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "POWER-UPS</h3>\n<ul><li>Bomb Jewel: Formed by matching five or more in an L or T shape. Clears all jewels in a surrounding radius.</li>\n<li>Striped Jewel: Formed by matching four in a row. Clears an entire row or column, depending on orientation.</li>\n<li>Rainbow Jewel: Formed by matching five in a straight line. Removes all jewels of the selected color from the board.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse: Click one jewel and click an adjacent jewel to swap.</li>\n<li>Touch: Tap and drag a jewel in the direction you want to swap</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Plan matches from the bottom of the board: Matching jewels at the bottom creates the most chain reactions from falling pieces above. This generates bonus points and clears more of the board per move than matching at the top.</li>\n<li>Prioritize power-up creation over simple matches: A single striped or bomb jewel, used in the right position, can accomplish more than five basic three-match clears. Look for four- or five-jewel formations before settling for three.</li>\n<li>Clear obstacle tiles as early as possible: Vines and locked tiles restrict the areas of the board you can use. Prioritizing their removal in the first half of your moves gives you a much larger playable area for the endgame.</li>\n<li>Complete daily challenges consistently: Daily and weekly challenges in Jungle Match Adventures award boosters and bonus items. Completing them regularly gives you a stockpile of power-ups for harder levels.</li>\n<li>Count your remaining moves before spending power-ups: Power-ups are most valuable when you are close to a target but short on moves. Using them with ten or more moves remaining is almost always wasteful.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Jungle Match Adventures for free online?",
+//             "answer": "Yes. You can play Jungle Match Adventures free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Jungle Match Adventures work on mobile?",
+//             "answer": "Yes. The browser version of Jungle Match Adventures works on both Android and iOS devices. Touch controls are responsive, and the tile grid is well-suited to mobile play."
+//         },
+//         {
+//             "question": "Is Jungle Match Adventures unblocked?",
+//             "answer": "Now-gg offers an unblocked version of Jungle Match Adventures that you can access even on networks where gaming sites are restricted."
+//         },
+//         {
+//             "question": "How do power-up jewels form in Jungle Match Adventures?",
+//             "answer": "Matching four jewels in a row forms a striped jewel that clears an entire row or column. Matching five in an L or T shape creates a bomb jewel. Matching five in a straight line creates a rainbow jewel that removes all jewels of one color from the board."
+//         },
+//         {
+//             "question": "What are the daily challenges in Jungle Match Adventures?",
+//             "answer": "Daily challenges are special levels with unique objectives that refresh every 24 hours. Completing them rewards bonus items, power-ups, and extra in-game currency that can be used on harder regular levels."
+//         },
+//         {
+//             "question": "Does Jungle Match Adventures get harder over time?",
+//             "answer": "Yes. Early levels introduce basic matching on a clean grid. Later levels add obstacle tiles like vines, rocks, and locked squares, reduce the number of available moves, and require more precise power-up placement to clear successfully."
+//         },
+//         {
+//             "question": "What are obstacle tiles in Jungle Match Adventures?",
+//             "answer": "Obstacle tiles include vines, rocks, and locked jewels that cannot be moved directly. They are cleared by creating matches adjacent to them, which chips away at their structure over one or more matches, depending on the tile type."
+//         },
+//         {
+//             "question": "Is Jungle Match Adventures suitable for children?",
+//             "answer": "Yes. Jungle Match Adventures is a colorful, non-violent match-3 puzzle game with an adventurous jungle theme. The simple swap-and-match mechanics are easy for younger players to understand, while the strategic depth of later levels appeals to adults as well."
+//         }
+//     ]
+//   },
+//   {
+//     id: 34,
+//     title: 'Zumba Story',
+//     category: ['Puzzle', 'jungle'],
+//     slug: 'zumba-story',
+//     thumbnail: 'https://img.gamedistribution.com/14a1edf4f80540ec9102d722996a867b-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/14a1edf4f80540ec9102d722996a867b/',
+//     rating: 4.3,
+//     readMore: [],
+//     faqs: []
+//   },
+//   {
+//     id: 35,
+//     title: 'Water Sort Puzzle 3',
+//     category: ['Puzzle', 'Strategy'],
+//     slug: 'water-sort-puzzle-3',
+//     thumbnail: 'https://img.gamedistribution.com/bba6ae893ed4493eb3553c93637db902-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/bba6ae893ed4493eb3553c93637db902/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Water Sort Puzzle 3</h2>\nWater Sort Puzzle 3 is the third installment in the Water Sort Puzzle series developed by IEC Global Pty Ltd. Originally launched in 2020, the series became one of the most downloaded mobile puzzle games in the world, praised for its clean visual design, satisfying mechanics, and genuinely brain-stretching difficulty at higher levels. The third entry builds on the core formula with more levels, additional color layers per tube, and increasingly complex pour seque"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The premise is elegantly simple: several test tubes are partially filled with differently colored layers of water. Players pour water from one tube into another, with the rule that you can only pour into a tube if the receiving color matches the color being poured and there is enough space. The goal is to get every tube holding a single, pure color. There is no time limit, so the game rewards careful planning over speed."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Water Sort Puzzle 3 Online</h2>\nPlay Water Sort Puzzle 3 on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nSort all colored water so that each test tube contains only one color. When every tube is a single pure color, the level is comp"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "THE RULES</h3>\n<ul><li>Pouring: Tap the source tube to select it, then tap the destination tube to pour.</li>\n<li>Color Matching: You can only pour into a tube if the top color of the destination matches the color being poured. If the colors do not match, the pour is not allowed.</li>\n<li>Space Requirement: A tube must have enough empty space to receive the poured layers. You cannot pour more layers than the available empty space.</li>\n<li>No Time Limit: There is no timer. Take as long as needed to work through the logic.</li>\n<li>Restart: Tap the restart button at any time to reset the level to its original state with no penalty.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap a tube to select it. Click or tap the destination tube to execute the pour.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Identify your target colors before pouring: Before making your first move, look at all the tubes and identify which color appears most frequently. That color will need the most space and the most pours, so plan its consolidation route first.</li>\n<li>Create empty tubes as quickly as possible: Empty tubes are the most powerful resource in Water Sort Puzzle 3. They act as temporary holding spaces for any color, which unlocks blocked pours elsewhere. Work toward creating at least one empty tube in the first few moves.</li>\n<li>Never block a color you need: Pouring one color on top of a different color in a nearly full tube traps the lower color. Before pouring, confirm you will not seal off a color that still needs to move.</li>\n<li>Work backward from the solution: Imagine the final state, all tubes pure, then trace backward to identify which pours need to happen last. This reverse planning approach is especially helpful for complex levels with many colors.</li>\n<li>Restart without hesitation: Since there is no penalty for restarting, do so freely whenever you reach a dead end. A fresh perspective after a restart often reveals the correct pour sequence within a few moves.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Water Sort Puzzle 3 for free online?",
+//             "answer": "Yes. You can play Water Sort Puzzle 3 free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Water Sort Puzzle 3 work on mobile?",
+//             "answer": "Yes. The browser version of Water Sort Puzzle 3 works on both Android and iOS devices. The tap-to-pour controls are perfectly suited to mobile, and the game runs smoothly without any app install."
+//         },
+//         {
+//             "question": "Is Water Sort Puzzle 3 unblocked?",
+//             "answer": "now-gg offers an unblocked version of Water Sort Puzzle 3 that you can access even on networks where gaming apps or downloads are restricted."
+//         },
+//         {
+//             "question": "What is the rule for pouring water in Water Sort Puzzle 3?",
+//             "answer": "You can only pour water from one tube into another if the color being poured matches the top color already in the destination tube, and the destination tube has enough empty space to receive the layers being transferred."
+//         },
+//         {
+//             "question": "Is there a time limit in Water Sort Puzzle 3?",
+//             "answer": "No. Water Sort Puzzle 3 has no timer. You can take as long as needed to solve each level. The game is designed as a relaxed logic challenge, not a speed test."
+//         },
+//         {
+//             "question": "What makes Water Sort Puzzle 3 harder than earlier versions?",
+//             "answer": "The third installment introduces more tubes per level, more color layers stacked within each tube, and more intricate pour sequences where a single blocked move can require several repositioning steps to undo."
+//         },
+//         {
+//             "question": "Can I undo a pour in Water Sort Puzzle 3?",
+//             "answer": "Most versions include an undo button that reverses the most recent pour. If you cannot undo a bad move, the restart button resets the level entirely with no penalty."
+//         },
+//         {
+//             "question": "Is Water Sort Puzzle 3 suitable for children?",
+//             "answer": "Yes. Water Sort Puzzle 3 is a calm, colorful, non-violent puzzle game suitable for all ages. The visual clarity of the color-sorting mechanic makes it easy for younger players to understand, while the deeper levels provide a meaningful challenge for adults."
+//         }
+//     ]
+//   },
+//   {
+//     id: 36,
+//     title: 'Bloons Survival.io',
+//     category: ['Survival', 'Strategy'],
+//     slug: 'bloons-survival-io',
+//     thumbnail: 'https://img.gamedistribution.com/0340635cab9e421ca6c3cda5acaa03f1-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/0340635cab9e421ca6c3cda5acaa03f1/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Bloons Survival.io</h2>\nBloons Survival.io is a balloon survival arcade game developed by GameBerry Studio. It belongs to the survivor-style .io game genre, placing your hero in an arena against endless waves of incoming enemies. In this case, the enemies are Bloons, the colorful balloons familiar to fans of the Bloons Tower Defense series. Unlike tower defense games, Bloons Survival.io gives you direct control of a monkey hero who moves freely while weapons fire automatic"
+//         },
+//         {
+//             "type": "p",
+//             "content": "Each popped balloon drops diamonds and hearts. Diamonds allow you to unlock cosmetic character skins. Hearts restore your health. As you destroy balloons and earn XP, your monkey levels up and unlocks new weapons to choose from, including boomerangs, cannonballs, shurikens, and fists. The difficulty increases steadily, with harder-to-pop balloons appearing in later waves. The goal is simple: survive as long as possible."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Bloons Survival.io Online</h2>\nPlay Bloons Survival.io on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nSurvive as long as possible against endless waves of Bloons. Pop balloons to earn XP, level up your monkey, and unlock increasingly powerful wea"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "HOW IT WORKS</h3>\n<ul><li>Automatic Weapons: Your monkey fires weapons automatically in all directions. You do not need to aim or shoot manually.</li>\n<li>Movement Controls the Battle: Since weapons are automatic, your entire input is managing where your monkey moves. Position determines which balloons you pop and which you avoid.</li>\n<li>XP and Leveling: Every balloon you pop earns XP. When enough XP accumulates, your monkey levels up and is presented with weapon upgrade choices.</li>\n<li>Collectibles: Diamonds dropped by popped balloons unlock new character skins. Hearts restore lost health points.</li>\n<li>Waves: Each wave introduces more Bloons, larger Bloons, and Bloons that require multiple hits to pop.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "WEAPONS</h3>\n<ul><li>Darts: The starting weapon. Fast, forward-firing, and effective at close to medium range.</li>\n<li>Boomerang: Curves around the monkey in an arc, hitting multiple Bloons in a sweeping path.</li>\n<li>Cannonball: Slow but deals heavy damage to large or armored Bloons.</li>\n<li>Shuriken: Fires in multiple directions simultaneously, covering a wide angular spread.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse: Hold and drag to move the monkey. Weapons fire automatically.</li>\n<li>Touch: Press and drag to move. The monkey fires without any additional input.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Keep moving in circular patterns: Balloons home in on your monkey from all sides. Moving in a consistent loop pulls Bloons into a trailing cluster, which your automatic weapons clear more efficiently than a stationary spray.</li>\n<li>Collect hearts the moment they appear: Hearts restore health and disappear after a short time. Route your movement through dropped hearts as you circle the arena rather than completing a loop and returning too late.</li>\n<li>Prioritize multi-directional weapons at level-up: Weapons like the shuriken that fire in multiple directions simultaneously are far more valuable than single-direction upgrades in later waves when balloons approach from every angle.</li>\n<li>Never allow yourself to be surrounded: Once Bloons close in from all sides, your movement options collapse rapidly. Whenever you notice a gap in the incoming ring, push through it aggressively before it closes.</li>\n<li>Focus on larger Bloons in dense waves: Larger Bloons block movement and take multiple hits. Routing toward them while your weapons chip them down clears the most space and prevents them from cornering you.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Bloons Survival.io for free online?",
+//             "answer": "Yes. You can play Bloons Survival.io free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Bloons Survival.io work on mobile?",
+//             "answer": "Yes. Bloons Survival.io is playable on mobile browsers for both Android and iOS. Touch controls let you press and drag to move the monkey, with all weapons firing automatically."
+//         },
+//         {
+//             "question": "Is Bloons Survival.io unblocked?",
+//             "answer": "now-gg provides an unblocked version of Bloons Survival.io that you can play even on networks where gaming sites are typically restricted."
+//         },
+//         {
+//             "question": "Who developed Bloons Survival.io?",
+//             "answer": "Bloons Survival.io was developed by GameBerry Studio. It is inspired by the Bloons universe but plays as an independent survivor-style arcade game rather than a tower defense game."
+//         },
+//         {
+//             "question": "How do weapons work in Bloons Survival.io?",
+//             "answer": "Weapons in Bloons Survival.io fire automatically without any player input. Your monkey equips and fires all active weapons simultaneously while you focus entirely on movement. New weapons are unlocked and upgraded each time your monkey levels up."
+//         },
+//         {
+//             "question": "What are diamonds used for in Bloons Survival.io?",
+//             "answer": "Diamonds drop from popped balloons and are used to unlock cosmetic character skins for your monkey hero. They do not affect gameplay stats."
+//         },
+//         {
+//             "question": "Does Bloons Survival.io get harder the longer you survive?",
+//             "answer": "Yes. Each wave introduces more Bloons, larger Bloons, and balloon types that require multiple hits to pop. The speed and density of incoming waves also increases progressively, making survival increasingly difficult over time."
+//         },
+//         {
+//             "question": "Is Bloons Survival.io related to Bloons Tower Defense?",
+//             "answer": "Both games feature Bloons balloons as enemies and a monkey hero, but they play very differently. Bloons Survival.io is an action movement game where you directly control the monkey. Bloons Tower Defense is a strategic tower placement game. They share the same visual universe but are separate games."
+//         }
+//     ]
+//   },
+//   {
+//     id: 37,
+//     title: 'Sudo Tetroid Daily',
+//     category: ['Puzzle', 'Casual'],
+//     slug: 'sudo-tetroid-daily',
+//     thumbnail: 'https://img.gamedistribution.com/82e9077372484a82ab196e2e38c7efc6-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/82e9077372484a82ab196e2e38c7efc6/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Sudo Tetroid Daily</h2>\nSudo Tetroid Daily is a unique hybrid puzzle game developed by Denda that combines the grid logic of Sudoku with the block-placement mechanics of Tetromino (Tetris-style) pieces. Instead of entering single numbers into individual cells, players are given numbered multi-cell pieces that must be rotated and placed as complete units, filling the 9x9 Sudoku grid without violating any of the core Sudoku r"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game offers both a standard level progression and a daily challenge mode that delivers a unique puzzle every day. Each daily puzzle has exactly one correct solution, requiring players to think both spatially and logically at the same time. This dual-skill demand makes Sudo Tetroid Daily meaningfully different from either Sudoku or Tetris alone, appealing to fans of both genres. Sister titles from the same studio include Sudoku Daily, Combinations, and Mine Quest."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Sudo Tetroid Daily Online</h2>\nPlay Sudo Tetroid Daily on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nPlace all numbered tetromino pieces into the 9x9 Sudoku grid so that every row, every column, and every 3x3 box contains the numbers 1 through 9 exactly "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "THE RULES</h3>\n<ul><li>Sudoku Rules Apply: No number may repeat in any row, column, or 3x3 box. Each number from 1 to 9 must appear exactly once in each.</li>\n<li>Numbered Pieces: Each tetromino block carries numbers on its cells. These numbers are fixed and cannot be changed.</li>\n<li>Rotation: All pieces can be rotated, allowing them to fit into the grid in multiple orientations.</li>\n<li>Single Solution: Every valid puzzle has exactly one correct solution. If numbers conflict, the placement is invalid.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "DAILY CHALLENGE</h3>\n<ul><li>New Puzzle Every Day: The daily mode refreshes each day with a uniquely generated puzzle at a consistent difficulty level.</li>\n<li>Standard Levels: A progression of pre-designed puzzles is also available for practice outside the daily challenge.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse or Touch: Click or tap a piece to select it. Click or tap the grid to place it. Most versions include a rotate button or respond to a keyboard shortcut for rotation.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Start with the most constrained pieces: L-shaped and Z-shaped pieces have fewer valid grid positions than straight or square pieces. Placing the awkward pieces first narrows down where the remaining pieces can logically go.</li>\n<li>Use existing numbers as anchors: The pre-filled cells in the Sudoku grid tell you which numbers are still needed in each row, column, and box. Cross-reference this information with the numbers on your available pieces to identify where each piece must go.</li>\n<li>Try all four rotations before placing: Rotating a piece 180 or 270 degrees sometimes reveals a placement that is invisible at the default orientation. Always test all rotations before concluding a piece cannot fit in a given area.</li>\n<li>Work box by box: Focusing on completing one 3x3 box at a time, rather than scanning the whole grid, makes the number constraints easier to track and reduces the chance of overlooking a conflict.</li>\n<li>Return to daily puzzles consistently: The daily challenge is calibrated to a consistent difficulty. Solving it regularly builds both spatial and logical reasoning skills faster than replaying fixed levels at any difficulty.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Sudo Tetroid Daily for free online?",
+//             "answer": "Yes. You can play Sudo Tetroid Daily free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Sudo Tetroid Daily work on mobile?",
+//             "answer": "Yes. The browser version of Sudo Tetroid Daily works on both Android and iOS devices. The tap-to-place controls are intuitive on mobile and the 9x9 grid scales cleanly to smaller screens."
+//         },
+//         {
+//             "question": "Is Sudo Tetroid Daily unblocked?",
+//             "answer": "now-gg offers an unblocked version of Sudo Tetroid Daily that you can access even on networks where gaming sites are restricted."
+//         },
+//         {
+//             "question": "Who made Sudo Tetroid Daily?",
+//             "answer": "Sudo Tetroid Daily was created by Denda, a studio known for producing daily brain puzzle games. Other titles in the Denda catalog include Sudoku Daily, the logic puzzle Combinations, and the Minesweeper variant Mine Quest."
+//         },
+//         {
+//             "question": "How is Sudo Tetroid Daily different from regular Sudoku?",
+//             "answer": "Regular Sudoku asks you to place single numbers into individual cells. Sudo Tetroid Daily replaces single numbers with multi-cell tetromino-shaped pieces that must be placed and rotated as complete units. This adds a spatial dimension that does not exist in standard Sudoku."
+//         },
+//         {
+//             "question": "Does the daily puzzle change every day?",
+//             "answer": "Yes. The daily challenge in Sudo Tetroid Daily generates a new unique puzzle every day with exactly one correct solution. Standard level progression puzzles are also available outside the daily mode."
+//         },
+//         {
+//             "question": "Can tetromino pieces be rotated in Sudo Tetroid Daily?",
+//             "answer": "Yes. All pieces can be rotated to fit into the grid in different orientations. Rotation is essential because many pieces have a valid placement in only one or two of their four possible orientations, given the constraints of the existing Sudoku numbers on the board."
+//         },
+//         {
+//             "question": "Is Sudo Tetroid Daily suitable for beginners?",
+//             "answer": "Players who are comfortable with either Sudoku or Tetris will find the learning curve manageable. Complete beginners to both games may find the dual logic demanding at first. Starting with standard progression levels before tackling the daily challenge is recommended for newcomers."
+//         }
+//     ]
+//   },
+//   {
+//     id: 38,
+//     title: 'Bubble Pop Fairyland',
+//     category: ['Balloon', 'Casual'],
+//     slug: 'bubble-pop-fairyland',
+//     thumbnail: 'https://img.gamedistribution.com/fc84a63fc1db4ebabc334521c2cb3c68-512x512.jpg',
+//     link: 'https://html5.gamedistribution.com/fc84a63fc1db4ebabc334521c2cb3c68/',
+//     rating: 4.3,
+//     readMore: [
+//         {
+//             "type": "h2",
+//             "content": "About Bubble Pop Fairyland</h2>\nBubble Pop Fairyland is a bubble shooter puzzle game developed by PlayGama. Set in a colorful and magical fairyland, the game wraps the classic aim-and-pop bubble mechanic around a story of trapped fairies that players must rescue by clearing the bubble fields above them. The result is a visually delightful experience that appeals to both casual players seeking a relaxing game and dedicated players chasing high scores across thousands of le"
+//         },
+//         {
+//             "type": "p",
+//             "content": "The game features a wide variety of blaster types and special bubbles that unlock as players progress, adding depth to what begins as a simple matching exercise. Daily challenges refresh each day with new board layouts and reward players with in-game coins. The difficulty curve scales gradually, making early levels accessible to younger players while later levels require genuine strategic planning to complete without running out of shots."
+//         },
+//         {
+//             "type": "h2",
+//             "content": "How to Play Bubble Pop Fairyland Online</h2>\nPlay Bubble Pop Fairyland on now-gg directly in your browser with no download or account needed. Here is what you need to "
+//         },
+//         {
+//             "type": "h3",
+//             "content": "YOUR GOAL</h3>\nClear all bubbles from the board by matching three or more of the same color with each shot. Rescue the fairies trapped within the bubble field to complete each l"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "HOW IT WORKS</h3>\n<ul><li>Aim the Blaster: Move your mouse or touch the screen to angle the blaster toward the target cluster.</li>\n<li>Shoot: Click or tap to fire a bubble toward the field above.</li>\n<li>Match Three: When the fired bubble connects with two or more bubbles of the same color, they all pop.</li>\n<li>Cascade Drops: Bubbles that lose their connection to the ceiling after a pop fall and clear from the board as bonus points.</li>\n<li>Wall Bounces: Bubbles bounce off the left and right walls, allowing angled shots that reach clusters a direct path cannot access.</li>\n<li>Bubble Preview: The next bubble to be fired is displayed beside the blaster. Plan your current shot with the upcoming color in mind.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "SPECIAL BUBBLES</h3>\n<ul><li>Bomb Bubble: Pops a large area of bubbles regardless of color when it connects with the field.</li>\n<li>Rainbow Bubble: Matches any color in the field, allowing it to pop any cluster it contacts.</li>\n<li>Ice Bubble: Freezes a section of the bubble field, holding it in place and buying time to plan the next shot.</li>"
+//         },
+//         {
+//             "type": "h3",
+//             "content": "CONTROLS</h3>\n<ul><li>Mouse: Move to aim. Click to shoot.</li>\n<li>Touch: Tap and drag to aim. Lift your finger to fire.</li>"
+//         },
+//         {
+//             "type": "h2",
+//             "content": "TIPS AND STRATEGY</h2>\n<ul><li>Target the ceiling attachment points: The most efficient shots in Bubble Pop Fairyland hit the connection point where a large cluster attaches to the ceiling. Severing this connection drops the entire hanging mass at once, clearing far more bubbles than individual pops.</li>\n<li>Use wall bounces to access corners: Bubbles tucked in the far corners of the board are often inaccessible from a direct line. Bouncing a shot off the left or right wall at the correct angle reaches these positions with precision unavailable from a straight shot.</li>\n<li>Check the bubble preview before every shot: If the upcoming color has no useful match on the current board, use your present shot to clear space or reposition rather than wasting the upcoming bubble in an awkward spot.</li>\n<li>Save special bubbles for critical moments: The bomb and rainbow bubbles are most effective when the board is too fragmented for regular color matching to make progress. Using them on a board still full of matching opportunities is wasteful.</li>\n<li>Complete daily challenges for coins: The daily challenges in Bubble Pop Fairyland refresh every day and award coins that fund special blaster upgrades. Completing them consistently is the most efficient way to access harder-level tools without running dry.</li>"
+//         }
+//     ],
+//     faqs: [
+//         {
+//             "question": "Can I play Bubble Pop Fairyland for free online?",
+//             "answer": "Yes. You can play Bubble Pop Fairyland free on now-gg directly in your browser. No account, no download, and no payment required."
+//         },
+//         {
+//             "question": "Does Bubble Pop Fairyland work on mobile?",
+//             "answer": "Yes. The browser version of Bubble Pop Fairyland works on both Android and iOS devices. The touch controls are smooth and responsive, and the level design is optimized for mobile screen sizes without any app install."
+//         },
+//         {
+//             "question": "Is Bubble Pop Fairyland unblocked?",
+//             "answer": "now-gg offers an unblocked version of Bubble Pop Fairyland that you can access even on networks where gaming sites are restricted."
+//         },
+//         {
+//             "question": "Who made Bubble Pop Fairyland?",
+//             "answer": "Bubble Pop Fairyland was developed by PlayGama. The game is available on iOS and Android and is fully playable for free in the browser on now-gg."
+//         },
+//         {
+//             "question": "What are daily challenges in Bubble Pop Fairyland?",
+//             "answer": "Daily challenges are unique level layouts that refresh every 24 hours. Completing them rewards in-game coins that can be used to unlock new blaster types and power-up items for regular levels."
+//         },
+//         {
+//             "question": "How do cascade drops work in Bubble Pop Fairyland?",
+//             "answer": "When a group of bubbles pops and leaves other bubbles floating without any connection to the ceiling, those disconnected bubbles fall off the board automatically. Each bubble that falls this way contributes bonus points to your score beyond what the direct pop awarded."
+//         },
+//         {
+//             "question": "What are the special bubbles in Bubble Pop Fairyland?",
+//             "answer": "Special bubbles include a Bomb that clears a large area regardless of color, a Rainbow bubble that matches any color in the field, and an Ice bubble that freezes a section of the board to pause its movement temporarily."
+//         },
+//         {
+//             "question": "Is Bubble Pop Fairyland suitable for children?",
+//             "answer": "Yes. Bubble Pop Fairyland features a whimsical fairy theme, bright colorful visuals, and non-violent gameplay suitable for players of all ages. The early levels are simple enough for young children while the strategic depth of later stages provides a genuine challenge for adults."
+//         }
+//     ]
+//   },
+//     
 ]; 
 
 export function toSlug(value) {

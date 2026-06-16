@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useMemo, useState } from 'react';
 import { browseCategories, categoryPath, categorySlug, gamePath, gameSlug, gamesData } from './gamesData';
 import GameCard from './GameCard';
@@ -82,10 +83,7 @@ function renderRichLines(lines) {
   });
 }
 
-export default function GamesPage() {
-  const path = window.location.pathname.toLowerCase();
-  const gamePathMatch = path.match(/^\/games\/([a-z0-9-]+)\.html\/?$/);
-  const categoryPathMatch = path.match(/^\/games\/category\/([a-z0-9-]+)\.html\/?$/);
+export default function GamesPage({ pathGameSlug = '', pathCategorySlug = '' }) {
 
   const [search, setSearch] = useState('');
   const [moreVisible, setMoreVisible] = useState(16);
@@ -109,8 +107,7 @@ export default function GamesPage() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScrollY]);
 
-  const pathGameSlug = gamePathMatch?.[1] || '';
-  const pathCategorySlug = categoryPathMatch?.[1] || '';
+
   const selectedCategory = browseCategories.find((name) => categorySlug(name).replace(/-games$/, '') === pathCategorySlug) || null;
   const isCategoryPage = Boolean(selectedCategory);
 
@@ -147,58 +144,7 @@ export default function GamesPage() {
 
   const searchActive = search.trim().length > 0;
 
-  useEffect(() => {
-    document.title = 'Games - Play Online in Browser | now-gg.com';
 
-    const setMeta = (name, content, isProperty = false) => {
-      const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`;
-      let tag = document.querySelector(selector);
-      if (!tag) {
-        tag = document.createElement('meta');
-        if (isProperty) tag.setAttribute('property', name);
-        else tag.setAttribute('name', name);
-        document.head.appendChild(tag);
-      }
-      tag.setAttribute('content', content);
-    };
-
-    let canonical = document.querySelector('link[rel="canonical"]');
-    if (!canonical) {
-      canonical = document.createElement('link');
-      canonical.setAttribute('rel', 'canonical');
-      document.head.appendChild(canonical);
-    }
-
-    if (pathGameSlug) canonical.setAttribute('href', `https://now-gg.com/games/${pathGameSlug}.html`);
-    else if (pathCategorySlug) canonical.setAttribute('href', `https://now-gg.com/games/category/${pathCategorySlug}.html`);
-    else canonical.setAttribute('href', 'https://now-gg.com/games/');
-
-    if (selectedContent) {
-      document.title = selectedContent.metaTitle || `${selectedGame.title} - Play Free Online | now-gg`;
-      const desc = selectedContent.metaDescription || `Play ${selectedGame.title} online free on now-gg with no download required.`;
-      setMeta('description', desc);
-      setMeta('og:title', selectedContent.metaTitle || `${selectedGame.title} - Play Free Online | now-gg`, true);
-      setMeta('og:description', desc, true);
-      setMeta('og:url', canonical.getAttribute('href') || `https://now-gg.com/games/${selectedGameSlug}.html`, true);
-    } else {
-      setMeta('description', 'Browse and play popular online games instantly on now-gg.com/games/. No downloads, no installation, direct browser gameplay.');
-      setMeta('og:title', 'Games - Play Online in Browser | now-gg.com', true);
-      setMeta('og:description', 'Browse and play popular online games instantly on now-gg.com/games/.', true);
-      setMeta('og:url', canonical.getAttribute('href') || 'https://now-gg.com/games/', true);
-    }
-
-    let script = document.querySelector('script[type="application/ld+json"]');
-    if (!script) {
-      script = document.createElement('script');
-      script.setAttribute('type', 'application/ld+json');
-      document.head.appendChild(script);
-    }
-    if (selectedContent && selectedContent.schema) {
-      script.textContent = JSON.stringify(selectedContent.schema);
-    } else {
-      if (script.parentNode) script.parentNode.removeChild(script);
-    }
-  }, [pathGameSlug, pathCategorySlug, selectedContent, selectedGame.title, selectedGameSlug]);
 
   const playerSrc = getPlayableSrc(selectedGame) || selectedGame.playUrl || selectedGame.link;
   const isGachaEmbed = /gacha-life\.io/i.test(playerSrc);

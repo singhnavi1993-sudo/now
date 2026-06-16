@@ -33,17 +33,14 @@ function writeSitemap(filename, urlTags) {
   console.log(`Generated ${filename}`);
 }
 
-// 1. Home Sitemap
-const homeUrls = [
+// 1. Categories (and Home) Sitemap
+const categoryUrls = [
   buildUrlTag(toAbsoluteUrl('/'), '1.0', 'daily'),
   buildUrlTag(toAbsoluteUrl('/games/'), '0.9', 'daily'),
+  ...[...new Set(browseCategories.map((name) => toAbsoluteUrl(categoryPath(name))))].map((url) =>
+    buildUrlTag(url, '0.8', 'daily')
+  )
 ];
-writeSitemap('sitemap-home.xml', homeUrls);
-
-// 2. Categories Sitemap
-const categoryUrls = [...new Set(browseCategories.map((name) => toAbsoluteUrl(categoryPath(name))))].map((url) =>
-  buildUrlTag(url, '0.8', 'daily')
-);
 writeSitemap('sitemap-categories.xml', categoryUrls);
 
 // 3. Games Sitemap
@@ -75,7 +72,6 @@ function writeSitemapIndex(filename, sitemaps) {
 }
 
 writeSitemapIndex('sitemap.xml', [
-  'sitemap-home.xml',
   'sitemap-categories.xml',
   'sitemap-games.xml'
 ]);
