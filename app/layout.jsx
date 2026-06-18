@@ -2,12 +2,10 @@ import '../src/index.css';
 import '../src/App.css'; // Global App styles
 
 export const metadata = {
+  metadataBase: new URL('https://now-gg.com'),
   title: 'Play Online Games for Free | now-gg.com',
   description: 'Play online games instantly on now-gg.com. Explore top games, popular picks, categories, and browser play without downloads.',
   robots: 'index,follow,max-image-preview:large',
-  alternates: {
-    canonical: 'https://now-gg.com/',
-  },
   openGraph: {
     title: 'Play Online Games for Free | now-gg.com',
     description: 'Play online games instantly on now-gg.com. Browse top games and start playing in your browser.',

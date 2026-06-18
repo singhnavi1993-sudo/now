@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Games - Play Online in Browser | now-gg.com',
   description: 'Browse and play popular online games instantly on now-gg.com/games/. No downloads, no installation, direct browser gameplay.',
   alternates: {
-    canonical: 'https://now-gg.com/games/',
+    canonical: '/games/',
   },
   openGraph: {
     title: 'Games - Play Online in Browser | now-gg.com',
