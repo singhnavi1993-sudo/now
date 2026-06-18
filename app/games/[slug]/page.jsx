@@ -30,6 +30,13 @@ export async function generateMetadata({ params }) {
       description,
       url: canonical,
       siteName: 'now-gg.com',
+      images: [game.thumbnail],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [game.thumbnail],
     },
   };
 }
