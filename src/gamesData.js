@@ -245,7 +245,7 @@ export const gamesData = [
   {
     id: 6,
     title: 'Hazmob FPS',
-    category: ['Trending', 'Action'],
+    category: ['Trending', 'Action', 'Role Playing Game'],
     slug: 'hazmob-fps',
     thumbnail: 'https://static.playhop.com/images/c304d_6238841_6cfa5/739c004dd/2a00000194fe8869_f632299/39daa780f79acdd4a550_8ce155/pjpg160x160',
     link: 'https://s3.gamepush.com/games-ss/71/?sdk=https%3A%2F%2Fgames.s3.yandex.net%2Fsdk%2F_%2Fv2.c9dd7fdd48522a0f7d44.js&sdk_origin=sdk.games.s3.yandex.net',
