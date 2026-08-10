@@ -16,7 +16,7 @@ Ensure you have Node.js and npm installed on your local machine.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/now-gg.git
+   git clone https://github.com/singhnavi1993-sudo/now-gg.git
    ```
 2. Navigate into the project directory
    ```bash
