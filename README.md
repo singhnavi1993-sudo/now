@@ -1,16 +1,41 @@
-# React + Vite
+# now-gg
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **now-gg** repository! 
 
-Currently, two official plugins are available:
+This is a modern web application project. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Getting Started
 
-## React Compiler
+To get a local copy up and running, follow these simple steps:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+Ensure you have Node.js and npm installed on your local machine.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/now-gg.git
+   ```
+2. Navigate into the project directory
+   ```bash
+   cd now-gg
+   ```
+3. Install NPM packages
+   ```bash
+   npm install
+   ```
+4. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+## 🛠️ Built With
+
+* [Next.js](https://nextjs.org/) / React
+* Modern JavaScript / TypeScript ecosystem
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
