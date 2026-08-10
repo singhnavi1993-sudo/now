@@ -341,6 +341,10 @@ export default function GamesPage({ pathGameSlug = '', pathCategorySlug = '' }) 
           <div><h4>Company</h4><p style={{ cursor: 'pointer' }} onClick={() => setModalType('about')}>About Us</p><p>News</p><h4>Resources</h4><p>Blog</p><p>Developers</p></div>
           <div><h4>Help &amp; Support</h4><p>Get in Touch</p><p>Help center</p><h4>Social</h4><p>YouTube</p><p>Discord</p></div>
         </div>
+        <div className="games-footer__disclaimer">
+          <p><strong>Disclaimer:</strong> now-gg.com is an independent browser gaming portal. We are not affiliated with, endorsed by, sponsored by, or connected to now.gg, Inc. or any official game publishers. All trademarks, logos, and game assets are the property of their respective owners.</p>
+          <p>© {new Date().getFullYear()} now-gg.com. All rights reserved.</p>
+        </div>
       </footer>
     </div>
   );

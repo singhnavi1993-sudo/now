@@ -1244,6 +1244,19 @@ html, body, #root {
   line-height: 1.6;
 }
 
+.footer__disclaimer {
+  max-width: 900px;
+  margin: 0 auto 16px auto !important;
+  font-size: 0.8rem !important;
+  line-height: 1.6 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  text-align: center;
+  padding: 12px 18px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+
 .footer__legal a {
   color: var(--ng-text-70);
   text-decoration: none;

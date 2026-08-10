@@ -511,6 +511,9 @@ function App() {
             </div>
           </div>
           <div className="footer__legal">
+            <p className="footer__disclaimer">
+              <strong>Disclaimer:</strong> now-gg.com is an independent browser gaming portal. We are not affiliated with, endorsed by, sponsored by, or connected to now.gg, Inc. or any official game publishers. All trademarks, logos, and game assets belong to their respective owners.
+            </p>
             <p>
               <a href="https://now-gg.com/" target="_blank" rel="noreferrer">
                 Terms and Privacy
@@ -525,11 +528,7 @@ function App() {
               </a>
             </p>
             <p>
-              © {new Date().getFullYear()} Layout inspired by{' '}
-              <a href="https://now-gg.com/" target="_blank" rel="noreferrer">
-                now-gg
-              </a>
-              . Game data is local to this demo.
+              © {new Date().getFullYear()} now-gg.com. All rights reserved.
             </p>
           </div>
         </div>

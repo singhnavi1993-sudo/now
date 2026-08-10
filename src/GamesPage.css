@@ -236,6 +236,20 @@
 .games-footer h4 { margin: 0 0 10px; color: rgba(255,255,255,0.6); text-transform: uppercase; font-size: 12px; letter-spacing: 0.08em; }
 .games-footer p { margin: 0 0 8px; color: rgba(255,255,255,0.84); }
 
+.games-footer__disclaimer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  text-align: center;
+}
+.games-footer__disclaimer p {
+  max-width: 880px;
+  margin: 0 auto 8px auto !important;
+  font-size: 0.8rem !important;
+  line-height: 1.6 !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
 .hero-stage__bgimg {
   position: absolute;
   inset: 0;
