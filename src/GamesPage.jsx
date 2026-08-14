@@ -6,19 +6,6 @@ import gameSeoContent from './gameSeoContent.json';
 import './App.css';
 import './GamesPage.css';
 
-function NowLogo() {
-  return (
-    <svg viewBox="0 0 40 40" width="40" height="40" aria-hidden>
-      <circle cx="15.5" cy="13.5" r="10.5" fill="#00E5FF" fillOpacity="0.82" />
-      <circle cx="12.5" cy="25" r="10.5" fill="#FF1FA9" fillOpacity="0.82" />
-      <circle cx="26" cy="24" r="10.5" fill="#C4FF00" fillOpacity="0.78" />
-      <ellipse cx="20" cy="19" rx="5.8" ry="6.2" fill="#0d0d0d" />
-      <circle cx="17.2" cy="17.8" r="1.25" fill="#ffffff" />
-      <circle cx="22.8" cy="17.8" r="1.25" fill="#ffffff" />
-    </svg>
-  );
-}
-
 const CATEGORY_ICONS = {
   'Free Browser Games': 'BG',
   'Casual Games': 'CG',

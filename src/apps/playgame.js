@@ -1,12 +1,15 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import { gamesData } from '../data';
+import { useParams, Link } from 'react-router-dom';
+import { gamesData } from '../gamesData';
 
 const PlayPage = () => {
     const { slug } = useParams();
-    const game = gamesData.find(g => g.slug === slug);
+    const game = gamesData?.find(g => g.slug === slug || String(g.id) === String(slug));
 
-    if (!game) return <div>Game not found</div>;
+    if (!game) return <div className="p-8 text-white">Game not found</div>;
+
+    // Clean HTML5 embed URL resolver
+    const playableSrc = game.embedUrl || game.playUrl || (game.link && game.link.includes('crazygames.com/game/') ? game.link.replace('/game/', '/embed/') : game.link) || 'https://html5.gamedistribution.com/';
 
     return (
         <div className="bg-[#121212] min-h-screen text-white">
@@ -16,15 +19,17 @@ const PlayPage = () => {
                 <h1 className="text-xl font-bold">{game.title}</h1>
             </div>
 
-            {/* Iframe / Game Player Area */}
+            {/* Iframe / HTML5 Game Player Area */}
             <div className="flex flex-col items-center justify-center py-10">
                 <div className="w-[90%] max-w-5xl aspect-video bg-black rounded-3xl shadow-2xl overflow-hidden border-4 border-gray-800">
-                    {/* Replace this src with the actual game URL if you have one */}
                     <iframe
-                        src={`https://now.gg/play/example/${game.id}`}
+                        src={playableSrc}
                         title={game.title}
                         className="w-full h-full"
                         frameBorder="0"
+                        allow="autoplay; fullscreen; gamepad"
+                        allowFullScreen
+                        scrolling="no"
                     />
                 </div>
 

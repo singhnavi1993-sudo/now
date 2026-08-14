@@ -29,7 +29,6 @@ function SearchIcon() {
   );
 }
 
-/** Icon-style mark: overlapping CMY circles + face (matches now.gg header artwork) */
 function GamepadIcon({ className }) {
   return (
     <svg className={className} width="22" height="22" viewBox="0 0 24 24" fill="#ff42a5" aria-hidden>
@@ -40,19 +39,6 @@ function GamepadIcon({ className }) {
         clipRule="evenodd"
         d="M8.5 4h7A6.5 6.5 0 0122 10.5v1A6.5 6.5 0 0115.5 18h-7A6.5 6.5 0 012 11.5v-1A6.5 6.5 0 018.5 4zm7 2h-7A4.5 4.5 0 004 10.5v1A4.5 4.5 0 008.5 16h7a4.5 4.5 0 004.5-4.5v-1A4.5 4.5 0 0015.5 6z"
       />
-    </svg>
-  );
-}
-
-function NowGgLogoMark() {
-  return (
-    <svg className="logo__mark" viewBox="0 0 40 40" width="40" height="40" aria-hidden>
-      <circle cx="15.5" cy="13.5" r="10.5" fill="#00E5FF" fillOpacity="0.82" />
-      <circle cx="12.5" cy="25" r="10.5" fill="#FF1FA9" fillOpacity="0.82" />
-      <circle cx="26" cy="24" r="10.5" fill="#C4FF00" fillOpacity="0.78" />
-      <ellipse cx="20" cy="19" rx="5.8" ry="6.2" fill="#0d0d0d" />
-      <circle cx="17.2" cy="17.8" r="1.25" fill="#ffffff" />
-      <circle cx="22.8" cy="17.8" r="1.25" fill="#ffffff" />
     </svg>
   );
 }

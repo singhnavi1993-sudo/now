@@ -320,7 +320,7 @@ export const gamesData = [
     title: 'Bloxd',
     category: ['Trending', 'Browser'],
     slug: 'bloxd',
-    thumbnail: 'https://cdn.now.gg/assets-opt/_next/image?url=https%3A%2F%2Fcdn.now.gg%2Fapps-content%2Fcom.nowgg.h5.pub511.app51240%2Ficon%2Fbloxd-io.png&w=256&q=80',
+    thumbnail: 'https://images.crazygames.com/bloxdhop/20210224151740/bloxdhop-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=512',
     link: 'https://bloxd.io/',
     rating: 4.5,
   },
